@@ -1,0 +1,1413 @@
+{
+  "inference_prompt": "What is this?",
+  "prompt": "Analyze two sentences and determine if they're referring to the same general object or concept, only focusing on the type of object and category, not attributes such as color, size, or shape. Ignore 3D model-related adjectives such as \"cartoon-style\", \"toy\". Respond with 'T' if they refer to the same big category and 'F' if not. Also, provide a brief rationale (no more than 20 words) for your judgment.\nExample:\nInput: 1. Spiral staircase that goes from a ground floor. 2. This is a 3D model of wooden stairs in light brown\nOutput: T#Both refer to a staircase.\n\nInput: 1. A white and red van. 2. This is a 3D model of a toy cartoon-style truck\nOutput: T# Both refer to a car, they are in the same big category. \n\nNow, analyze the following:\nInput: 1. {ground_truth} 2. {model_output}\nOutput: ",
+  "accuracy": "66.00%",
+  "total_predictions": 200,
+  "correct_predictions": 132,
+  "invalid_responses": 0,
+  "prompt_tokens": 56308,
+  "completion_tokens": 3719,
+  "GPT_cost": 0.021609720000000002,
+  "results": [
+    {
+      "object_id": "059a7936ed89419ba9eae3153753ae86",
+      "ground_truth": "A blue cartoon",
+      "model_output": "this is a 3d model of a cartoon-style pony with a vibrant blue body and a contrasting white tail. the pony is adorned with a pair of large, expressive eyes and a pair of large, round ears. the pony's design is playful and whimsical, typical of children's animation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon animal, specifically a pony, which falls under the same broad category."
+    },
+    {
+      "object_id": "c345e4dd7d584ca0beee9c06247c82ec",
+      "ground_truth": "A dark brown and light brown truck",
+      "model_output": "this is a 3d model of a cartoon-style, brown-colored, rectangular box with a lid. the box is designed in a playful, cartoonish style, and its brown color gives it a warm and inviting appearance. the lid, which is also brown, can be opened to reveal the contents of the box. this type of box could be used in various contexts, such as in animations, video games, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a truck, the other to a box; different categories."
+    },
+    {
+      "object_id": "0ea33b6617174530b97d6b7a92c275fb",
+      "ground_truth": "A cartoon green and red like a fruit",
+      "model_output": "this is a 3d model of a cartoon-style apple. the apple is vibrant red with a green stem and leaves. it has a round shape and a smooth, shiny surface. the apple is depicted in a playful, cartoonish style, which is typical of children's animations and games.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to an apple, which is a fruit."
+    },
+    {
+      "object_id": "c20eb3a5a93e4cddb06c2f98626b1830",
+      "ground_truth": "A wooden rectangular board with a clay pot on a three stand and a table having some utensils on top.",
+      "model_output": "this is a 3d model of a cartoon-style table with a vibrant blue top and a brown base. the table is adorned with a small, round, green object, which is a representation of a cup. the table is placed on a grey-colored floor.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " Sentence 1 describes a table with a clay pot and utensils, while sentence 2 describes a table with a cup; different primary objects."
+    },
+    {
+      "object_id": "267b8ecaf2884abaaa5f03680ce39ad8",
+      "ground_truth": "Black color computer cpu\nA desktop central processing unit.",
+      "model_output": "this is a 3d model of a cartoon-style, black box with a blue logo on it.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a computer CPU, despite different descriptors."
+    },
+    {
+      "object_id": "30eb9fd904b942e9abb3be2195255c6e",
+      "ground_truth": "An 3d image of a light house in white colour in all directions",
+      "model_output": "this is a 3d model of a cartoon-style pole with a white base and a black top.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A lighthouse is a building for guiding ships, while a pole with a white base and black top is a simple vertical structure; different categories."
+    },
+    {
+      "object_id": "73e092e4ce344683b1347521e28d5df6",
+      "ground_truth": "A strip blue white shade with two wooden standing poles.\nA shed with a triangular curved roof and having two standing poles at each end.",
+      "model_output": "this is a 3d model of a blue and white striped tent. the tent is designed with a rectangular base and a cylindrical top. the blue and white color scheme gives it a vibrant and cheerful appearance. the cylindrical top suggests that it might be a dome-shaped tent. this type of tent is commonly used for camping, picnics, and other outdoor activities.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a shed (a small building), the other to a tent (a portable shelter), different categories."
+    },
+    {
+      "object_id": "f2785bbde26b4b0f8e09ee736f1c9638",
+      "ground_truth": "A toy house with cubical body and triangular roof and open door.",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a house, which is the same general category."
+    },
+    {
+      "object_id": "9d34f25cb4744435a087099c6d273d04",
+      "ground_truth": "A gift box.",
+      "model_output": "this is a 3d model of a cartoon-style, blue and white box.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a box, specifically a gift box, which falls under the same general category."
+    },
+    {
+      "object_id": "da1c77dbf00c436ab8d294e431adf2ed",
+      "ground_truth": "Part of a red and white train.",
+      "model_output": "this is a 3d model of a red and white train. the train is designed with a classic, vintage aesthetic, featuring a streamlined body and a distinct red and white color scheme. the train is likely used for long-distance travel, possibly in a historical or nostalgic context.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a train, same big category."
+    },
+    {
+      "object_id": "39930c4d685f4a9c8f7bd63c1a2a7dee",
+      "ground_truth": "A red toy car with black windscreen and windows and having a v shaped logo at the back.",
+      "model_output": "this is a 3d model of a red sports car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a sports car, which falls under the same general category."
+    },
+    {
+      "object_id": "d56401a8a5d142feb1108106b0f581cc",
+      "ground_truth": "Gray color thin panel",
+      "model_output": "this is a 3d model of a wooden window frame.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A panel and a window frame are different structural components, even if both are part of a building."
+    },
+    {
+      "object_id": "ac73f58f1ca8483eb3e14264da12c3d9",
+      "ground_truth": "It is a red icosahedron with a ferrari emblem.",
+      "model_output": "this is a 3d model of a red toy car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car, despite different descriptors and 3D model adjectives."
+    },
+    {
+      "object_id": "983fa8b23a084f5dacd157e6c9ceba97",
+      "ground_truth": "A cartoon pony",
+      "model_output": "this is a 3d model of a whimsical, cartoon-style pony with a vibrant purple body and a contrasting white mane and tail.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a pony, which is the same general category."
+    },
+    {
+      "object_id": "3a61b9d2451c4df2a1c6a6550e1875df",
+      "ground_truth": "A white cartoon bus with blue windscreen and windows and black side mirrors.",
+      "model_output": "this is a 3d model of a cartoon-style bus. the bus is predominantly white with a blue tinted window. it has a distinct cartoonish design, with exaggerated features and a playful aesthetic. the bus is likely used in animated films, video games, or children's educational content.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bus, which is the same big category."
+    },
+    {
+      "object_id": "e72dcc58707843fa93384690e3f16d9f",
+      "ground_truth": "A white pony with pink hair on the head and tail.",
+      "model_output": "this is a 3d model of a whimsical, cartoon-style pony. the pony is predominantly white, with a vibrant green mane and tail. it has a playful, cartoonish appearance, with exaggerated features and a friendly demeanor. the pony is likely designed for children, possibly for use in animations, video games, or as a toy.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a pony, which is the same general object category."
+    },
+    {
+      "object_id": "304f656a07d741caabdf36d58b9eb471",
+      "ground_truth": "Not clear",
+      "model_output": "this is a 3d model of a cartoon-style, black and white cylindrical object. it has a distinct, playful design with a cartoonish aesthetic. the cylindrical shape suggests it could be a part of a larger object or a standalone piece. the black and white color scheme adds to its whimsical and fun appearance.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first sentence is unclear and lacks a referent, while the second refers to a specific cylindrical object with a cartoonish design."
+    },
+    {
+      "object_id": "56834061ce914fd29843fcfdf3369eec",
+      "ground_truth": "A cuboid horizontal tv box with large speakers and an antenna on top.",
+      "model_output": "this is a 3d model of a cartoon-style, white, rectangular box. the box is designed with a unique feature of a long, thin, black cord attached to it. the box is likely used for transmitting signals or data, possibly in a digital context. the cartoonish design suggests it could be used in animations, video games, or other digital media.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a rectangular electronic device used for signal/data transmission, likely a TV or media box."
+    },
+    {
+      "object_id": "76faa9de2b1a446387a930e37465081e",
+      "ground_truth": "A white computer mouse",
+      "model_output": "this is a 3d model of a cartoon-style, white mouse. the mouse is designed with a simplistic, cartoon-like aesthetic, featuring a round body, two black feet, and a small, round head. the mouse is typically used in digital environments, such as video games, graphic design, and animation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a computer mouse (input device), the other to a cartoon-style mouse (animal). They are different categories."
+    },
+    {
+      "object_id": "8bd70337959749db8b16af638722b53d",
+      "ground_truth": "A circular frame fan with black circle in the front and having a standing pole with plus sign four legs at the base.",
+      "model_output": "this is a 3d model of a cartoon-style, white, round-shaped fan. the fan is designed with a circular base and a long, thin, cylindrical blade. it is depicted in a playful, cartoonish style, which is typical for children's animations or video games. the fan's primary function is to circulate air, providing a cooling effect.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a fan, which is the same general object category."
+    },
+    {
+      "object_id": "b408ae196798446ea5e23e41b89d5506",
+      "ground_truth": "Green coloured toy van with rectangular curved surface yellow front lights and red seats with grey coloured wheels.",
+      "model_output": "this is a 3d model of a toy van. the van is predominantly green in color, with a black roof and windows. it has a distinct design, featuring a large, rectangular front and a smaller, square back. the van is likely designed for children, as it is small and lightweight, making it easy to handle and play with.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a toy van, which falls under the same big category."
+    },
+    {
+      "object_id": "990ac62a74304d8fad0cdcb6c76dc432",
+      "ground_truth": "A green fat hen cartoon standing and having two eara on head top.",
+      "model_output": "this is a 3d model of a cartoon-style green frog.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A hen is a bird, while a frog is an amphibian; different animal categories."
+    },
+    {
+      "object_id": "252f3b3f5cd64698826fc1ab42614677",
+      "ground_truth": "A drown with grey body and four red arms.",
+      "model_output": "this is a 3d model of a cartoon-style drone. it is predominantly grey in color, with a distinct red nose and four large, circular propellers. the drone is designed to resemble a cartoon character, adding an element of fun and whimsy to its appearance. it is likely used for recreational purposes, such as aerial photography, videography, or even as a toy for children.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a drone, despite different descriptors and stylistic elements."
+    },
+    {
+      "object_id": "35c07a68cdb246c59bb425610b934bf8",
+      "ground_truth": "A white candle stick with thin stand.",
+      "model_output": "this is a 3d model of a white, cylindrical rocket. the rocket is designed with a sleek, aerodynamic shape, featuring a pointed nose cone and a flat base. the rocket is predominantly white, with a blue stripe running down its length. the rocket is likely used for space exploration or satellite launches.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A candle stick is a lighting object, while a rocket is a spacecraft; they belong to different categories."
+    },
+    {
+      "object_id": "a9fa3b6a1da74b5aa36925012f251638",
+      "ground_truth": "A black smartphone with a blue colored screen saver.",
+      "model_output": "this is a 3d model of a sleek, black iphone.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a smartphone, which is the same general category."
+    },
+    {
+      "object_id": "37906c6e67c24b71b36bdc03ae55834a",
+      "ground_truth": "A grey cylindrical shaped object like a pot with five base curved legs.",
+      "model_output": "this is a 3d model of a cartoon-style rocket ship. the rocket is predominantly white, with a distinct blue stripe running down its length. the design is playful and whimsical, typical of children's animations or video games. the rocket is equipped with a pointed nose cone and a tail fin, which are typical features of real rockets.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a pot-like object, the other is a rocket ship\u2014different categories."
+    },
+    {
+      "object_id": "78e89f3165164480a2738f11f1d5a568",
+      "ground_truth": "Ornament-type golden horse is standing facing forward.",
+      "model_output": "this is a 3d model of a cartoon-style horse. the horse is depicted in a vibrant shade of green, with a distinctively long neck and a slender, elongated body. the horse's legs are also elongated, adding to its cartoonish appearance. the model is likely used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a horse, which is the same general category."
+    },
+    {
+      "object_id": "c8f45fe11d684b30ade3b547be5cefd1",
+      "ground_truth": "White and red toy car with heavy bumpers in front and back",
+      "model_output": "this is a 3d model of a cartoon-style, white, toy truck. the truck is designed with exaggerated features, such as large wheels and a large, bulbous headlight. it is likely intended for children's play or as a collectible item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a toy vehicle, specifically a wheeled transport for children."
+    },
+    {
+      "object_id": "cb5fba40366f47858acebc90cf37479f",
+      "ground_truth": "A 3d model of a sports car and a high body with black windows.",
+      "model_output": "this is a 3d model of a sleek, black sports car. the car is designed with aerodynamic curves and a glossy finish. it features a large, tinted windscreen and windows, giving it a sporty and luxurious look. the car is likely to be used for high-speed driving and is often associated with luxury and performance.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sports car, which is the same big category."
+    },
+    {
+      "object_id": "c0c0f2d8b980400cae6045139244c3d7",
+      "ground_truth": "A white doll with a red tie and a red belly",
+      "model_output": "this is a 3d model of a cartoon character, a white teddy bear with pink eyes.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a stuffed animal or doll-like character."
+    },
+    {
+      "object_id": "78bdd5a7735f42fc879849803a6678dc",
+      "ground_truth": "A 3d model of a old game cd with a super mario image.",
+      "model_output": "this is a 3d model of a vintage-style, black-colored cassette player. the player is equipped with a small screen, which is presumably used for displaying information or instructions. the cassette player is a relic of the past, commonly used for playing music or audio recordings. it's a nostalgic piece of technology that has been replaced by more advanced digital devices.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a CD (digital storage), the other is a cassette player (audio playback device); different categories of media technology."
+    },
+    {
+      "object_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
+      "ground_truth": "White car with gray thick band running all over roof and bonnet having gray side panels and wheels",
+      "model_output": "this is a 3d model of a sleek, black sports car. the car is designed with aerodynamic curves and a glossy finish. it features a large, tinted windscreen and windows, giving it a sporty and luxurious look. the car's body is painted in a deep black color, enhancing its sleek appearance. the car is likely to be used for high-speed driving, racing, or as a status symbol.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a sports car in the same broad category."
+    },
+    {
+      "object_id": "b4bbf2116b1a41a5a3b9d3622b07074c",
+      "ground_truth": "A black shoe with a white sole",
+      "model_output": "this is a 3d model of a cartoon-style sneaker. the shoe is predominantly orange, with a black sole. the design is playful and whimsical, typical of cartoon characters. the shoe is likely used in animations, video games, or other digital media.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a shoe, specifically a type of footwear used in digital media."
+    },
+    {
+      "object_id": "607145499815434d9ee4e8ae5b0689ca",
+      "ground_truth": "A yellow pipe joint",
+      "model_output": "this is a 3d model of a cartoon-style yellow pipe.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a pipe, same general category."
+    },
+    {
+      "object_id": "d4aa4126fce64397935d128ed54c3def",
+      "ground_truth": "Fictional character",
+      "model_output": "this is a 3d model of a cartoon character, a blue bird with a yellow beak and feet.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a character, specifically a cartoon character in the same broad category."
+    },
+    {
+      "object_id": "c6f203f1cf554c188272a10756e9498a",
+      "ground_truth": "A black robot with four tyres, a white face and a long neck",
+      "model_output": "this is a 3d model of a cartoon-style robot. the robot is predominantly black in color, with a distinct feature of a large, round, grey head. the robot is equipped with four legs, which are designed to provide stability and mobility. the robot's design suggests it could be used in animated films, video games, or as a character in children's educational content.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a robot, same big category despite differences in specific features."
+    },
+    {
+      "object_id": "dab99241a6294b6292a69ef9a2ee0e72",
+      "ground_truth": "Excavator supported by red ropes to a metal structure.",
+      "model_output": "this is a 3d model of a toy train. it is predominantly red in color, with a white cab and a black engine. the train is designed to be a plaything for children, featuring a realistic representation of a locomotive. it can be used for imaginative play, educational purposes, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "Excavator is a heavy construction vehicle, while a train is a rail transport vehicle; different categories."
+    },
+    {
+      "object_id": "2552879ebfe34d209658731149e7b8d1",
+      "ground_truth": "A brown box with a cream white paper.",
+      "model_output": "this is a 3d model of a vintage-style, brown carriage with a white roof. the carriage is designed with a classic aesthetic, featuring wooden wheels and a wooden body. it is likely used for leisurely rides or historical reenactments.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a box (container), the other is a carriage (vehicle). Different categories."
+    },
+    {
+      "object_id": "71e499219de548a7a1be74c237b6a2fb",
+      "ground_truth": "A toy truck with a red head and black trailer.",
+      "model_output": "this is a 3d model of a toy truck, specifically designed for children. the truck is predominantly red in color, with a black top and a white bottom. it has a distinct feature of two large wheels at the back, which is a common characteristic of most toy trucks. the truck is designed to be used for imaginative play, such as racing, carrying objects, or even as a prop in a child's toy collection.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a toy truck, same big category."
+    },
+    {
+      "object_id": "541747a461f84142a113e2f591a7eb9b",
+      "ground_truth": "A brown curved rectangular front object with various machines and gadgets and a green circular display.",
+      "model_output": "this is a 3d model of a cartoon-style kitchen with a brown countertop.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a front object with machines and a display (likely a console or control panel), the other to a kitchen countertop, different categories."
+    },
+    {
+      "object_id": "e0e688d507be49738bf80e83828631ba",
+      "ground_truth": "Forklift 3d model",
+      "model_output": "this is a 3d model of a toy truck. the truck is predominantly blue with a white top and a brown-rimmed window. it has a distinct design with a flatbed at the back, which is a common feature of real-life trucks. the truck is equipped with a small, round, blue light bulb on top, which adds a playful touch to its appearance.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A forklift is a specialized industrial vehicle, while a toy truck with a flatbed is a general category of vehicle; they belong to different functional categories despite both being vehicles."
+    },
+    {
+      "object_id": "dd491278516040998667f9dd998fad4f",
+      "ground_truth": "A black fish with yellow stripes",
+      "model_output": "this is a 3d model of a fish, specifically a goldfish, with a vibrant yellow body and a black tail. it is also accompanied by a rubik's cube, a popular puzzle game. the fish and the rubik's cube are placed side by side, suggesting a playful or educational context.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a fish, specifically a type of fish in the same general category."
+    },
+    {
+      "object_id": "82ad2c59603d4e48b0d3b003949fd884",
+      "ground_truth": "Pink statue looks like a cat with circular hair",
+      "model_output": "this is a 3d model of a cartoon-style human head. the head is depicted in a simplistic, stylized manner, with exaggerated features such as large eyes and a prominent nose. the model is white in color, giving it a clean and modern look. this type of model is often used in animation, video games, and digital art.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a statue of a cat, the other is a human head; different categories."
+    },
+    {
+      "object_id": "9a48392c60034e898befe16424359b79",
+      "ground_truth": "Small black and white robot toy with disattachable parts",
+      "model_output": "this is a 3d model of a cartoon-style robot. the robot is predominantly white in color, with a distinct black stripe running down its body. the robot has a humanoid shape, with two arms and two legs, and is equipped with two large, circular, black eyes. the robot's design suggests it could be used in animation, video games, or as a toy.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a robot, which is the same big category."
+    },
+    {
+      "object_id": "88867268d228490da73b99d3126dc25c",
+      "ground_truth": "A cartoon blue and red car with flag of usa",
+      "model_output": "this is a 3d model of a vintage red car. the car is designed with a sleek, aerodynamic body, featuring a distinctive red color. the car's design suggests it might have been used for high-speed racing or luxury transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, despite differences in style and era, they belong to the same general category."
+    },
+    {
+      "object_id": "82413f74efb84bc3b872a7a8f26cca81",
+      "ground_truth": "A white fish with orange spots\nA white fish with red spots on the body\nWhite fish with red spots.",
+      "model_output": "this is a 3d model of a cartoon fish.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a fish, same big category regardless of spot color or style."
+    },
+    {
+      "object_id": "4ef9e579fddd48589ba5e36915503b98",
+      "ground_truth": "Prostock 3d model car\nA red racing car\nA red toy car with a cylindrical part on top of the bonnet and white writing on the bonnet.",
+      "model_output": "this is a 3d model of a red sports car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a sports car, which is a type of car."
+    },
+    {
+      "object_id": "f7d86614605947cfa0a21dbaeac6a112",
+      "ground_truth": "A black tyre\nBlack tyres",
+      "model_output": "this is a 3d model of a cartoon-style wheel. it's a circular object with a black rim and a white center. the wheel is designed in a playful, cartoonish style, which is typical of animation or children's content. it's a common object that can be seen in various contexts, such as in video games, animations, or even as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a wheel, which is the same general object category."
+    },
+    {
+      "object_id": "c8540e358b7b47d68bb7ec9c39cc6a75",
+      "ground_truth": "A model of a blue colure car\nA toy blue car with black windscreen and windows.",
+      "model_output": "this is a 3d model of a blue lamborghini.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a sports car model, falling under the same broad category."
+    },
+    {
+      "object_id": "dab2073ee4084e5f8c5f8bfc53831b74",
+      "ground_truth": "Three d football\nA ball of football",
+      "model_output": "this is a 3d model of a soccer ball. it is predominantly white with black stripes running vertically and horizontally.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a soccer ball, which is a type of football."
+    },
+    {
+      "object_id": "8026380c3c734754951fa2315968e979",
+      "ground_truth": "A pencil",
+      "model_output": "this is a 3d model of a cartoon-style pencil. it is predominantly white in color, with a cylindrical shape and a pointed tip. the pencil is designed to be used for writing or drawing, and its cartoonish appearance suggests it might be used in children's media or animation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a writing instrument, specifically a pencil, in the same general category."
+    },
+    {
+      "object_id": "93fc33be25e34b44b205c5b962d66e61",
+      "ground_truth": "A four wheel drive",
+      "model_output": "this is a 3d model of a toy car painted in a vibrant shade of blue. the car is designed to resemble a real-life vehicle, with four wheels, a steering wheel, and windows. it's a popular choice for children's playtime and can also be used as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a four-wheel vehicle."
+    },
+    {
+      "object_id": "0031ba19d3e042c4bcf79eba40ccc812",
+      "ground_truth": "A white container like car with six black tractor legs and yellow sides.",
+      "model_output": "this is a 3d model of a toy truck.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a truck, which is the same general category."
+    },
+    {
+      "object_id": "8caaef98c3704e688242aac0e49cee03",
+      "ground_truth": "A cartoon girl with long yellow hair and a bow on her head",
+      "model_output": "this is a 3d model of a cartoon-style female character. she is dressed in a vibrant yellow dress with a matching yellow headband. she has long, flowing hair and her arms are extended in a welcoming gesture. the model is designed in a playful, child-friendly style, often used in animations, video games, and children's media.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon female character, falling under the same broad category."
+    },
+    {
+      "object_id": "650c53d68d374c18886aab91bcf8bb54",
+      "ground_truth": "A green toy dinosaur with white belly.",
+      "model_output": "this is a 3d model of a cartoon-style dinosaur, predominantly green in color. the dinosaur is designed with a playful and friendly appearance, featuring a round head, small eyes, and a long tail. the dinosaur's body is covered in a soft, fuzzy texture, giving it a cuddly and cuddly appearance. this model could be used in animations, video games, or as a toy for children.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a dinosaur, which is the same big category."
+    },
+    {
+      "object_id": "70b5238278b144158b482f5359c3ee8e",
+      "ground_truth": "Private jet",
+      "model_output": "this is a 3d model of a white airplane with a distinctive black tail.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to an airplane, specifically a type of aircraft."
+    },
+    {
+      "object_id": "430837577eb740c793f80a713dba1305",
+      "ground_truth": "A cartoon orange car look like the formula 1 toy",
+      "model_output": "this is a 3d model of a toy car, specifically a yellow one. the car is designed with a sleek, aerodynamic shape, and it features a black front grille and a black rear spoiler. the car is equipped with a small, black steering wheel and a black handlebar. the toy car is likely intended for play, and it can be used for racing or simply for imaginative play.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a toy car, falling under the same broad category despite differences in color and design details."
+    },
+    {
+      "object_id": "245af7dde0cd4add9f7e11db3bbbccba",
+      "ground_truth": "Yellow colored blue glassed submarine",
+      "model_output": "this is a 3d model of a cartoon-style submarine. the submarine is predominantly yellow in color, with a blue dome on top. it has a distinct, round shape and is designed to resemble a typical submarine. the blue dome on top is a unique feature that adds a playful touch to the model. this model could be used in animations, video games, or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a submarine, same big category."
+    },
+    {
+      "object_id": "9906e5863a89474da4ee4e178a2daa28",
+      "ground_truth": "Animated brown monkey",
+      "model_output": "this is a 3d model of a cartoon-style, brown-colored teddy bear.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " Monkey and teddy bear are different animal types, even if both are brown and cartoon-style."
+    },
+    {
+      "object_id": "de8ec2a724f14fc4b54624512f80f13e",
+      "ground_truth": "A black insect",
+      "model_output": "this is a 3d model of a cartoon-style spider. the spider is depicted in a vibrant, cartoonish style, with exaggerated features such as large eyes and a long, thin body. the spider is colored in a bright yellow hue, which contrasts with its black legs and body. this model could be used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to an insect, specifically a spider, which falls under the same broad category."
+    },
+    {
+      "object_id": "a6d8409125274a8187c32bbd0aeae04c",
+      "ground_truth": "A cartoon black car",
+      "model_output": "this is a 3d model of a cartoon-style car. the car is predominantly black in color, with a distinctively large, square-shaped front grille. the car's design is playful and whimsical, typical of cartoonish aesthetics. it's likely used in animations, video games, or other digital media where a fun, non-realistic car is needed.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a cartoon-style vehicle in the same broad category."
+    },
+    {
+      "object_id": "0a9893005a7a4985ba1ee8625d0f859f",
+      "ground_truth": "Digital image for the tr-909 drum machine by roland brand with 30 dials and 8 scuare yellow buttons , 6 little scuare white buttons and 18 white buttons 16 buttons with leds light and a red scuare power button.",
+      "model_output": "this is a 3d model of a cartoon-style piano. the piano is white in color and has a playful, cartoonish design. it features a keyboard with black and white keys, and a set of black and white strings. the piano is likely used in animated films, video games, or other digital media.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a drum machine, the other is a piano\u2014different musical instruments in distinct categories."
+    },
+    {
+      "object_id": "65c1ca532f5b4769b991654bcdb51208",
+      "ground_truth": "A headset without microphone. the headband is gray on the top and light blue in downside. the earcups and the cushion are grey with a little light blue highlite.",
+      "model_output": "this is a 3d model of a cartoon-style headset, predominantly blue in color. the headset features a sleek design, with a pair of earpieces and a headband. the blue color gives it a modern and stylish look. this headset could be used for various purposes, such as gaming, virtual reality, or audio entertainment.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a headset, despite differences in color and style."
+    },
+    {
+      "object_id": "dd45a467c50541ef897d4243242e243d",
+      "ground_truth": "A cellphone",
+      "model_output": "this is a 3d model of a sleek, black iphone.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a mobile phone, which is the same general category."
+    },
+    {
+      "object_id": "3ca7caa7f6e14bbb8c5e17381d5d8c39",
+      "ground_truth": "Grey colored whale with shaded body having pointed short fins and tail.",
+      "model_output": "this is a 3d model of a cartoon-style fish. the fish is predominantly white, with a vibrant blue tail and a black stripe running down its body. it has a playful, cartoonish appearance, which is typical of animated characters. the fish is depicted in a relaxed and friendly manner, suggesting it could be a friendly character in a game or a character in a children's show.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A whale is a specific type of large marine mammal, while a fish is a different biological category; they are not the same general object or concept."
+    },
+    {
+      "object_id": "c27165c83e9040fb88e50eb3d3d88f08",
+      "ground_truth": "A black and red colored spaceship toy",
+      "model_output": "this is a 3d model of a futuristic spaceship. the spaceship is predominantly grey in color, with a sleek and streamlined design. it features two large, circular windows on the front, which are likely used for observation or communication. the spaceship also has two smaller windows on the sides, possibly for additional visibility or control. the spaceship is equipped with advanced technology, suggesting it could be used for space exploration or interstellar travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a spaceship, which is the same general category."
+    },
+    {
+      "object_id": "4593a635ce1a48c3803f161ae836fdb2",
+      "ground_truth": "Half upper portion of fox statue.",
+      "model_output": "this is a 3d model of a cartoon-style dog's head. the head is designed in a simplistic, cartoonish style, with exaggerated features such as large eyes and a small nose. the color of the head is not specified, but it's likely to be in a neutral shade to match the overall aesthetic of the model. this model could be used in animation, video games, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A fox statue and a dog's head are different animal types, even though both are animal-related."
+    },
+    {
+      "object_id": "a2ce958da7c248118813eb8e2e349674",
+      "ground_truth": "A cartoon small dog pink",
+      "model_output": "this is a 3d model of a cartoon-style teddy bear. the bear is predominantly pink in color, with a white belly and a purple nose. it has a round head, small ears, and a round body, typical of a teddy bear design. the bear is sitting on a green circular base, suggesting it could be a toy or a decorative piece.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A dog and a teddy bear are different animal types, even if both are cartoon-style and pink."
+    },
+    {
+      "object_id": "1ccbda8800b94066b48af17f93fa9712",
+      "ground_truth": "A cartoon old computer",
+      "model_output": "this is a 3d model of a cartoon-style computer with a vibrant white exterior. the computer is equipped with a large, black screen and a keyboard, both of which are in a playful, cartoonish design. the computer is positioned on a rectangular base, which is also colored in a vibrant shade of white. this model could be used in animations, video games, or as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a computer, despite stylistic differences."
+    },
+    {
+      "object_id": "9ca585120bdb44d1b35105dfcf11316a",
+      "ground_truth": "A iguana with shirt yellow",
+      "model_output": "this is a 3d model of a cartoon-style frog. the frog is predominantly yellow in color, with a distinctively long, pointed snout. it has a pair of large, expressive eyes and a pair of large, round feet. the frog is depicted in a playful, cartoonish style, which is typical of children's animations or video games.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is an iguana, a lizard; the other is a frog, a different amphibian species."
+    },
+    {
+      "object_id": "f9e4b03e63624e7aa050a798b63bc9c4",
+      "ground_truth": "A rare tool",
+      "model_output": "this is a 3d model of a cartoon-style house. the house is predominantly black, with a vibrant yellow roof. it has a playful and whimsical design, typical of cartoons. the house appears to be inhabited by a friendly, cartoon-like character. this model could be used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a tool, the other to a house; different categories."
+    },
+    {
+      "object_id": "6b4ab1eb046447f69fb514aece085fb3",
+      "ground_truth": "A cartoon white dinosaur",
+      "model_output": "this is a 3d model of a cartoon-style dinosaur. the dinosaur is predominantly white in color, with a distinctively long tail. the dinosaur is designed in a playful, cartoonish style, which is typical of children's animated content. the model is likely used in children's entertainment, such as animated movies, tv shows, or video games.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a dinosaur, which is the same big category."
+    },
+    {
+      "object_id": "0b8da82a3d7a436f9b585436c4b72f56",
+      "ground_truth": "A cartoon red car in 3d",
+      "model_output": "this is a 3d model of a toy car, specifically a red one. the car is designed with a sleek, aerodynamic shape, and it features a black windscreen and windows. the wheels of the toy car are black, adding to its realistic appearance. this toy car can be used for imaginative play by children, or as a collectible item for car enthusiasts.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a toy car in the same broad category."
+    },
+    {
+      "object_id": "66d40cfa1e4a4aa2805e516a75156162",
+      "ground_truth": "A silver robot with blue eyes and a blue diamond shape on its chest",
+      "model_output": "this is a 3d model of a cartoon character, specifically a robot. the robot is predominantly white in color, with a distinct blue eye. it has a humanoid shape, with two arms and two legs, and is designed to resemble a typical robot from a children's show or video game. the robot is holding a blue ball in its right hand, suggesting it might be used in a game or a story.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a robot, which is the same general category."
+    },
+    {
+      "object_id": "69e85f0a164f47e0bfe9f8c1c6229fd3",
+      "ground_truth": "Gray colored toy elephant with curved front teeth and long stringed tail.",
+      "model_output": "this is a 3d model of a cartoon-style elephant. the elephant is depicted in a playful, exaggerated manner, with a large, round head and a long, thin trunk. the elephant's body is covered in a dark, glossy coat, giving it a realistic appearance. the model is likely used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to an elephant, same big category."
+    },
+    {
+      "object_id": "ace648eb3044412099c5fae424dcc30c",
+      "ground_truth": "Grey fin threaded hexagonal umbrella panel sided camera.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship. it is predominantly white in color, with a distinct black stripe running down the middle. the spaceship is designed with a playful, cartoonish aesthetic, featuring exaggerated proportions and a friendly, non-threatening appearance. it could be used in animations, video games, or other digital media to depict futuristic or space-themed adventures.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a camera component, the other to a spaceship; different categories."
+    },
+    {
+      "object_id": "7c2049d2a4654625b56ab719fd6a507b",
+      "ground_truth": "A cartoon green geometric figure in 3d",
+      "model_output": "this is a 3d model of a green, rectangular-shaped object with a hole in the middle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a geometric figure, the other is a rectangular object with a hole; different categories."
+    },
+    {
+      "object_id": "b6452e7e86fc4270b7ef471329a640eb",
+      "ground_truth": "White colored doll with red colored long and wide gown.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a female, dressed in a vibrant red dress. the character is depicted with a white hat and a red ribbon tied around her waist. the model is designed in a playful and whimsical style, typical of cartoon characters. it could be used in animations, video games, or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a female cartoon character, falling under the same broad category."
+    },
+    {
+      "object_id": "2221aec5809d43d88aedf82738432318",
+      "ground_truth": "A cartoon robotic white toy",
+      "model_output": "this is a 3d model of a cartoon-style robot. the robot is predominantly white in color, with a distinct feature of a black head. it has a simplistic design, with a round body, two arms, two legs, and two eyes. the robot is likely designed for entertainment purposes, such as in video games or animations.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a robot, which is the same big category."
+    },
+    {
+      "object_id": "23553a1bc13a478486033f2e19c14497",
+      "ground_truth": "A white cuboid object like container.",
+      "model_output": "this is a 3d model of a white, rectangular-shaped object.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a container-like rectangular object, falling under the same general category."
+    },
+    {
+      "object_id": "b609a8c52be74eaf82f3a1713d264779",
+      "ground_truth": "A white brown skeleton",
+      "model_output": "this is a 3d model of a cartoon-style humanoid figure, predominantly white in color. the figure is designed with exaggerated features, such as large eyes and a large mouth, which are typical of cartoon characters. the figure is also adorned with a brown hat, adding a touch of realism to the model. this model could be used in animation, video games, or as a decorative piece.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a skeleton, the other is a cartoon humanoid figure; different categories."
+    },
+    {
+      "object_id": "bed2c5c9c36a4659820597b422fc95a9",
+      "ground_truth": "A model of a yellow bird",
+      "model_output": "this is a 3d model of a cartoon-style chicken. the chicken is depicted in a vibrant yellow color, with a distinctively long neck and legs. the chicken's body is adorned with a pair of large, expressive eyes, adding to its cartoonish appearance. the chicken's legs are long and thin, suggesting it might be a character from a children's show or a game.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bird, specifically a chicken, which is a type of bird."
+    },
+    {
+      "object_id": "b11ad0a8c43e43579925d37e5341aeaa",
+      "ground_truth": "A black smartphone with a circular rear camera and torch. it is also having a black screen.",
+      "model_output": "this is a 3d model of a sleek, black iphone.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a smartphone, which is the same general category."
+    },
+    {
+      "object_id": "7ac4782d7acf461a8786c6761a54e6d4",
+      "ground_truth": "A fat blue doll with a white belly.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a pig. the pig is depicted in a vibrant shade of purple, which gives it a unique and eye-catching appearance. the model is designed in a cartoon style, with exaggerated features such as large ears and a round belly, typical of many cartoon characters. the pig is shown in a relaxed and friendly pose, suggesting it could be a part of an animated series or a children's game.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon character, specifically a pig, which falls under the same general category."
+    },
+    {
+      "object_id": "c048d2bee4954a48ad37debad7cb9daa",
+      "ground_truth": "Figure of a black cat with yellow eyes the face or undefined face cannot be distinguished following a small green ball that is suspended by a very thin white rope the cat stands on two legs on a round light brown surface and the other two legs are outside touching what would be the floor the image is in 3d with a gray background.",
+      "model_output": "this is a 3d model of a cartoon-style cat. the cat is depicted in a playful, exaggerated manner, with a round, black body and a long, thin tail. it is wearing a vibrant green hat, which adds a playful touch to its appearance. the cat is standing on a round, black, and green ball, which is a common prop in many animated shows and games.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cat, specifically in a cartoon-style 3D model, belonging to the same general category."
+    },
+    {
+      "object_id": "d6a3520486bb474f9b5e72eda8408974",
+      "ground_truth": "Wooden batten united rectangular box with open top.",
+      "model_output": "this is a 3d model of a wooden crate.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a wooden container or box, same general category."
+    },
+    {
+      "object_id": "fc8dd5a2fc9f4dd19ad6a64a8a6e89e9",
+      "ground_truth": "A white snow doll wearing a brown circular hat and carrying a brown hand bag on the side.",
+      "model_output": "this is a 3d model of a cartoon-style, white-colored, pot with a brown handle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a doll, the other is a pot; different categories."
+    },
+    {
+      "object_id": "f223fd8263bb401da586fa6c34cf8fe6",
+      "ground_truth": "A white police van with yellow and blue plaid pattern sides.",
+      "model_output": "this is a 3d model of a toy van painted in a vibrant blue color. the van is designed with a cartoonish aesthetic, featuring exaggerated proportions and simplified details. it is likely intended for children's play or as a collectible item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a van, which is the same general vehicle category."
+    },
+    {
+      "object_id": "62d737fd396b40b7ba7752b765a37898",
+      "ground_truth": "A cartoon black professional camera in 3d",
+      "model_output": "this is a 3d model of a vintage-style, grey-colored camera. the camera is equipped with a lens and a shutter button, typical features of a traditional camera. the grey color gives it a classic, timeless look. this model could be used in digital art, animation, or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a camera, which is the same general category."
+    },
+    {
+      "object_id": "8b39b8957231420d919b60febb627bd5",
+      "ground_truth": "A storyed building with green background",
+      "model_output": "this is a 3d model of a toy train. it is painted in a vibrant green color and features a cartoon-style design. the train is equipped with a small, red engine, which adds to its playful and child-friendly appearance. the train is likely used for play, educational purposes, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a building, the other to a train."
+    },
+    {
+      "object_id": "3066dc0d8f1c48a49c415caf769924a5",
+      "ground_truth": "A grey coloured mug with gold top and golden handle",
+      "model_output": "this is a 3d model of a cartoon-style mug with a unique design. the mug is predominantly white, with a black handle and a black rim. the handle is adorned with a black and white pattern, adding a playful touch to the overall design. the mug is likely used for hot beverages like coffee or tea, and its cartoonish design makes it suitable for children's use or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mug, which is the same general object category."
+    },
+    {
+      "object_id": "e5ed116b39f04332a44da04668ac4c64",
+      "ground_truth": "Grey coloured paper boat with green connecting rafts inside with a tapering front and rectangular other end.",
+      "model_output": "this is a 3d model of a cartoon-style boat with a brown hull and a green sail.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a boat, despite differences in style and color."
+    },
+    {
+      "object_id": "92536192d82c4ee59da4c29e691d5de5",
+      "ground_truth": "Yellow,blue and brown discs",
+      "model_output": "this is a 3d model of a cartoon-style, multicolored, and circular object.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to circular, colored objects, categorized as discs or similar."
+    },
+    {
+      "object_id": "7bcf8626eaca40e592ffd0aed08aa30b",
+      "ground_truth": "A cartoon black tuning car",
+      "model_output": "this is a 3d model of a toy car, specifically a lamborghini. the car is predominantly black with a striking yellow stripe running down its side. the car is designed to resemble a real lamborghini, with its sleek and aerodynamic shape. it is a popular choice among toy collectors and car enthusiasts.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a sports car model, in the same general category."
+    },
+    {
+      "object_id": "67beae18c3d24be68f9c8f0ec382d8e3",
+      "ground_truth": "A cartoon black truck in 3d",
+      "model_output": "this is a 3d model of a black pickup truck.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a truck, which is the same big category."
+    },
+    {
+      "object_id": "c1af9921cc2640018703a8481b1af64e",
+      "ground_truth": "A cartoon black carpet in 3d",
+      "model_output": "this is a 3d model of a cartoon-style black and white chessboard.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A carpet and a chessboard are different categories of objects."
+    },
+    {
+      "object_id": "b472057e7749488b867e6c72d365b925",
+      "ground_truth": "A red toy car with white windscreen and windows and three black lines in the bonnet .",
+      "model_output": "this is a 3d model of a red car with a black windscreen.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car, despite differences in details like windscreen color and design elements."
+    },
+    {
+      "object_id": "19b64dad6ab542bc903119201f74b251",
+      "ground_truth": "Light brown shaded toy car with red tail in back.",
+      "model_output": "this is a 3d model of a toy car, specifically a racing car. the car is predominantly white with a red stripe running down its length. it has a sleek and aerodynamic design, typical of racing cars. the car is made of plastic, which is a common material used in toy car models. it is likely designed for children, providing them with a fun and interactive play experience.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a toy car, specifically a racing car, which falls under the same big category."
+    },
+    {
+      "object_id": "93bfec3a68214dc5ba44f225698a5af5",
+      "ground_truth": "A foldable knife pen with white holder.",
+      "model_output": "this is a 3d model of a cartoon-style, white, rectangular-shaped object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a foldable knife pen (a tool), the other is a generic rectangular object (not specifically a tool)."
+    },
+    {
+      "object_id": "98163a297e974b998385eeb3fe85cc45",
+      "ground_truth": "Bunny with long ears, blue hat, black vest, blue shirt, red scarf, black shorts and wristbands.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a girl, wearing a white dress. the character is depicted with a distinctively long, white hair and is wearing a blue shirt. the model is designed in a simplistic, cartoon-like style, which is typical of children's content. the model can be used in animations, video games, or as a digital avatar in virtual reality.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a bunny (animal), the other is a girl (human character), different categories."
+    },
+    {
+      "object_id": "dc797a35886940e19cc79edeb69ec933",
+      "ground_truth": "A black cap with a camouflage flat part and a white front logo.\nA cartoon black and green hat",
+      "model_output": "this is a 3d model of a cartoon-style hat. the hat is predominantly black in color, with a vibrant green stripe running down the side. the hat has a cartoonish design, with exaggerated features and a playful aesthetic. it is likely used in animations, video games, or other digital media to add a fun and whimsical touch.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a hat, which is the same general category."
+    },
+    {
+      "object_id": "fa221f081f3844b5b013d5c1d863d572",
+      "ground_truth": "A 3d girrafee diagram with white colour and in all directions",
+      "model_output": "this is a 3d model of a white giraffe.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a giraffe, same big category."
+    },
+    {
+      "object_id": "47f6f6f2e43a4c21896bd6e1c8ddda8f",
+      "ground_truth": "A cartoon silver mouse",
+      "model_output": "this is a 3d model of a cartoon-style pig. the pig is depicted in a vibrant shade of white, with a distinctively large head and a small, round body. the pig is wearing a pair of black shoes, adding a touch of realism to the model. the pig's features are exaggerated, typical of cartoonish designs, and it is likely used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A mouse and a pig are different animal categories."
+    },
+    {
+      "object_id": "5c08f723bfc94a98b7d7918e3e4ff1dc",
+      "ground_truth": "Images of an all dark car.wheels are also dark and the windows tinted",
+      "model_output": "this is a 3d model of a black car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car, regardless of color or tinting details."
+    },
+    {
+      "object_id": "3ae619d071214c058d49364b972782f5",
+      "ground_truth": "A flat grey object with a key hole gap in the top and having two flat regions in the back.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship. the spaceship is predominantly grey in color, with a sleek and aerodynamic design. it features two large circular wings at the back, which are indicative of its propulsion system. the spaceship is also equipped with a small circular antenna at the front, which could be used for communication or navigation purposes. the spaceship is a representation of a futuristic spacecraft, often seen in science fiction movies or video games.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a flat object with a keyhole (likely a door or panel), the other is a spaceship, different categories."
+    },
+    {
+      "object_id": "5e04c38c79dd4b85a88fe997b70abc8d",
+      "ground_truth": "A cartoon blue look like a pokemon in 3d",
+      "model_output": "this is a 3d model of a cartoon-style bat with a vibrant blue color. the bat is designed with exaggerated features, such as large eyes and a long, thin tail. it is likely used in animations, video games, or children's media.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a Pok\u00e9mon-like creature, the other to a bat; different categories despite similar style and color."
+    },
+    {
+      "object_id": "f12f0dd7968d4f14ac7c3d0562a5d394",
+      "ground_truth": "A cartoon usb white in 3d",
+      "model_output": "this is a 3d model of a white usb flash drive.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a USB flash drive, same category."
+    },
+    {
+      "object_id": "12c80f148c6840ad92433948566ef5a4",
+      "ground_truth": "3d version of a blue robot",
+      "model_output": "this is a 3d model of a cartoon-style robot with a blue body and a grey head.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a robot, which is the same general category."
+    },
+    {
+      "object_id": "b156e91504374c77ac354a3dbe803876",
+      "ground_truth": "A cartoon yellow look like a banana with arms",
+      "model_output": "this is a 3d model of a cartoon-style bird with a vibrant yellow body and a contrasting blue head. the bird is adorned with a pair of yellow eyes, adding to its playful and whimsical appearance. the model is likely used in animations, video games, or children's entertainment.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a banana-like character, the other is a bird; different categories despite similar color."
+    },
+    {
+      "object_id": "252c69eec4ff4fdcaeaee1b709d42012",
+      "ground_truth": "A yellow and white fish with black stripes and fins",
+      "model_output": "this is a 3d model of a cartoon-style fish. the fish is predominantly orange in color, with black spots on its body. it has a streamlined shape and large, round eyes. the fish is designed to be playful and appealing, often used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a fish, which is the same general category despite differences in color and style."
+    },
+    {
+      "object_id": "92a1f1eb6a6843e4b60044725cfae8b6",
+      "ground_truth": "A clay made purple hippotomus",
+      "model_output": "this is a 3d model of a cartoon-style pig. the pig is depicted in a vibrant shade of purple, with a distinctively large head and a small, round body. the pig is designed with exaggerated features, such as large eyes and a small nose, which are typical of cartoonish animals. the model is likely used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A hippopotamus and a pig are different animal categories, despite similar appearance."
+    },
+    {
+      "object_id": "346548d0577b44ff9817e2007048f859",
+      "ground_truth": "A gold coloured bird",
+      "model_output": "this is a 3d model of a cartoon-style bird, predominantly yellow in color. the bird is designed with exaggerated features, such as large eyes and a large beak, typical of cartoon characters. the bird's wings are spread wide, giving it a playful and friendly appearance. this model could be used in animations, video games, or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a bird, despite differences in color and style."
+    },
+    {
+      "object_id": "5691d345d5394df886f7c6c5b7441a5f",
+      "ground_truth": "A cartoon different tools",
+      "model_output": "this is a 3d model of a cartoon-style, animated scene featuring a variety of objects.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to tools (specific objects), the other to a general animated scene with various objects, not specifically tools."
+    },
+    {
+      "object_id": "3a528f050d1443dc8b5423253627d349",
+      "ground_truth": "Grey coloured circular disc panel space ship with antenna.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship. the spaceship is predominantly grey in color, with a sleek and aerodynamic design. it features two large circular wings at the back, which are indicative of its propulsion system. the spaceship is likely to be used in animated shows or video games, adding a touch of fantasy and adventure to the narrative.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a spaceship, same big category."
+    },
+    {
+      "object_id": "ae0d06982560423a8dab1590ffc4de4f",
+      "ground_truth": "A cartoon colorful look like a woman in 3d",
+      "model_output": "this is a 3d model of a cartoon-style female figure dressed in a vibrant purple dress. the figure is standing on a pink base, adding a playful and whimsical touch to the design. the model is likely used in animations, video games, or other digital media.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon-style human figure, specifically female, in digital form."
+    },
+    {
+      "object_id": "118d0fa6d01947b7823878769834bfd8",
+      "ground_truth": "A cartoon wheel of boat",
+      "model_output": "this is a 3d model of a vintage-style, brown-colored windmill. the windmill is designed with a circular base and a long, slender, curved blade. the blade is adorned with intricate patterns, giving it a rustic and antique look. the windmill is typically used to harness wind energy for various purposes, such as grinding grains or pumping water.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A cartoon wheel of a boat refers to a wheel, while a windmill is a different type of mechanical structure."
+    },
+    {
+      "object_id": "b103a1ec9bb549848d884a003f96b3fe",
+      "ground_truth": "Grey coloured toy push button telephone.",
+      "model_output": "this is a 3d model of a white, rectangular-shaped device with a black handle. it appears to be a remote control, possibly used for controlling electronic devices such as televisions or air conditioners. the device is compact and lightweight, making it portable and easy to carry around.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A telephone and a remote control are different categories of devices."
+    },
+    {
+      "object_id": "19a2ee7b29914c90bfc5e008aa6fded5",
+      "ground_truth": "Maroon and black saloon car",
+      "model_output": "this is a 3d model of a vibrant red car with a black windscreen and windows.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a car, specifically a saloon/car type vehicle."
+    },
+    {
+      "object_id": "ff0bbee222f546c899b029c4b64f7bea",
+      "ground_truth": "A man in a red diving costume swimming.",
+      "model_output": "this is a 3d model of a red, humanoid creature.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a human in a diving suit, the other to a fictional humanoid creature; different categories."
+    },
+    {
+      "object_id": "51be235eb692425ebb7aaaeb056fd3b7",
+      "ground_truth": "A cartoon purple rectangle figure with circles",
+      "model_output": "this is a 3d model of a cartoon-style, purple rectangular box with a hole in the middle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon-style rectangular box, same category."
+    },
+    {
+      "object_id": "83cb2a9e9afb47cd9f45461613796645",
+      "ground_truth": "Two yellow shoes with white tied laces.",
+      "model_output": "this is a pair of white sneakers with a vibrant yellow sole.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to shoes, specifically athletic footwear."
+    },
+    {
+      "object_id": "494854c6ffd540339a1bc6bd91c0349b",
+      "ground_truth": "A cartoon purple figure of a several box",
+      "model_output": "this is a 3d model of a cartoon-style purple house.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a figure (person/character), the other to a building (house)."
+    },
+    {
+      "object_id": "c016a85431eb4ded9b6dbdc409345c2c",
+      "ground_truth": "A white u shaped bar with grey base.",
+      "model_output": "this is a 3d model of a cartoon-style, white, rectangular door.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a bar (furniture/fixture), the other is a door (architectural element); different categories."
+    },
+    {
+      "object_id": "e85ebb729b02402bbe3b917e1196f8d3",
+      "ground_truth": "A cartoon black monster like a dragon",
+      "model_output": "this is a 3d model of a black dragon, designed with a unique feature of having a long, pointed tail.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a dragon, which is the same big category."
+    },
+    {
+      "object_id": "c8ea472ef90f4df4ad1d98e02e1e4dfe",
+      "ground_truth": "A cartoon look like a bomb with legs",
+      "model_output": "this is a 3d model of a cartoon-style toy, featuring a blue body and a white head. the toy is adorned with a black and white striped tail, adding a playful touch to its design. the toy is likely designed for children, with its vibrant colors and whimsical appearance. it could be used for play, decoration, or as a collectible item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon-style toy, falling under the same broad category."
+    },
+    {
+      "object_id": "4df0c79458844dc2a7ee80367e7426c1",
+      "ground_truth": "A cartoon green figure of a man work",
+      "model_output": "this is a 3d model of a cartoon character, specifically a man, wearing a brown hat and a purple shirt.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon character, specifically a man, in the same general category."
+    },
+    {
+      "object_id": "84f0854871d246d0b9d1c9c4c85926de",
+      "ground_truth": "Black colour panels made toy camera model.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a female, wearing a black hat. the character is depicted in a simplistic, cartoon-like style, with exaggerated features and a distinctively large head. the hat is black, which adds a touch of mystery and intrigue to the character. this model could be used in animations, video games, or as a character in a story.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a camera (object), the other to a cartoon character (person/figure)."
+    },
+    {
+      "object_id": "0e708d1e0ce0447ba5637a5320f5729c",
+      "ground_truth": "3d figure of an octo expansion octopus from splatoon 2 in fuccia color with its two large tentacles and large gray eyes.",
+      "model_output": "this is a 3d model of a cartoon-style octopus with a vibrant red body and a black mouth.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to an octopus, which is the same general category despite differences in color and style."
+    },
+    {
+      "object_id": "844518dcccf44c86ad1ead660ab103fb",
+      "ground_truth": "A cartoon figure of a white man fat",
+      "model_output": "this is a 3d model of a cartoon-style human figure. the figure is depicted in a simplistic, cartoon-like style, with exaggerated features and a vibrant color palette. the figure is standing upright, arms outstretched, and appears to be in motion. this model could be used in animations, video games, or as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon human figure, same general category."
+    },
+    {
+      "object_id": "8c83e6584b90436882a68c690a324a4b",
+      "ground_truth": "A cartoon white and red look like a boat",
+      "model_output": "this is a 3d model of a red, rectangular-shaped boat. the boat is designed with a white, rectangular window at the front, which is a common feature in many boats. the boat is painted in a vibrant red color, which is a common color choice for boats. the boat's design suggests it could be used for recreational purposes such as fishing or leisurely cruising.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a boat, same general category."
+    },
+    {
+      "object_id": "ab02bde2768849e89dbb4ef3312c85ff",
+      "ground_truth": "A cartoon white a beautiful tree in 3d",
+      "model_output": "this is a 3d model of a cartoon-style tree with a brown trunk and a white top.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a tree, they are in the same big category."
+    },
+    {
+      "object_id": "8257772b0e2f408ba269264855dfea00",
+      "ground_truth": "A brown hard cover book with white pages.",
+      "model_output": "this is a 3d model of a cartoon-style book with a brown cover.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a book, same general category."
+    },
+    {
+      "object_id": "7ee9a0f997ed42dfa01a8a8bfd87c6ac",
+      "ground_truth": "A cartoon rare figure look like a box blue with legs red",
+      "model_output": "this is a 3d model of a cartoon-style robot. the robot is predominantly blue in color, with a distinct red head and legs. it has a friendly, cartoonish appearance, which suggests it might be used in children's media or games.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon-style robot, same big category."
+    },
+    {
+      "object_id": "99d626e0967d418096b6b5546f144e01",
+      "ground_truth": "A blue toy with yellow vertical cardboard on the head and wearing a black coat.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a boy, wearing a blue shirt and a yellow hat.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon character, specifically a boy figure."
+    },
+    {
+      "object_id": "d501614def4d4d1d8dc9e7c3795467c9",
+      "ground_truth": "A cartoon black figure with open arms",
+      "model_output": "this is a 3d model of a cartoon character, specifically a cat, wearing a black suit. the cat is depicted with a distinctively human-like face, complete with eyes, nose, and mouth. the suit is black, which gives the character a sleek and sophisticated look. the model could be used in animations, video games, or other digital media.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a generic cartoon figure, the other is specifically a cat character."
+    },
+    {
+      "object_id": "6d9f07e743444513a1a564e309b455af",
+      "ground_truth": "A cartoon black look like a rimel",
+      "model_output": "this is a 3d model of a cartoon-style, cylindrical object, possibly a tube or a pipe. it is predominantly black in color, with a red stripe running along its length. the object appears to be a simplified representation of a real-world object, possibly used in animations, video games, or other digital media.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a character (rimel), the other to a cylindrical object (tube/pipeline), different categories."
+    },
+    {
+      "object_id": "b8ebc803ac0d4157986c718328a00205",
+      "ground_truth": "A white cartoon scorpion with eight legs.",
+      "model_output": "this is a 3d model of a cartoon-style, white, long-legged spider.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a spider-like creature, falling under the same biological category despite different naming."
+    },
+    {
+      "object_id": "d79a32a512c64c5e93dc856864789a7e",
+      "ground_truth": "A animated man that has popcin face and he has big hands and big shoes",
+      "model_output": "this is a 3d model of a cartoon character, specifically a man, wearing a vibrant purple shirt.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon character, specifically a man, in the same general category."
+    },
+    {
+      "object_id": "98630065b01e40f38714e8b0d39c8ef9",
+      "ground_truth": "Bronze age axe mould",
+      "model_output": "this is a 3d model of a cartoon-style, brown-colored, cylindrical object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " The first refers to a historical tool (axe mould), while the second refers to a generic cylindrical object, not matching in category."
+    },
+    {
+      "object_id": "526b18079304425fa7c694b6fce38db8",
+      "ground_truth": "A cartoon doll in a black gas mask and in an orange hoodie and trousers.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a boy, wearing a vibrant orange shirt and a black hat. the character is depicted as a playful and energetic figure, which is typical of cartoon characters. the model is likely used in animations, video games, or other digital media.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon character, falling under the same broad category."
+    },
+    {
+      "object_id": "4813a6e6bea446f7a59597456c9a7e83",
+      "ground_truth": "A yellow spherical ball with a circular yellow holding ring.",
+      "model_output": "this is a 3d model of a cartoon-style, yellow fruit, possibly a banana.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a ball (inanimate object), the other is a fruit (natural object); different categories."
+    },
+    {
+      "object_id": "ffa6a425ecb04b229542a66d8df21e90",
+      "ground_truth": "Red spiral",
+      "model_output": "this is a 3d model of a cartoon-style, pink, heart-shaped object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a spiral (a shape/structure), the other is a heart-shaped object (a symbolic form); different categories."
+    },
+    {
+      "object_id": "6aba73fade25443c910a1cb9c54032db",
+      "ground_truth": "A cartoon figure circle look like a shield",
+      "model_output": "this is a 3d model of a cartoon-style shield. the shield is predominantly white in color, with a distinct circular design at the center. the shield is adorned with a small, circular hole in the middle, which could represent a weak point or a hidden compartment. the shield's design suggests it could be used in animated films, video games, or as a decorative item.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a shield, which is the same general object category."
+    },
+    {
+      "object_id": "c9c36e9cfdc64f22b7199940af434092",
+      "ground_truth": "A cartoon white figure look like a rare figure in 3d",
+      "model_output": "this is a 3d model of a cartoon-style, white, and grey-colored dog.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cartoon-style animal figure, specifically a dog, in the same general category."
+    },
+    {
+      "object_id": "ac880a2f5402467dad230ce23655a929",
+      "ground_truth": "White petal shape folding iron ing table model with folding grey leg on back side.",
+      "model_output": "this is a 3d model of a cartoon-style, white, long, and thin object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a folding iron table, the other is a generic long, thin object; different categories."
+    },
+    {
+      "object_id": "5151b9ce52a84656bd7c0fac96f5a743",
+      "ground_truth": "Three d model of grey walled home with brown wooden panel balcony and flower light grey floored drawing area placed with white coloured three seater and single seater sofa and centre brown coffee table. set of wooden cabinets in study room, bed room and store and grey flooring on rest of floor. with white relaxing chairs in balcony",
+      "model_output": "this is a 3d model of a residential property featuring a white house with a green roof. the house is surrounded by a lush green garden.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a residential property, specifically a house."
+    },
+    {
+      "object_id": "df3dd33df99e4f79a73e1cd00aaa12e7",
+      "ground_truth": "A white human cartoon had with a virtual reality headset with red writing on it.",
+      "model_output": "this is a 3d model of a cartoon-style helmet. the helmet is predominantly white, with a vibrant red stripe running down the center. the helmet is designed with a cartoonish aesthetic, featuring exaggerated features and a playful, non-threatening appearance. it is likely used in animated films, video games, or other forms of entertainment that target a younger audience.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a human character with a headset, the other to a helmet; different objects despite similar visual elements."
+    },
+    {
+      "object_id": "f33e91fbbc424d07ad0ca4972ed2b4c6",
+      "ground_truth": "A cartoon black rectangle look like a box of tools",
+      "model_output": "this is a 3d model of a cartoon-style, black and white box. the box is designed with a playful, cartoonish aesthetic, featuring exaggerated proportions and a simplistic, clean design. it's likely used in animations, video games, or other digital media where a fun, light-hearted aesthetic is desired.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a box, specifically a cartoon-style container used in digital media."
+    },
+    {
+      "object_id": "91440f33337a4b51929806dc5a5b9d1d",
+      "ground_truth": "A animated instruments for physical disabled people that has in white colour it is helping such people to walk",
+      "model_output": "this is a 3d model of a cartoon-style, white, two-part pole. the pole is made of a sturdy material, possibly metal, and is designed to resemble a typical pole used for various purposes such as supporting structures, holding up signs, or even as a decorative element. the cartoonish design suggests it could be used in animations, video games, or children's educational materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a mobility aid for disabled people, the other to a generic pole structure; different categories."
+    },
+    {
+      "object_id": "b58f1f0d4f0c4e02b6398b13826397d3",
+      "ground_truth": "A gold ring with red extension",
+      "model_output": "this is a 3d model of a gold ring with a unique design. the ring features a central diamond surrounded by smaller diamonds, giving it a regal and luxurious appearance. the gold color of the ring adds to its elegance and makes it suitable for special occasions like engagements or anniversaries.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a ring, which is the same big category."
+    },
+    {
+      "object_id": "c4dc6b82f917442aaa4000cdb62232c8",
+      "ground_truth": "A multicolored carving",
+      "model_output": "this is a 3d model of a cartoon-style, white, cylindrical object. it's painted in a vibrant blue color, giving it a playful and whimsical appearance. the object is cylindrical in shape, suggesting it could be a toy or a decorative piece. the blue color and cartoonish design make it suitable for children's play or as a decorative item in a child's room.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a carving (artistic object), the other is a cylindrical toy/decorative item (functional or play object)."
+    },
+    {
+      "object_id": "ff4cd9547f5543c2b85b3a021c5bea0f",
+      "ground_truth": "Protein structure",
+      "model_output": "this is a 3d model of a cartoon-style molecule.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a molecular structure, which falls under the same general category."
+    },
+    {
+      "object_id": "82caf23bb2ac4a46811d9dde1b8cc25e",
+      "ground_truth": "Yellow star with white eyes",
+      "model_output": "this is a 3d model of a cartoon-style yellow star with two black eyes.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a star, specifically a cartoon-style star, which falls under the same general category."
+    },
+    {
+      "object_id": "0b1ded6f5a8a4e1fbf835e59e5d49359",
+      "ground_truth": "A red copper like wire with tied top and curved center.",
+      "model_output": "this is a 3d model of a cartoon-style, brown-colored key.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a wire, the other is a key\u2014different categories of objects."
+    },
+    {
+      "object_id": "19e2303fdbae4b979f46797b1c6bea45",
+      "ground_truth": "White coloured blue masked superman character three d model with black and yellow head and yellow belt",
+      "model_output": "this is a 3d model of a cartoon-style dragon, predominantly blue in color. the dragon is adorned with a vibrant yellow cape, which adds a playful and whimsical touch to its appearance. the dragon's design is typical of fantasy creatures, often seen in animated movies, video games, and children's books.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a superhero character, the other is a fantasy creature; different categories."
+    },
+    {
+      "object_id": "3061e9a9236d4b98b74c95ff189d28a0",
+      "ground_truth": "Three story building in a beige color floor.",
+      "model_output": "this is a 3d model of a multi-level building with a unique design. the building features a brown base and a grey top, giving it a distinct look. the structure is divided into several levels, suggesting it could be a residential or commercial building. the model is rendered in a realistic manner, providing a detailed view of the building's architecture.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a multi-level building, falling under the same general category."
+    },
+    {
+      "object_id": "8d79676617024cd69197dab1b353e163",
+      "ground_truth": "Sword with a dark blade and a dark handle\nA black sword",
+      "model_output": "this is a 3d model of a sword.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a sword, same big category."
+    },
+    {
+      "object_id": "7103b9e0a43744a69d1658ae120ba7d7",
+      "ground_truth": "Image of a mat",
+      "model_output": "this is a 3d model of a white, square-shaped object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A mat is a floor covering, while a white, square-shaped object could be any item; not necessarily the same category."
+    },
+    {
+      "object_id": "d109af142eb84b45bc2c4c97f1b93354",
+      "ground_truth": "A white bag with blue straps",
+      "model_output": "this is a 3d model of a portable, black-colored, and lightweight suitcase. it has a sleek design with a handle and wheels for easy transportation. the suitcase appears to be made of durable material, suggesting it's suitable for long-distance travel.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A bag and a suitcase are different categories of objects, despite both being portable containers."
+    },
+    {
+      "object_id": "5fe793315b0a4b7882cbb67cf1ef6703",
+      "ground_truth": "A animated white colour dog that has hais",
+      "model_output": "this is a 3d model of a cartoon-style doll. the doll is predominantly white in color, with a distinctively large head and a small body. the doll is designed with exaggerated features, such as oversized eyes and a small mouth, which are typical of cartoon characters. the doll's design suggests it could be used for play, decoration, or as a collectible item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a dog, the other to a doll; different categories despite similar appearance."
+    },
+    {
+      "object_id": "69865c89fc7344be8ed5c1a54dbddc20",
+      "ground_truth": "A storyed building",
+      "model_output": "this is a 3d model of a tall, multi-story building.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a multi-story building, same general category."
+    },
+    {
+      "object_id": "e02e1f5f7cf2419fb47a6ecc8ec63120",
+      "ground_truth": "A brown trench with curved u top.",
+      "model_output": "this is a 3d model of a cartoon-style skateboard ramp. the ramp is predominantly brown in color, with a contrasting black top. the ramp is designed with a smooth, curved surface, which is typical of skateboarding ramps. it's a playful and vibrant representation of a skateboarding ramp, often used in animated films, video games, or as a decorative piece in a skate park.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a skateboard ramp, which is the same general object category."
+    },
+    {
+      "object_id": "8c1ff2dd65be40c283bcb178e7079487",
+      "ground_truth": "A green house building",
+      "model_output": "this is a 3d model of a house with a green roof.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a house, regardless of color or style."
+    },
+    {
+      "object_id": "fb766137ad7d4767bd89acab7a8c3191",
+      "ground_truth": "Unfinished house",
+      "model_output": "this is a 3d model of a house with a distinctively pink roof.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a house, which is the same big category."
+    },
+    {
+      "object_id": "7a488a80bd184b479b4d358b9473a782",
+      "ground_truth": "A circular brown board with three blue mugs on top.",
+      "model_output": "this is a 3d model of a cartoon-style table with a blue top and a brown base.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a table, despite differences in specific details like color and style."
+    },
+    {
+      "object_id": "69e3f3ec5cc44b14afaa85c53db09c1f",
+      "ground_truth": "A mouse",
+      "model_output": "this is a 3d model of a sleek, black mouse with a grey top. the mouse is designed with a smooth, rounded shape and a flat, circular bottom, which is typical of modern computer mice. the grey top adds a touch of sophistication to the overall design. this mouse can be used for various tasks such as browsing the internet, playing games, or controlling a computer.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a computer mouse, which is the same general object category."
+    },
+    {
+      "object_id": "7dd564ce814e4d22b8eeb9d4e79dbca2",
+      "ground_truth": "A dark green motherboard",
+      "model_output": "this is a 3d model of a computer motherboard.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a motherboard, which is a type of computer component."
+    },
+    {
+      "object_id": "8b8fd739dabf43a2a03ffc2989ec7365",
+      "ground_truth": "A plant with purple and white flowers",
+      "model_output": "this is a 3d model of a vibrant, lush green plant with pink flowers.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a plant, despite differences in flower color and description."
+    },
+    {
+      "object_id": "b745134fe5ce468fb029278e8e0d5369",
+      "ground_truth": "Stairway in a brown background",
+      "model_output": "this is a 3d model of a staircase with a yellow railing.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a staircase, same general category."
+    },
+    {
+      "object_id": "bd97f1a7c97345e5a86a581205b19193",
+      "ground_truth": "Woods interconnected to form a pulpit",
+      "model_output": "this is a 3d model of a house, primarily constructed with brown wood. the house is designed in a traditional style, featuring a pitched roof and windows. the brown color of the wood gives it a rustic and natural look. the house is likely to be used for residential purposes, providing shelter and comfort to its inhabitants.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a pulpit (a platform for speaking), the other to a house (a residential building)."
+    },
+    {
+      "object_id": "d628e081977243609432fc82f180d82b",
+      "ground_truth": "Black and maroon lighting chanderlier",
+      "model_output": "this is a 3d model of a cartoon-style, red-colored, and black-framed lamp.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a lamp, specifically a lighting fixture, despite differences in style and color."
+    },
+    {
+      "object_id": "abc413b5e2d14a028dab615b49777167",
+      "ground_truth": "A black and brown colored gun.",
+      "model_output": "this is a 3d model of a gun, specifically a revolver, with a black barrel and a grey handle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a gun, specifically a revolver, which falls under the same general category."
+    },
+    {
+      "object_id": "e280e015ed534bec916a06b37f004af1",
+      "ground_truth": "A grey background with two slaps",
+      "model_output": "this is a 3d model of a cartoon-style house with a white exterior and a brown roof.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a background, the other to a house, different categories."
+    },
+    {
+      "object_id": "ca0f888791514830a99d4c4ae057ade8",
+      "ground_truth": "A dark writing board with a yellow stand.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a boy, standing on a blue circular base. the character is depicted in a playful and friendly manner, with a bright smile and expressive eyes. the blue circular base provides a stable base for the character, suggesting it could be used as a base for a game or a display stand. the cartoonish design suggests it could be used in animation, video games, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a writing board (furniture/stationery), the other is a cartoon character figure (figurine/character). Different categories."
+    },
+    {
+      "object_id": "b5ff764eaf4847eb928a8bb627221531",
+      "ground_truth": "A orange and green cuboid",
+      "model_output": "this is a 3d model of a cartoon-style, yellow-colored box. the box is rectangular in shape and has a vibrant, eye-catching yellow color. it is likely used in animations, video games, or other digital media to add a playful or whimsical element.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a box, which is a type of container or rectangular object."
+    },
+    {
+      "object_id": "91701f32c03b49f0b30ce565ff1655c6",
+      "ground_truth": "House in 3d",
+      "model_output": "this is a 3d model of a white, rectangular building.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a residential building, falling under the same general category."
+    },
+    {
+      "object_id": "e69c1c6adcd94e15920380728200b931",
+      "ground_truth": "Various grey pyramids together",
+      "model_output": "this is a 3d model of a cartoon-style cityscape. the city is predominantly in shades of grey, with a few buildings and trees scattered throughout. the buildings are designed in a simplistic, cartoonish style, with exaggerated features and bright colors. the cityscape is set in a fantasy or animated setting, suggesting it could be used in video games, animations, or children's media.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to pyramids (specific structures), the other to a cityscape (a broader urban environment)."
+    },
+    {
+      "object_id": "0fe718a253bd43aca376780aad0f318b",
+      "ground_truth": "A garlic shaped white object.",
+      "model_output": "this is a 3d model of a cartoon-style, white, heart-shaped object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One is a garlic (food item), the other is a heart (symbolic object); different categories."
+    },
+    {
+      "object_id": "4b0d6de0185648019e51021e3a976a1b",
+      "ground_truth": "A humanoid dressing a white suit and strange mask in similar color , covering its black head",
+      "model_output": "this is a 3d model of a cartoon-style figure, specifically a man. the figure is rendered in a simplistic, cartoon-like style, with exaggerated features such as large eyes, a large nose, and a small mouth. the figure is dressed in a white shirt and black pants, adding to its cartoonish appearance. this model could be used in animations, video games, or as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a humanoid figure, specifically a person in clothing, falling under the same broad category."
+    },
+    {
+      "object_id": "733e3986850b43bea83523fff82e6ee3",
+      "ground_truth": "A three dimensional white on a green highland.",
+      "model_output": "this is a 3d model of a castle, featuring a green roof and a white wall. the castle is situated on a hill, surrounded by lush greenery.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a castle, despite differences in description details."
+    },
+    {
+      "object_id": "a7e1c2fedd5540c48dd10324ea5514fc",
+      "ground_truth": "Green and white balloon capped face with green eyes three d model.",
+      "model_output": "this is a 3d model of a cartoon-style, green-colored, spherical object. it has a distinct, cartoon-like design and is predominantly green in color. the object appears to be a toy or a decorative item, possibly used in children's entertainment or as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a cartoon-style spherical object, likely a character or toy balloon."
+    },
+    {
+      "object_id": "3a1f027057894d1a9ecfee18752b96a2",
+      "ground_truth": "Circles connected forming a c",
+      "model_output": "this is a 3d model of a cartoon-style, white, and circular object. it is a representation of a key, a common object used in daily life. the cartoonish style gives it a playful and whimsical look, making it suitable for children's animations or video games.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a key, which is a common object used in daily life."
+    },
+    {
+      "object_id": "0a203577c66c402085d7b85f4bb281f2",
+      "ground_truth": "A carton looking rod with rolls on its middle",
+      "model_output": "this is a 3d model of a cylindrical object, possibly a pipe or a tube. it is entirely white in color.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a cylindrical object, such as a pipe or tube."
+    },
+    {
+      "object_id": "7610a160fbaf41d681c7d7b9627df85d",
+      "ground_truth": "A yellow coloured brown panels made sloping roofed house model with brown windows and grey tiled front base.",
+      "model_output": "this is a 3d model of a traditional japanese house with a distinctively designed roof. the house is painted in a warm, earthy tone, giving it a rustic charm. the roof, which is the focal point of the house, is a striking contrast to the rest of the structure. it is a typical japanese house design, often seen in rural areas of japan.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a house, specifically a traditional Japanese house with a distinctive roof."
+    },
+    {
+      "object_id": "7f309e755a0c4b69b64e667977268087",
+      "ground_truth": "A white drawing",
+      "model_output": "this is a 3d model of a cartoon-style, white, rectangular box. the box is designed with a flat, smooth surface and is painted in a stark white color. it has a simple, clean aesthetic, which is typical of cartoon-style objects. the box appears to be a container or a storage unit, possibly used for holding small items or as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a box, which is the same general object category."
+    },
+    {
+      "object_id": "b2f41619cb43474383840cc6f2d2121e",
+      "ground_truth": "A cartoon green look like a very big and old church",
+      "model_output": "this is a 3d model of a church, characterized by its white exterior and a steeple. the church is designed in a cartoon style, with exaggerated features and a playful aesthetic. the steeple, a prominent architectural element, is a common feature in many churches. this model could be used in various contexts, such as in video games, animations, or educational materials to illustrate the structure of a church.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a church, despite differences in color and style."
+    },
+    {
+      "object_id": "260d1fe21bd741849e885058d5df4318",
+      "ground_truth": "A grey model of a brief case",
+      "model_output": "this is a 3d model of a cartoon-style, black box.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A brief case is a specific type of bag for carrying documents, while a box is a general container; they are different categories."
+    },
+    {
+      "object_id": "64bae3331cb043c5b11bbb219e96e2c4",
+      "ground_truth": "A sword with a cross at its middle",
+      "model_output": "this is a 3d model of a cartoon-style sword. the sword is predominantly white in color, with a brown handle. it is designed in a simplistic, cartoon-like style, with exaggerated proportions and features. the blade is sharp and pointed, suggesting it could be used in a fantasy or animated setting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sword, which is the same general object category."
+    },
+    {
+      "object_id": "e31257064fa64cdeac1cf264fded96b7",
+      "ground_truth": "A brown bottle with a black cap",
+      "model_output": "this is a 3d model of a bottle of orange juice. the bottle is cylindrical in shape and is predominantly orange in color. it has a cap on top, which is typically used to prevent the liquid inside from spilling. the bottle is designed for easy pouring and is commonly used for consuming beverages like juice, water, or other liquids.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bottle, which is the same general object category."
+    },
+    {
+      "object_id": "bb84fad67afe490ca7c29211bebf68ba",
+      "ground_truth": "3d version of a house print",
+      "model_output": "this is a 3d model of a house with a purple roof.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a house, which is the same big category."
+    },
+    {
+      "object_id": "505aae38374944608ad985e0e6d734a5",
+      "ground_truth": "Three d model of yellow diamond shaped and blue coloured rectangular wall along with grey coloured long battens unit.",
+      "model_output": "this is a 3d model of a cartoon-style house with a blue roof.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " One refers to a wall unit with structural elements, the other to a complete house structure."
+    },
+    {
+      "object_id": "a107f9d8e87c4693a9b5f8fa94ac505c",
+      "ground_truth": "A tree with a green plant",
+      "model_output": "this is a 3d model of a tree with a blue trunk and a green top.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a tree, regardless of color or style."
+    },
+    {
+      "object_id": "d43136ef2b1a46998b7214df1a15b72c",
+      "ground_truth": "3d image of a building",
+      "model_output": "this is a 3d model of a white, rectangular building with a unique design. the building has a distinct feature of having four tall, slender columns supporting it. the columns are white, which gives the building a clean and modern look. the building's design suggests it could be a commercial or residential structure, possibly a high-rise building.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a building, same big category."
+    },
+    {
+      "object_id": "f8a5f438efca4099893afb27ee60c520",
+      "ground_truth": "A white cuboid three dimensional house with pyramids on top.",
+      "model_output": "this is a 3d model of a cartoon-style house. the house is predominantly white, with a distinct feature of a large, black roof. the house is designed in a simplistic, cartoon-like style, with exaggerated proportions and features. it could be used in animations, video games, or as a decorative element in digital art.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a house, belonging to the same general category."
+    },
+    {
+      "object_id": "a4a0a21eedae4d82b0deac43b61dc4a3",
+      "ground_truth": "A brown wooden shelf",
+      "model_output": "this is a 3d model of a cartoonish, brown-colored bookcase. the bookcase is designed with a playful, cartoonish aesthetic, featuring exaggerated proportions and a whimsical color scheme. it's likely used in animations, video games, or children's content.",
+      "gpt_cls_result": "T",
+      "gpt_reason": " Both refer to a storage unit for books or items, falling under the same broad category of shelving furniture."
+    },
+    {
+      "object_id": "b8dd58c2ac084267a3b50aeef0598988",
+      "ground_truth": "A red peg",
+      "model_output": "this is a 3d model of a red, triangular-shaped object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " A peg is a specific type of fastener, while a triangular-shaped object is a general geometric shape; not the same category."
+    },
+    {
+      "object_id": "64e3683f33c74e1680a626a630fab41e",
+      "ground_truth": "A white knitted rattan flower vase",
+      "model_output": "this is a 3d model of a white, circular, and conical object.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a vase, the other is a generic conical object; different categories."
+    },
+    {
+      "object_id": "85f82b805b804a32804ea3e2afdb6e19",
+      "ground_truth": "Blue coloured curved striped irregular shaped entangled abstract three d model.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a girl, rendered in a vibrant shade of blue. the character is depicted with exaggerated features, such as large eyes and a wide smile, typical of cartoon designs. the model is rendered in a simplistic, stylized manner, which is typical of cartoon art. it could be used in animations, video games, or as a decorative item.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is an abstract 3D model, the other is a cartoon character, different categories."
+    },
+    {
+      "object_id": "d69b3382961c4a2bb031f21bdbe5e93d",
+      "ground_truth": "A green and yellow model of a basket",
+      "model_output": "this is a 3d model of a cartoon-like figure with vibrant green hair. the figure is depicted in a playful and whimsical manner, suggesting it could be a character from a children's show or a video game. the green hair adds a unique and eye-catching element to the model.",
+      "gpt_cls_result": "F",
+      "gpt_reason": " The first refers to a basket (object), the second refers to a character/figure (person-like entity)."
+    },
+    {
+      "object_id": "8733696148774e39b558cd7e8df0c544",
+      "ground_truth": "A animated white colour object that is in triangle shape",
+      "model_output": "this is a 3d model of a triangular-shaped object, predominantly white in color. the object is designed to resemble a pyramid, with a pointed top and a base that is wider than the top. the model is made of a smooth, glossy material, giving it a polished and refined appearance. it could be used in various fields such as architecture, design, or even as a decorative piece.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a pyramid-shaped object, falling under the same general category."
+    }
+  ]
+}
