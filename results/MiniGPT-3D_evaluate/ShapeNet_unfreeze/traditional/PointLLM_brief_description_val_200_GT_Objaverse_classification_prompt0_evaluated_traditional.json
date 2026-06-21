@@ -1,0 +1,3417 @@
+{
+  "inference_prompt": "What is this?",
+  "overall_scores": {
+    "bleu-1": "10.3425",
+    "bleu-2": "4.8661",
+    "bleu-3": "2.9771",
+    "bleu-4": "2.0019",
+    "rouge-1": "16.0592",
+    "rouge-2": "3.3327",
+    "rouge-l": "13.6297",
+    "meteor": "15.7534",
+    "sbert_similarity": "48.5388",
+    "simcse_similarity": "47.4839"
+  },
+  "results": [
+    {
+      "object_id": "059a7936ed89419ba9eae3153753ae86",
+      "ground_truth": "A blue cartoon",
+      "model_output": "this is a 3d model of a cartoon-style horse with a vibrant blue color.",
+      "scores": {
+        "bleu-1": 7.1428571428571415,
+        "bleu-2": 2.344036154692477,
+        "bleu-3": 1.7300021018422027,
+        "bleu-4": 1.4283632578659289,
+        "rouge-l": 13.333333013333343,
+        "rouge-1": 13.333333013333343,
+        "rouge-2": 0.0,
+        "meteor": 24.39024390243903,
+        "sbert_similarity": 56.446075439453125,
+        "simcse_similarity": 63.08898329734802
+      }
+    },
+    {
+      "object_id": "c345e4dd7d584ca0beee9c06247c82ec",
+      "ground_truth": "A dark brown and light brown truck",
+      "model_output": "this is a 3d model of a cartoon-style wooden chest.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.8493150684931505,
+        "sbert_similarity": 29.053887724876404,
+        "simcse_similarity": 19.888265430927277
+      }
+    },
+    {
+      "object_id": "0ea33b6617174530b97d6b7a92c275fb",
+      "ground_truth": "A cartoon green and red like a fruit",
+      "model_output": "this is a 3d model of a red apple with a green leaf.",
+      "scores": {
+        "bleu-1": 23.076923076923077,
+        "bleu-2": 4.385290096535146,
+        "bleu-3": 2.691902405124093,
+        "bleu-4": 2.0448007360218394,
+        "rouge-l": 21.052631091412756,
+        "rouge-1": 31.578946880886434,
+        "rouge-2": 0.0,
+        "meteor": 23.52941176470588,
+        "sbert_similarity": 58.405131101608276,
+        "simcse_similarity": 63.85229825973511
+      }
+    },
+    {
+      "object_id": "c20eb3a5a93e4cddb06c2f98626b1830",
+      "ground_truth": "A wooden rectangular board with a clay pot on a three stand and a table having some utensils on top.",
+      "model_output": "this is a 3d model of a cartoon-style, vibrant green and blue table with a cartoon-like design.",
+      "scores": {
+        "bleu-1": 29.58435643845882,
+        "bleu-2": 12.449473081186616,
+        "bleu-3": 4.556505051860726,
+        "bleu-4": 2.6834935775191764,
+        "rouge-l": 18.749999501953145,
+        "rouge-1": 24.999999501953134,
+        "rouge-2": 5.714285217959227,
+        "meteor": 15.228426395939085,
+        "sbert_similarity": 40.373268723487854,
+        "simcse_similarity": 36.735981702804565
+      }
+    },
+    {
+      "object_id": "267b8ecaf2884abaaa5f03680ce39ad8",
+      "ground_truth": "Black color computer cpu\nA desktop central processing unit.",
+      "model_output": "this is a 3d model of a cartoon-style, black box with a blue screen.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 10.526315789473683,
+        "sbert_similarity": 39.771926403045654,
+        "simcse_similarity": 35.58676540851593
+      }
+    },
+    {
+      "object_id": "30eb9fd904b942e9abb3be2195255c6e",
+      "ground_truth": "An 3d image of a light house in white colour in all directions",
+      "model_output": "this is a 3d model of a cartoon-style, white, cylindrical object.",
+      "scores": {
+        "bleu-1": 22.73871594750492,
+        "bleu-2": 13.768976278037112,
+        "bleu-3": 5.753442363040514,
+        "bleu-4": 3.6782088518014464,
+        "rouge-l": 27.272726776859507,
+        "rouge-1": 27.272726776859507,
+        "rouge-2": 9.090908595041348,
+        "meteor": 19.965277777777775,
+        "sbert_similarity": 39.61381912231445,
+        "simcse_similarity": 56.9252073764801
+      }
+    },
+    {
+      "object_id": "73e092e4ce344683b1347521e28d5df6",
+      "ground_truth": "A strip blue white shade with two wooden standing poles.\nA shed with a triangular curved roof and having two standing poles at each end.",
+      "model_output": "this is a 3d model of a cartoon-style umbrella with a blue canopy.",
+      "scores": {
+        "bleu-1": 9.168339535331798,
+        "bleu-2": 5.5094863842504145,
+        "bleu-3": 2.2865046895061614,
+        "bleu-4": 1.4446537815610065,
+        "rouge-l": 12.90322534859523,
+        "rouge-1": 19.35483825182103,
+        "rouge-2": 5.714285263673504,
+        "meteor": 15.630252100840334,
+        "sbert_similarity": 46.08367085456848,
+        "simcse_similarity": 33.16490352153778
+      }
+    },
+    {
+      "object_id": "f2785bbde26b4b0f8e09ee736f1c9638",
+      "ground_truth": "A toy house with cubical body and triangular roof and open door.",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 10.52631530193908,
+        "rouge-1": 10.52631530193908,
+        "rouge-2": 0.0,
+        "meteor": 4.273504273504273,
+        "sbert_similarity": 71.56773209571838,
+        "simcse_similarity": 61.60804629325867
+      }
+    },
+    {
+      "object_id": "9d34f25cb4744435a087099c6d273d04",
+      "ground_truth": "A gift box.",
+      "model_output": "this is a 3d model of a cartoon-style, blue and white box.",
+      "scores": {
+        "bleu-1": 8.333333333333332,
+        "bleu-2": 2.752409412815903,
+        "bleu-3": 2.0427282860665446,
+        "bleu-4": 1.7033186037639283,
+        "rouge-l": 14.285713948979604,
+        "rouge-1": 14.285713948979604,
+        "rouge-2": 0.0,
+        "meteor": 25.641025641025646,
+        "sbert_similarity": 37.78550326824188,
+        "simcse_similarity": 45.27139663696289
+      }
+    },
+    {
+      "object_id": "da1c77dbf00c436ab8d294e431adf2ed",
+      "ground_truth": "Part of a red and white train.",
+      "model_output": "this is a 3d model of a train.",
+      "scores": {
+        "bleu-1": 37.5,
+        "bleu-2": 23.145502494313785,
+        "bleu-3": 9.8573017775554,
+        "bleu-4": 6.500593260343692,
+        "rouge-l": 42.857142357142855,
+        "rouge-1": 42.857142357142855,
+        "rouge-2": 15.38461488757398,
+        "meteor": 35.99374021909233,
+        "sbert_similarity": 57.851046323776245,
+        "simcse_similarity": 68.7163770198822
+      }
+    },
+    {
+      "object_id": "39930c4d685f4a9c8f7bd63c1a2a7dee",
+      "ground_truth": "A red toy car with black windscreen and windows and having a v shaped logo at the back.",
+      "model_output": "this is a 3d model of a red sports car.",
+      "scores": {
+        "bleu-1": 8.986579282344431,
+        "bleu-2": 2.118157050072095,
+        "bleu-3": 1.409238791227916,
+        "bleu-4": 1.1277537484327562,
+        "rouge-l": 15.384614931952676,
+        "rouge-1": 23.076922624260362,
+        "rouge-2": 0.0,
+        "meteor": 8.720930232558139,
+        "sbert_similarity": 70.18820643424988,
+        "simcse_similarity": 66.00279808044434
+      }
+    },
+    {
+      "object_id": "d56401a8a5d142feb1108106b0f581cc",
+      "ground_truth": "Gray color thin panel",
+      "model_output": "this is a 3d model of a cartoon-style white wall with a brown frame.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 28.202715516090393,
+        "simcse_similarity": 29.96790111064911
+      }
+    },
+    {
+      "object_id": "ac73f58f1ca8483eb3e14264da12c3d9",
+      "ground_truth": "It is a red icosahedron with a ferrari emblem.",
+      "model_output": "this is a 3d model of a red sports car.",
+      "scores": {
+        "bleu-1": 40.0,
+        "bleu-2": 29.81423969999719,
+        "bleu-3": 10.594975868546173,
+        "bleu-4": 6.311969078225892,
+        "rouge-l": 23.529411266435996,
+        "rouge-1": 35.294117148788935,
+        "rouge-2": 23.529411266435996,
+        "meteor": 34.68406593406593,
+        "sbert_similarity": 68.41903328895569,
+        "simcse_similarity": 46.74901068210602
+      }
+    },
+    {
+      "object_id": "983fa8b23a084f5dacd157e6c9ceba97",
+      "ground_truth": "A cartoon pony",
+      "model_output": "this is a 3d model of a cartoon-style pony with a vibrant purple coat.",
+      "scores": {
+        "bleu-1": 7.1428571428571415,
+        "bleu-2": 2.344036154692477,
+        "bleu-3": 1.7300021018422027,
+        "bleu-4": 1.4283632578659289,
+        "rouge-l": 13.333333013333343,
+        "rouge-1": 13.333333013333343,
+        "rouge-2": 0.0,
+        "meteor": 24.39024390243903,
+        "sbert_similarity": 69.0608561038971,
+        "simcse_similarity": 74.75642561912537
+      }
+    },
+    {
+      "object_id": "3a61b9d2451c4df2a1c6a6550e1875df",
+      "ground_truth": "A white cartoon bus with blue windscreen and windows and black side mirrors.",
+      "model_output": "this is a 3d model of a white bus with blue stripes.",
+      "scores": {
+        "bleu-1": 30.668147154310777,
+        "bleu-2": 22.64992775278616,
+        "bleu-3": 17.062359632890622,
+        "bleu-4": 8.334454495388126,
+        "rouge-l": 34.78260819659736,
+        "rouge-1": 34.78260819659736,
+        "rouge-2": 17.39130384877128,
+        "meteor": 37.51937984496125,
+        "sbert_similarity": 67.72894263267517,
+        "simcse_similarity": 73.37832450866699
+      }
+    },
+    {
+      "object_id": "e72dcc58707843fa93384690e3f16d9f",
+      "ground_truth": "A white pony with pink hair on the head and tail.",
+      "model_output": "this is a 3d model of a cartoon pony with a vibrant blue coat and a pink mane.",
+      "scores": {
+        "bleu-1": 22.22222222222222,
+        "bleu-2": 11.433239009500591,
+        "bleu-3": 4.477464303423438,
+        "bleu-4": 2.7166383723579153,
+        "rouge-l": 23.076922588757405,
+        "rouge-1": 30.76923028106509,
+        "rouge-2": 7.40740694101512,
+        "meteor": 31.794871794871803,
+        "sbert_similarity": 63.36096525192261,
+        "simcse_similarity": 57.34815001487732
+      }
+    },
+    {
+      "object_id": "304f656a07d741caabdf36d58b9eb471",
+      "ground_truth": "Not clear",
+      "model_output": "this is a 3d model of a cartoon-style camera.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 11.645284295082092,
+        "simcse_similarity": 1.289056520909071
+      }
+    },
+    {
+      "object_id": "56834061ce914fd29843fcfdf3369eec",
+      "ground_truth": "A cuboid horizontal tv box with large speakers and an antenna on top.",
+      "model_output": "this is a 3d model of a cartoon-style radio. it is predominantly white in color and has a cartoonish design.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 1.6222142113076252,
+        "bleu-3": 1.186947435439869,
+        "bleu-4": 0.9629943614188134,
+        "rouge-l": 6.666666175555591,
+        "rouge-1": 6.666666175555591,
+        "rouge-2": 0.0,
+        "meteor": 7.2992700729927,
+        "sbert_similarity": 48.520395159721375,
+        "simcse_similarity": 46.07429802417755
+      }
+    },
+    {
+      "object_id": "76faa9de2b1a446387a930e37465081e",
+      "ground_truth": "A white computer mouse",
+      "model_output": "this is a 3d model of a cartoon-style, white, spherical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 10.638297872340427,
+        "sbert_similarity": 32.76415765285492,
+        "simcse_similarity": 43.82915794849396
+      }
+    },
+    {
+      "object_id": "8bd70337959749db8b16af638722b53d",
+      "ground_truth": "A circular frame fan with black circle in the front and having a standing pole with plus sign four legs at the base.",
+      "model_output": "this is a 3d model of a cartoon-style lamp with a white base and a round, white shade.",
+      "scores": {
+        "bleu-1": 12.624418806616108,
+        "bleu-2": 2.3717153152605603,
+        "bleu-3": 1.4426633301218916,
+        "bleu-4": 1.0768613517815229,
+        "rouge-l": 17.142856662857156,
+        "rouge-1": 22.857142377142864,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 42.58086681365967,
+        "simcse_similarity": 41.29888415336609
+      }
+    },
+    {
+      "object_id": "b408ae196798446ea5e23e41b89d5506",
+      "ground_truth": "Green coloured toy van with rectangular curved surface yellow front lights and red seats with grey coloured wheels.",
+      "model_output": "this is a 3d model of a cartoon-style pickup truck.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 53.257834911346436,
+        "simcse_similarity": 50.175344944000244
+      }
+    },
+    {
+      "object_id": "990ac62a74304d8fad0cdcb6c76dc432",
+      "ground_truth": "A green fat hen cartoon standing and having two eara on head top.",
+      "model_output": "this is a 3d model of a cartoon-style green frog.",
+      "scores": {
+        "bleu-1": 7.40818220681718,
+        "bleu-2": 2.4693940689390605,
+        "bleu-3": 1.8483828554943154,
+        "bleu-4": 1.5635220893785458,
+        "rouge-l": 9.090908607438044,
+        "rouge-1": 9.090908607438044,
+        "rouge-2": 0.0,
+        "meteor": 7.874015748031496,
+        "sbert_similarity": 49.82967972755432,
+        "simcse_similarity": 47.666749358177185
+      }
+    },
+    {
+      "object_id": "252f3b3f5cd64698826fc1ab42614677",
+      "ground_truth": "A drown with grey body and four red arms.",
+      "model_output": "this is a 3d model of a cartoon-style airplane.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.555555555555555,
+        "sbert_similarity": 29.474318027496338,
+        "simcse_similarity": 15.504887700080872
+      }
+    },
+    {
+      "object_id": "35c07a68cdb246c59bb425610b934bf8",
+      "ground_truth": "A white candle stick with thin stand.",
+      "model_output": "this is a 3d model of a cartoon-style rocket.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 20.424552261829376,
+        "simcse_similarity": 13.181555271148682
+      }
+    },
+    {
+      "object_id": "a9fa3b6a1da74b5aa36925012f251638",
+      "ground_truth": "A black smartphone with a blue colored screen saver.",
+      "model_output": "this is a 3d model of a black iphone.",
+      "scores": {
+        "bleu-1": 22.22222222222222,
+        "bleu-2": 5.270462766947299,
+        "bleu-3": 3.528075103412339,
+        "bleu-4": 2.8517539529041507,
+        "rouge-l": 11.764705384083065,
+        "rouge-1": 23.529411266435996,
+        "rouge-2": 0.0,
+        "meteor": 16.666666666666664,
+        "sbert_similarity": 55.15674948692322,
+        "simcse_similarity": 57.598668336868286
+      }
+    },
+    {
+      "object_id": "37906c6e67c24b71b36bdc03ae55834a",
+      "ground_truth": "A grey cylindrical shaped object like a pot with five base curved legs.",
+      "model_output": "this is a 3d model of a cartoon-style whale.",
+      "scores": {
+        "bleu-1": 7.124226538110606,
+        "bleu-2": 2.3895382239484966,
+        "bleu-3": 1.7996089867194118,
+        "bleu-4": 1.5375695992413887,
+        "rouge-l": 9.52380905215422,
+        "rouge-1": 9.52380905215422,
+        "rouge-2": 0.0,
+        "meteor": 7.936507936507938,
+        "sbert_similarity": 30.59314787387848,
+        "simcse_similarity": 13.442502915859222
+      }
+    },
+    {
+      "object_id": "78e89f3165164480a2738f11f1d5a568",
+      "ground_truth": "Ornament-type golden horse is standing facing forward.",
+      "model_output": "this is a 3d model of a cartoon-style giraffe.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 13.333332835555575,
+        "rouge-1": 13.333332835555575,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 35.63908338546753,
+        "simcse_similarity": 28.35005223751068
+      }
+    },
+    {
+      "object_id": "c8f45fe11d684b30ade3b547be5cefd1",
+      "ground_truth": "White and red toy car with heavy bumpers in front and back",
+      "model_output": "this is a 3d model of a vintage car.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 10.52631530193908,
+        "rouge-1": 10.52631530193908,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 52.820611000061035,
+        "simcse_similarity": 54.43199276924133
+      }
+    },
+    {
+      "object_id": "cb5fba40366f47858acebc90cf37479f",
+      "ground_truth": "A 3d model of a sports car and a high body with black windows.",
+      "model_output": "this is a 3d model of a black car with a yellow roof.",
+      "scores": {
+        "bleu-1": 56.98222022414253,
+        "bleu-2": 36.31918160634302,
+        "bleu-3": 28.445373259053063,
+        "bleu-4": 21.294807603873018,
+        "rouge-l": 49.99999950347222,
+        "rouge-1": 58.33333283680556,
+        "rouge-2": 23.999999500800012,
+        "meteor": 59.19708677502443,
+        "sbert_similarity": 81.6620409488678,
+        "simcse_similarity": 87.5215470790863
+      }
+    },
+    {
+      "object_id": "c0c0f2d8b980400cae6045139244c3d7",
+      "ground_truth": "A white doll with a red tie and a red belly",
+      "model_output": "this is a 3d model of a cartoon character, specifically a pig, with a distinct pink color.",
+      "scores": {
+        "bleu-1": 17.647058823529413,
+        "bleu-2": 10.502100630210073,
+        "bleu-3": 4.324462746991734,
+        "bleu-4": 2.6920508809559314,
+        "rouge-l": 8.69565169754256,
+        "rouge-1": 17.39130387145559,
+        "rouge-2": 7.999999539200027,
+        "meteor": 17.24137931034483,
+        "sbert_similarity": 46.820467710494995,
+        "simcse_similarity": 47.35105633735657
+      }
+    },
+    {
+      "object_id": "78bdd5a7735f42fc879849803a6678dc",
+      "ground_truth": "A 3d model of a old game cd with a super mario image.",
+      "model_output": "this is a 3d model of a cartoon-style, blue-colored phone.",
+      "scores": {
+        "bleu-1": 37.040911034085894,
+        "bleu-2": 30.24377721377921,
+        "bleu-3": 25.95624983326595,
+        "bleu-4": 20.577107905082872,
+        "rouge-l": 38.095237605442186,
+        "rouge-1": 38.095237605442186,
+        "rouge-2": 28.57142808163266,
+        "meteor": 35.118110236220474,
+        "sbert_similarity": 55.756282806396484,
+        "simcse_similarity": 52.20566391944885
+      }
+    },
+    {
+      "object_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
+      "ground_truth": "White car with gray thick band running all over roof and bonnet having gray side panels and wheels",
+      "model_output": "this is a 3d model of a toy car in a vibrant shade of white.",
+      "scores": {
+        "bleu-1": 5.4582050205198795,
+        "bleu-2": 1.7866169760800243,
+        "bleu-3": 1.315853167082591,
+        "bleu-4": 1.0821940214289207,
+        "rouge-l": 7.142856653061259,
+        "rouge-1": 7.142856653061259,
+        "rouge-2": 0.0,
+        "meteor": 2.824858757062147,
+        "sbert_similarity": 48.800498247146606,
+        "simcse_similarity": 39.62436020374298
+      }
+    },
+    {
+      "object_id": "b4bbf2116b1a41a5a3b9d3622b07074c",
+      "ground_truth": "A black shoe with a white sole",
+      "model_output": "this is a 3d model of a black shoe with a white sole.",
+      "scores": {
+        "bleu-1": 38.46153846153847,
+        "bleu-2": 35.80574370197164,
+        "bleu-3": 33.06733605794187,
+        "bleu-4": 28.91784933232572,
+        "rouge-l": 66.66666619135802,
+        "rouge-1": 66.66666619135802,
+        "rouge-2": 55.55555511111112,
+        "meteor": 78.76461988304094,
+        "sbert_similarity": 70.4214096069336,
+        "simcse_similarity": 71.0575819015503
+      }
+    },
+    {
+      "object_id": "607145499815434d9ee4e8ae5b0689ca",
+      "ground_truth": "A yellow pipe joint",
+      "model_output": "this is a 3d model of a cartoon-style, yellow-colored, cylindrical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 10.638297872340427,
+        "sbert_similarity": 43.94088387489319,
+        "simcse_similarity": 41.168490052223206
+      }
+    },
+    {
+      "object_id": "d4aa4126fce64397935d128ed54c3def",
+      "ground_truth": "Fictional character",
+      "model_output": "this is a 3d model of a cartoon character, specifically a boy, wearing a blue shirt and yellow pants.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 27.134892344474792,
+        "simcse_similarity": 41.926079988479614
+      }
+    },
+    {
+      "object_id": "c6f203f1cf554c188272a10756e9498a",
+      "ground_truth": "A black robot with four tyres, a white face and a long neck",
+      "model_output": "this is a 3d model of a cartoon-style, black and white, wheeled cart.",
+      "scores": {
+        "bleu-1": 30.769230769230766,
+        "bleu-2": 5.063696835418333,
+        "bleu-3": 2.959982160221988,
+        "bleu-4": 2.1972813874997166,
+        "rouge-l": 8.333332833333364,
+        "rouge-1": 24.99999950000001,
+        "rouge-2": 0.0,
+        "meteor": 15.384615384615385,
+        "sbert_similarity": 53.62059473991394,
+        "simcse_similarity": 36.6989940404892
+      }
+    },
+    {
+      "object_id": "dab99241a6294b6292a69ef9a2ee0e72",
+      "ground_truth": "Excavator supported by red ropes to a metal structure.",
+      "model_output": "this is a 3d model of a toy train.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 11.764705384083065,
+        "rouge-1": 11.764705384083065,
+        "rouge-2": 0.0,
+        "meteor": 5.555555555555555,
+        "sbert_similarity": 25.775405764579773,
+        "simcse_similarity": 34.97426509857178
+      }
+    },
+    {
+      "object_id": "2552879ebfe34d209658731149e7b8d1",
+      "ground_truth": "A brown box with a cream white paper.",
+      "model_output": "this is a 3d model of a traditional wooden cart with a white roof.",
+      "scores": {
+        "bleu-1": 21.428571428571423,
+        "bleu-2": 12.838814775327384,
+        "bleu-3": 5.314918934118809,
+        "bleu-4": 3.342866121562732,
+        "rouge-l": 29.999999520000003,
+        "rouge-1": 29.999999520000003,
+        "rouge-2": 9.999999545000023,
+        "meteor": 36.70058139534884,
+        "sbert_similarity": 35.82620620727539,
+        "simcse_similarity": 31.773722171783447
+      }
+    },
+    {
+      "object_id": "71e499219de548a7a1be74c237b6a2fb",
+      "ground_truth": "A toy truck with a red head and black trailer.",
+      "model_output": "this is a 3d model of a red pickup truck.",
+      "scores": {
+        "bleu-1": 20.0,
+        "bleu-2": 14.9071198499986,
+        "bleu-3": 6.705330284284157,
+        "bleu-4": 4.46323613785333,
+        "rouge-l": 21.052631080332425,
+        "rouge-1": 31.578946869806096,
+        "rouge-2": 11.111110611111135,
+        "meteor": 25.555555555555554,
+        "sbert_similarity": 66.27206206321716,
+        "simcse_similarity": 62.496405839920044
+      }
+    },
+    {
+      "object_id": "541747a461f84142a113e2f591a7eb9b",
+      "ground_truth": "A brown curved rectangular front object with various machines and gadgets and a green circular display.",
+      "model_output": "this is a 3d model of a cartoon-style living room, featuring a brown couch, a television, and a coffee table.",
+      "scores": {
+        "bleu-1": 15.0,
+        "bleu-2": 8.885233166386385,
+        "bleu-3": 3.646544354891508,
+        "bleu-4": 2.253741272267485,
+        "rouge-l": 19.354838210197727,
+        "rouge-1": 19.354838210197727,
+        "rouge-2": 5.882352448096927,
+        "meteor": 19.245426829268293,
+        "sbert_similarity": 45.45295238494873,
+        "simcse_similarity": 49.33599233627319
+      }
+    },
+    {
+      "object_id": "e0e688d507be49738bf80e83828631ba",
+      "ground_truth": "Forklift 3d model",
+      "model_output": "this is a 3d model of a cartoon-style truck.",
+      "scores": {
+        "bleu-1": 22.22222222222222,
+        "bleu-2": 16.666666666666668,
+        "bleu-3": 7.542890820012247,
+        "bleu-4": 5.071215336946558,
+        "rouge-l": 36.36363596694215,
+        "rouge-1": 36.36363596694215,
+        "rouge-2": 19.999999680000002,
+        "meteor": 52.08333333333335,
+        "sbert_similarity": 60.79016327857971,
+        "simcse_similarity": 72.57025837898254
+      }
+    },
+    {
+      "object_id": "dd491278516040998667f9dd998fad4f",
+      "ground_truth": "A black fish with yellow stripes",
+      "model_output": "this is a 3d model of a fish and a rubik's cube.",
+      "scores": {
+        "bleu-1": 8.333333333333332,
+        "bleu-2": 2.752409412815903,
+        "bleu-3": 2.0427282860665446,
+        "bleu-4": 1.7033186037639283,
+        "rouge-l": 12.499999531250019,
+        "rouge-1": 12.499999531250019,
+        "rouge-2": 0.0,
+        "meteor": 15.151515151515152,
+        "sbert_similarity": 40.032681822776794,
+        "simcse_similarity": 32.34070539474487
+      }
+    },
+    {
+      "object_id": "82ad2c59603d4e48b0d3b003949fd884",
+      "ground_truth": "Pink statue looks like a cat with circular hair",
+      "model_output": "this is a 3d model of a cartoonish, human-like face.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 11.111110611111135,
+        "rouge-1": 11.111110611111135,
+        "rouge-2": 0.0,
+        "meteor": 5.494505494505494,
+        "sbert_similarity": 36.91547513008118,
+        "simcse_similarity": 35.34218966960907
+      }
+    },
+    {
+      "object_id": "9a48392c60034e898befe16424359b79",
+      "ground_truth": "Small black and white robot toy with disattachable parts",
+      "model_output": "this is a 3d model of a cartoon-style spaceship.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 40.18916189670563,
+        "simcse_similarity": 44.59449052810669
+      }
+    },
+    {
+      "object_id": "88867268d228490da73b99d3126dc25c",
+      "ground_truth": "A cartoon blue and red car with flag of usa",
+      "model_output": "this is a 3d model of a red and white toy car.",
+      "scores": {
+        "bleu-1": 25.0,
+        "bleu-2": 4.767312946227962,
+        "bleu-3": 2.935354896563489,
+        "bleu-4": 2.24169335019223,
+        "rouge-l": 19.04761854875285,
+        "rouge-1": 38.09523759637189,
+        "rouge-2": 0.0,
+        "meteor": 19.607843137254903,
+        "sbert_similarity": 59.45688486099243,
+        "simcse_similarity": 47.00529873371124
+      }
+    },
+    {
+      "object_id": "82413f74efb84bc3b872a7a8f26cca81",
+      "ground_truth": "A white fish with orange spots\nA white fish with red spots on the body\nWhite fish with red spots.",
+      "model_output": "this is a 3d model of a cartoon-style fish.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 10.52631530193908,
+        "rouge-1": 10.52631530193908,
+        "rouge-2": 0.0,
+        "meteor": 5.291005291005291,
+        "sbert_similarity": 41.910743713378906,
+        "simcse_similarity": 45.76565325260162
+      }
+    },
+    {
+      "object_id": "4ef9e579fddd48589ba5e36915503b98",
+      "ground_truth": "Prostock 3d model car\nA red racing car\nA red toy car with a cylindrical part on top of the bonnet and white writing on the bonnet.",
+      "model_output": "this is a 3d model of a red sports car.",
+      "scores": {
+        "bleu-1": 9.13417620263673,
+        "bleu-2": 4.305891955624813,
+        "bleu-3": 1.657447413931867,
+        "bleu-4": 1.0252605519715998,
+        "rouge-l": 27.586206468489898,
+        "rouge-1": 41.37930991676576,
+        "rouge-2": 6.2499995957031516,
+        "meteor": 16.85331576635924,
+        "sbert_similarity": 73.67017865180969,
+        "simcse_similarity": 80.32807111740112
+      }
+    },
+    {
+      "object_id": "f7d86614605947cfa0a21dbaeac6a112",
+      "ground_truth": "A black tyre\nBlack tyres",
+      "model_output": "this is a 3d model of a car wheel.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 34.09318923950195,
+        "simcse_similarity": 31.373199820518494
+      }
+    },
+    {
+      "object_id": "c8540e358b7b47d68bb7ec9c39cc6a75",
+      "ground_truth": "A model of a blue colure car\nA toy blue car with black windscreen and windows.",
+      "model_output": "this is a 3d model of a toy car in a vibrant shade of blue.",
+      "scores": {
+        "bleu-1": 31.18356616772059,
+        "bleu-2": 20.41443605746337,
+        "bleu-3": 14.693097518008205,
+        "bleu-4": 6.9536217213398395,
+        "rouge-l": 39.9999995008,
+        "rouge-1": 47.99999950080001,
+        "rouge-2": 13.793102948870409,
+        "meteor": 22.0125786163522,
+        "sbert_similarity": 83.74530673027039,
+        "simcse_similarity": 85.60979962348938
+      }
+    },
+    {
+      "object_id": "dab2073ee4084e5f8c5f8bfc53831b74",
+      "ground_truth": "Three d football\nA ball of football",
+      "model_output": "this is a 3d model of a soccer ball.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 14.285713795918387,
+        "rouge-1": 28.57142808163266,
+        "rouge-2": 0.0,
+        "meteor": 13.88888888888889,
+        "sbert_similarity": 54.41652536392212,
+        "simcse_similarity": 49.09086227416992
+      }
+    },
+    {
+      "object_id": "8026380c3c734754951fa2315968e979",
+      "ground_truth": "A pencil",
+      "model_output": "this is a 3d model of a white, cylindrical object with a pointed tip.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 15.625000000000004,
+        "sbert_similarity": 43.634313344955444,
+        "simcse_similarity": 35.48397123813629
+      }
+    },
+    {
+      "object_id": "93fc33be25e34b44b205c5b962d66e61",
+      "ground_truth": "A four wheel drive",
+      "model_output": "this is a 3d model of a cartoon-style car.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 43.513134121894836,
+        "simcse_similarity": 41.507384181022644
+      }
+    },
+    {
+      "object_id": "0031ba19d3e042c4bcf79eba40ccc812",
+      "ground_truth": "A white container like car with six black tractor legs and yellow sides.",
+      "model_output": "this is a 3d model of a toy truck.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 3.968253968253969,
+        "sbert_similarity": 56.394463777542114,
+        "simcse_similarity": 36.31220459938049
+      }
+    },
+    {
+      "object_id": "8caaef98c3704e688242aac0e49cee03",
+      "ground_truth": "A cartoon girl with long yellow hair and a bow on her head",
+      "model_output": "this is a 3d model of a cartoonish female character with long, flowing hair. she is wearing a white dress and has her arms outstretched.",
+      "scores": {
+        "bleu-1": 15.999999999999998,
+        "bleu-2": 2.581988897471611,
+        "bleu-3": 1.4877148519655916,
+        "bleu-4": 1.0713701843513141,
+        "rouge-l": 22.857142390204093,
+        "rouge-1": 28.571428104489797,
+        "rouge-2": 0.0,
+        "meteor": 17.6056338028169,
+        "sbert_similarity": 61.66737675666809,
+        "simcse_similarity": 63.81562948226929
+      }
+    },
+    {
+      "object_id": "650c53d68d374c18886aab91bcf8bb54",
+      "ground_truth": "A green toy dinosaur with white belly.",
+      "model_output": "this is a 3d model of a cartoon-style dinosaur.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 13.333332835555575,
+        "rouge-1": 13.333332835555575,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 65.39731025695801,
+        "simcse_similarity": 68.28339695930481
+      }
+    },
+    {
+      "object_id": "70b5238278b144158b482f5359c3ee8e",
+      "ground_truth": "Private jet",
+      "model_output": "this is a 3d model of a white airplane with a black tail.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 33.40667486190796,
+        "simcse_similarity": 39.08621966838837
+      }
+    },
+    {
+      "object_id": "430837577eb740c793f80a713dba1305",
+      "ground_truth": "A cartoon orange car look like the formula 1 toy",
+      "model_output": "this is a 3d model of a toy car with a vibrant orange body and a black top.",
+      "scores": {
+        "bleu-1": 16.666666666666668,
+        "bleu-2": 3.1311214554257476,
+        "bleu-3": 1.9045937245652738,
+        "bleu-4": 1.4216645907653849,
+        "rouge-l": 7.999999520000029,
+        "rouge-1": 23.999999520000006,
+        "rouge-2": 0.0,
+        "meteor": 18.51851851851852,
+        "sbert_similarity": 75.28308033943176,
+        "simcse_similarity": 76.52993202209473
+      }
+    },
+    {
+      "object_id": "245af7dde0cd4add9f7e11db3bbbccba",
+      "ground_truth": "Yellow colored blue glassed submarine",
+      "model_output": "this is a 3d model of a cartoon-style, golden-colored, spherical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 40.26179313659668,
+        "simcse_similarity": 21.34552150964737
+      }
+    },
+    {
+      "object_id": "9906e5863a89474da4ee4e178a2daa28",
+      "ground_truth": "Animated brown monkey",
+      "model_output": "this is a 3d model of a cartoon-style dog.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 39.69165086746216,
+        "simcse_similarity": 49.23155605792999
+      }
+    },
+    {
+      "object_id": "de8ec2a724f14fc4b54624512f80f13e",
+      "ground_truth": "A black insect",
+      "model_output": "this is a 3d model of a cartoon-style spider.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 13.888888888888893,
+        "sbert_similarity": 35.78712046146393,
+        "simcse_similarity": 30.99762797355652
+      }
+    },
+    {
+      "object_id": "a6d8409125274a8187c32bbd0aeae04c",
+      "ground_truth": "A cartoon black car",
+      "model_output": "this is a 3d model of a cartoon-style car.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 16.666666222222233,
+        "rouge-1": 16.666666222222233,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 73.26733469963074,
+        "simcse_similarity": 59.45279598236084
+      }
+    },
+    {
+      "object_id": "0a9893005a7a4985ba1ee8625d0f859f",
+      "ground_truth": "Digital image for the tr-909 drum machine by roland brand with 30 dials and 8 scuare yellow buttons , 6 little scuare white buttons and 18 white buttons 16 buttons with leds light and a red scuare power button.",
+      "model_output": "this is a 3d model of a cartoon-style piano.",
+      "scores": {
+        "bleu-1": 0.3963777038583601,
+        "bleu-2": 0.13294912358888605,
+        "bleu-3": 0.10012664170388509,
+        "bleu-4": 0.08554729471465587,
+        "rouge-l": 5.2631575623268905,
+        "rouge-1": 5.2631575623268905,
+        "rouge-2": 0.0,
+        "meteor": 1.3888888888888888,
+        "sbert_similarity": 38.93243670463562,
+        "simcse_similarity": 46.49111032485962
+      }
+    },
+    {
+      "object_id": "65c1ca532f5b4769b991654bcdb51208",
+      "ground_truth": "A headset without microphone. the headband is gray on the top and light blue in downside. the earcups and the cushion are grey with a little light blue highlite.",
+      "model_output": "this is a 3d model of a cartoon-style bicycle.",
+      "scores": {
+        "bleu-1": 2.408178293819908,
+        "bleu-2": 0.5711496315186824,
+        "bleu-3": 0.382330524735181,
+        "bleu-4": 0.30903893859145026,
+        "rouge-l": 12.903225423517181,
+        "rouge-1": 12.903225423517181,
+        "rouge-2": 0.0,
+        "meteor": 5.555555555555555,
+        "sbert_similarity": 14.638444781303406,
+        "simcse_similarity": 15.025080740451813
+      }
+    },
+    {
+      "object_id": "dd45a467c50541ef897d4243242e243d",
+      "ground_truth": "A cellphone",
+      "model_output": "this is a 3d model of a black iphone.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 18.51851851851852,
+        "sbert_similarity": 39.50619101524353,
+        "simcse_similarity": 47.20855355262756
+      }
+    },
+    {
+      "object_id": "3ca7caa7f6e14bbb8c5e17381d5d8c39",
+      "ground_truth": "Grey colored whale with shaded body having pointed short fins and tail.",
+      "model_output": "this is a 3d model of a fish with a distinctively large mouth.",
+      "scores": {
+        "bleu-1": 7.6923076923076925,
+        "bleu-2": 2.5318484177091665,
+        "bleu-3": 1.8733084686676875,
+        "bleu-4": 1.553712569276035,
+        "rouge-l": 8.69565167485825,
+        "rouge-1": 8.69565167485825,
+        "rouge-2": 0.0,
+        "meteor": 4.132231404958677,
+        "sbert_similarity": 51.80549621582031,
+        "simcse_similarity": 32.40273296833038
+      }
+    },
+    {
+      "object_id": "c27165c83e9040fb88e50eb3d3d88f08",
+      "ground_truth": "A black and red colored spaceship toy",
+      "model_output": "this is a 3d model of a futuristic spaceship.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 13.333332835555575,
+        "rouge-1": 13.333332835555575,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 51.108646392822266,
+        "simcse_similarity": 55.66655993461609
+      }
+    },
+    {
+      "object_id": "4593a635ce1a48c3803f161ae836fdb2",
+      "ground_truth": "Half upper portion of fox statue.",
+      "model_output": "this is a 3d model of a white, cartoonish dog.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 13.33333285333335,
+        "rouge-1": 13.33333285333335,
+        "rouge-2": 0.0,
+        "meteor": 7.8125,
+        "sbert_similarity": 36.30158305168152,
+        "simcse_similarity": 25.315478444099426
+      }
+    },
+    {
+      "object_id": "a2ce958da7c248118813eb8e2e349674",
+      "ground_truth": "A cartoon small dog pink",
+      "model_output": "this is a 3d model of a cartoon-style rabbit with a purple body and a pink head.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 1.9174124721184262,
+        "bleu-3": 1.4076093604378503,
+        "bleu-4": 1.1502783619900045,
+        "rouge-l": 10.526315401662064,
+        "rouge-1": 10.526315401662064,
+        "rouge-2": 0.0,
+        "meteor": 16.129032258064516,
+        "sbert_similarity": 43.0666446685791,
+        "simcse_similarity": 54.1450560092926
+      }
+    },
+    {
+      "object_id": "1ccbda8800b94066b48af17f93fa9712",
+      "ground_truth": "A cartoon old computer",
+      "model_output": "this is a 3d model of a cartoon-style television set.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 10.869565217391305,
+        "sbert_similarity": 43.30693483352661,
+        "simcse_similarity": 50.7378876209259
+      }
+    },
+    {
+      "object_id": "9ca585120bdb44d1b35105dfcf11316a",
+      "ground_truth": "A iguana with shirt yellow",
+      "model_output": "this is a 3d model of a cartoon character, specifically a man, wearing a vibrant green shirt and brown pants.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 1.6222142113076252,
+        "bleu-3": 1.186947435439869,
+        "bleu-4": 0.9629943614188134,
+        "rouge-l": 9.090908739669434,
+        "rouge-1": 9.090908739669434,
+        "rouge-2": 0.0,
+        "meteor": 15.384615384615389,
+        "sbert_similarity": 26.408764719963074,
+        "simcse_similarity": 21.815207600593567
+      }
+    },
+    {
+      "object_id": "f9e4b03e63624e7aa050a798b63bc9c4",
+      "ground_truth": "A rare tool",
+      "model_output": "this is a 3d model of a cartoon-style spaceship.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 13.888888888888893,
+        "sbert_similarity": 14.142808318138123,
+        "simcse_similarity": 12.803202867507935
+      }
+    },
+    {
+      "object_id": "6b4ab1eb046447f69fb514aece085fb3",
+      "ground_truth": "A cartoon white dinosaur",
+      "model_output": "this is a 3d model of a cartoon-style dog.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 43.73296499252319,
+        "simcse_similarity": 62.60458827018738
+      }
+    },
+    {
+      "object_id": "0b8da82a3d7a436f9b585436c4b72f56",
+      "ground_truth": "A cartoon red car in 3d",
+      "model_output": "this is a 3d model of a red toy car with a black top.",
+      "scores": {
+        "bleu-1": 21.428571428571423,
+        "bleu-2": 4.059989714705751,
+        "bleu-3": 2.4859743585800658,
+        "bleu-4": 1.8798317647335088,
+        "rouge-l": 22.222221777777783,
+        "rouge-1": 33.3333328888889,
+        "rouge-2": 0.0,
+        "meteor": 29.411764705882355,
+        "sbert_similarity": 76.19630098342896,
+        "simcse_similarity": 79.659104347229
+      }
+    },
+    {
+      "object_id": "66d40cfa1e4a4aa2805e516a75156162",
+      "ground_truth": "A silver robot with blue eyes and a blue diamond shape on its chest",
+      "model_output": "this is a 3d model of a cartoon-style robot.",
+      "scores": {
+        "bleu-1": 6.375038008193696,
+        "bleu-2": 2.138252751819895,
+        "bleu-3": 1.6103608762089983,
+        "bleu-4": 1.3758777297397085,
+        "rouge-l": 9.52380905215422,
+        "rouge-1": 19.04761857596373,
+        "rouge-2": 0.0,
+        "meteor": 7.4074074074074066,
+        "sbert_similarity": 57.029569149017334,
+        "simcse_similarity": 49.32795166969299
+      }
+    },
+    {
+      "object_id": "69e85f0a164f47e0bfe9f8c1c6229fd3",
+      "ground_truth": "Gray colored toy elephant with curved front teeth and long stringed tail.",
+      "model_output": "this is a 3d model of a cartoon-style elephant.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 9.999999520000022,
+        "rouge-1": 9.999999520000022,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 71.80169820785522,
+        "simcse_similarity": 64.79036808013916
+      }
+    },
+    {
+      "object_id": "ace648eb3044412099c5fae424dcc30c",
+      "ground_truth": "Grey fin threaded hexagonal umbrella panel sided camera.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 34.1833770275116,
+        "simcse_similarity": 14.718934893608093
+      }
+    },
+    {
+      "object_id": "7c2049d2a4654625b56ab719fd6a507b",
+      "ground_truth": "A cartoon green geometric figure in 3d",
+      "model_output": "this is a 3d model of a green, rectangular-shaped object with a hole in the middle.",
+      "scores": {
+        "bleu-1": 12.500000000000004,
+        "bleu-2": 2.8867513459481287,
+        "bleu-3": 1.8864614597621485,
+        "bleu-4": 1.4628063653657535,
+        "rouge-l": 9.523809079365101,
+        "rouge-1": 19.047618603174612,
+        "rouge-2": 0.0,
+        "meteor": 18.987341772151897,
+        "sbert_similarity": 63.04283142089844,
+        "simcse_similarity": 73.97317290306091
+      }
+    },
+    {
+      "object_id": "b6452e7e86fc4270b7ef471329a640eb",
+      "ground_truth": "White colored doll with red colored long and wide gown.",
+      "model_output": "this is a 3d model of a cartoon character, a woman dressed in a red dress.",
+      "scores": {
+        "bleu-1": 6.25,
+        "bleu-2": 2.0412414523193148,
+        "bleu-3": 1.5007489164383503,
+        "bleu-4": 1.230068628846377,
+        "rouge-l": 9.090908607438044,
+        "rouge-1": 9.090908607438044,
+        "rouge-2": 0.0,
+        "meteor": 4.716981132075472,
+        "sbert_similarity": 56.955623626708984,
+        "simcse_similarity": 56.65736198425293
+      }
+    },
+    {
+      "object_id": "2221aec5809d43d88aedf82738432318",
+      "ground_truth": "A cartoon robotic white toy",
+      "model_output": "this is a 3d model of a cartoon-style horse.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 46.934863924980164,
+        "simcse_similarity": 55.627185106277466
+      }
+    },
+    {
+      "object_id": "23553a1bc13a478486033f2e19c14497",
+      "ground_truth": "A white cuboid object like container.",
+      "model_output": "this is a 3d model of a white, rectangular-shaped object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 13.33333285333335,
+        "rouge-1": 13.33333285333335,
+        "rouge-2": 0.0,
+        "meteor": 7.8125,
+        "sbert_similarity": 66.25197529792786,
+        "simcse_similarity": 61.05641722679138
+      }
+    },
+    {
+      "object_id": "b609a8c52be74eaf82f3a1713d264779",
+      "ground_truth": "A white brown skeleton",
+      "model_output": "this is a 3d model of a cartoon character, specifically a monkey, in a vibrant shade of yellow. the model is designed with exaggerated features, such as large eyes and a large head, typical of cartoon characters. the monkey is depicted in a playful and friendly manner, which is a common characteristic of cartoon characters.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.494505494505495,
+        "sbert_similarity": 32.8311562538147,
+        "simcse_similarity": 26.22992992401123
+      }
+    },
+    {
+      "object_id": "bed2c5c9c36a4659820597b422fc95a9",
+      "ground_truth": "A model of a yellow bird",
+      "model_output": "this is a 3d model of a cartoon-style, vibrant yellow bird with white feathers.",
+      "scores": {
+        "bleu-1": 35.71428571428572,
+        "bleu-2": 28.70846258816073,
+        "bleu-3": 19.326657319539926,
+        "bleu-4": 8.88917558917174,
+        "rouge-l": 52.63157851523547,
+        "rouge-1": 52.63157851523547,
+        "rouge-2": 33.33333293209878,
+        "meteor": 82.72058823529413,
+        "sbert_similarity": 83.69550108909607,
+        "simcse_similarity": 83.27382802963257
+      }
+    },
+    {
+      "object_id": "b11ad0a8c43e43579925d37e5341aeaa",
+      "ground_truth": "A black smartphone with a circular rear camera and torch. it is also having a black screen.",
+      "model_output": "this is a 3d model of a black iphone.",
+      "scores": {
+        "bleu-1": 18.271657355874996,
+        "bleu-2": 9.690009614892206,
+        "bleu-3": 3.8979672024899776,
+        "bleu-4": 2.4793053163370216,
+        "rouge-l": 26.08695606805294,
+        "rouge-1": 26.08695606805294,
+        "rouge-2": 8.333332888888913,
+        "meteor": 19.483024691358025,
+        "sbert_similarity": 62.7275288105011,
+        "simcse_similarity": 61.65995001792908
+      }
+    },
+    {
+      "object_id": "7ac4782d7acf461a8786c6761a54e6d4",
+      "ground_truth": "A fat blue doll with a white belly.",
+      "model_output": "this is a 3d model of a cartoon-style dog.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 12.499999500000019,
+        "rouge-1": 12.499999500000019,
+        "rouge-2": 0.0,
+        "meteor": 12.34567901234568,
+        "sbert_similarity": 41.327014565467834,
+        "simcse_similarity": 36.45956218242645
+      }
+    },
+    {
+      "object_id": "c048d2bee4954a48ad37debad7cb9daa",
+      "ground_truth": "Figure of a black cat with yellow eyes the face or undefined face cannot be distinguished following a small green ball that is suspended by a very thin white rope the cat stands on two legs on a round light brown surface and the other two legs are outside touching what would be the floor the image is in 3d with a gray background.",
+      "model_output": "this is a 3d model of a cartoon-style elephant.",
+      "scores": {
+        "bleu-1": 0.12322693912890317,
+        "bleu-2": 0.058451669510738886,
+        "bleu-3": 0.02263790278359412,
+        "bleu-4": 0.01414409681955412,
+        "rouge-l": 10.714285469387761,
+        "rouge-1": 14.285714040816327,
+        "rouge-2": 2.857142654693892,
+        "meteor": 4.273504273504273,
+        "sbert_similarity": 45.44954299926758,
+        "simcse_similarity": 34.57736670970917
+      }
+    },
+    {
+      "object_id": "d6a3520486bb474f9b5e72eda8408974",
+      "ground_truth": "Wooden batten united rectangular box with open top.",
+      "model_output": "this is a 3d model of a wooden crate.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.17283950617284,
+        "sbert_similarity": 53.5521924495697,
+        "simcse_similarity": 49.8997300863266
+      }
+    },
+    {
+      "object_id": "fc8dd5a2fc9f4dd19ad6a64a8a6e89e9",
+      "ground_truth": "A white snow doll wearing a brown circular hat and carrying a brown hand bag on the side.",
+      "model_output": "this is a 3d model of a cartoon character, a white-haired man wearing a brown hat.",
+      "scores": {
+        "bleu-1": 22.062422564614888,
+        "bleu-2": 16.112115349134072,
+        "bleu-3": 12.023777303344346,
+        "bleu-4": 5.773179078212656,
+        "rouge-l": 27.5862064019025,
+        "rouge-1": 27.5862064019025,
+        "rouge-2": 12.903225306971924,
+        "meteor": 20.89887640449438,
+        "sbert_similarity": 47.45869338512421,
+        "simcse_similarity": 46.26058042049408
+      }
+    },
+    {
+      "object_id": "f223fd8263bb401da586fa6c34cf8fe6",
+      "ground_truth": "A white police van with yellow and blue plaid pattern sides.",
+      "model_output": "this is a 3d model of a cartoon-style police car.",
+      "scores": {
+        "bleu-1": 9.048374180359598,
+        "bleu-2": 3.0161247267865328,
+        "bleu-3": 2.2576199178367276,
+        "bleu-4": 1.909690192411307,
+        "rouge-l": 9.999999505000023,
+        "rouge-1": 9.999999505000023,
+        "rouge-2": 0.0,
+        "meteor": 13.761467889908252,
+        "sbert_similarity": 56.21819496154785,
+        "simcse_similarity": 43.077924847602844
+      }
+    },
+    {
+      "object_id": "62d737fd396b40b7ba7752b765a37898",
+      "ground_truth": "A cartoon black professional camera in 3d",
+      "model_output": "this is a 3d model of a cartoon-style camera.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 13.333332835555575,
+        "rouge-1": 26.6666661688889,
+        "rouge-2": 0.0,
+        "meteor": 13.88888888888889,
+        "sbert_similarity": 72.71202802658081,
+        "simcse_similarity": 76.71237587928772
+      }
+    },
+    {
+      "object_id": "8b39b8957231420d919b60febb627bd5",
+      "ground_truth": "A storyed building with green background",
+      "model_output": "this is a 3d model of a toy train.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 7.936507936507938,
+        "sbert_similarity": 24.717949330806732,
+        "simcse_similarity": 4.955599084496498
+      }
+    },
+    {
+      "object_id": "3066dc0d8f1c48a49c415caf769924a5",
+      "ground_truth": "A grey coloured mug with gold top and golden handle",
+      "model_output": "this is a 3d model of a cartoon-style mug. the mug is predominantly white with a brown handle. it has a cartoonish design, which makes it appealing to children. the mug is likely used for drinking hot beverages like coffee or tea.",
+      "scores": {
+        "bleu-1": 4.761904761904762,
+        "bleu-2": 1.077701343522606,
+        "bleu-3": 0.6962563401049795,
+        "bleu-4": 0.5223577740745086,
+        "rouge-l": 13.95348801514333,
+        "rouge-1": 13.95348801514333,
+        "rouge-2": 0.0,
+        "meteor": 11.363636363636363,
+        "sbert_similarity": 63.400799036026,
+        "simcse_similarity": 54.774266481399536
+      }
+    },
+    {
+      "object_id": "e5ed116b39f04332a44da04668ac4c64",
+      "ground_truth": "Grey coloured paper boat with green connecting rafts inside with a tapering front and rectangular other end.",
+      "model_output": "this is a 3d model of a cartoon-style boat.",
+      "scores": {
+        "bleu-1": 4.567914338968749,
+        "bleu-2": 1.5321250465995206,
+        "bleu-3": 1.1538739891267893,
+        "bleu-4": 0.9858594728796832,
+        "rouge-l": 8.333332888888913,
+        "rouge-1": 16.666666222222233,
+        "rouge-2": 0.0,
+        "meteor": 3.08641975308642,
+        "sbert_similarity": 61.75621747970581,
+        "simcse_similarity": 49.622783064842224
+      }
+    },
+    {
+      "object_id": "92536192d82c4ee59da4c29e691d5de5",
+      "ground_truth": "Yellow,blue and brown discs",
+      "model_output": "this is a 3d model of a cartoon-style, vibrant blue and yellow fish.",
+      "scores": {
+        "bleu-1": 7.6923076923076925,
+        "bleu-2": 2.5318484177091665,
+        "bleu-3": 1.8733084686676875,
+        "bleu-4": 1.553712569276035,
+        "rouge-l": 12.499999625000012,
+        "rouge-1": 12.499999625000012,
+        "rouge-2": 0.0,
+        "meteor": 10.204081632653061,
+        "sbert_similarity": 36.534520983695984,
+        "simcse_similarity": 29.39610481262207
+      }
+    },
+    {
+      "object_id": "7bcf8626eaca40e592ffd0aed08aa30b",
+      "ground_truth": "A cartoon black tuning car",
+      "model_output": "this is a 3d model of a black sports car.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 28.571428112244902,
+        "rouge-1": 28.571428112244902,
+        "rouge-2": 0.0,
+        "meteor": 18.181818181818183,
+        "sbert_similarity": 61.488014459609985,
+        "simcse_similarity": 60.77167987823486
+      }
+    },
+    {
+      "object_id": "67beae18c3d24be68f9c8f0ec382d8e3",
+      "ground_truth": "A cartoon black truck in 3d",
+      "model_output": "this is a 3d model of a toy car with a black body and a white top.",
+      "scores": {
+        "bleu-1": 11.76470588235294,
+        "bleu-2": 2.7116307227332026,
+        "bleu-3": 1.7693837921724946,
+        "bleu-4": 1.3679192123121897,
+        "rouge-l": 9.999999580000019,
+        "rouge-1": 19.999999580000008,
+        "rouge-2": 0.0,
+        "meteor": 21.12676056338028,
+        "sbert_similarity": 61.82590126991272,
+        "simcse_similarity": 65.56909084320068
+      }
+    },
+    {
+      "object_id": "c1af9921cc2640018703a8481b1af64e",
+      "ground_truth": "A cartoon black carpet in 3d",
+      "model_output": "this is a 3d model of a cartoon-style keyboard.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 14.285713795918387,
+        "rouge-1": 14.285713795918387,
+        "rouge-2": 0.0,
+        "meteor": 15.873015873015875,
+        "sbert_similarity": 46.44734561443329,
+        "simcse_similarity": 49.15206730365753
+      }
+    },
+    {
+      "object_id": "b472057e7749488b867e6c72d365b925",
+      "ground_truth": "A red toy car with white windscreen and windows and three black lines in the bonnet .",
+      "model_output": "this is a 3d model of a red car with a white windscreen and windows.",
+      "scores": {
+        "bleu-1": 35.0069327617179,
+        "bleu-2": 25.622451176898668,
+        "bleu-3": 16.687847495790166,
+        "bleu-4": 7.534877951394889,
+        "rouge-l": 49.99999950255103,
+        "rouge-1": 49.99999950255103,
+        "rouge-2": 27.586206397146256,
+        "meteor": 34.07434402332361,
+        "sbert_similarity": 76.32102370262146,
+        "simcse_similarity": 74.95575547218323
+      }
+    },
+    {
+      "object_id": "19b64dad6ab542bc903119201f74b251",
+      "ground_truth": "Light brown shaded toy car with red tail in back.",
+      "model_output": "this is a 3d model of a cartoon-style toy car.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 21.052631080332425,
+        "rouge-1": 21.052631080332425,
+        "rouge-2": 11.111110611111135,
+        "meteor": 5.000000000000001,
+        "sbert_similarity": 68.8272476196289,
+        "simcse_similarity": 64.61148262023926
+      }
+    },
+    {
+      "object_id": "93bfec3a68214dc5ba44f225698a5af5",
+      "ground_truth": "A foldable knife pen with white holder.",
+      "model_output": "this is a 3d model of a cartoon-style knife.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 13.333332835555575,
+        "rouge-1": 13.333332835555575,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 45.32438516616821,
+        "simcse_similarity": 47.292858362197876
+      }
+    },
+    {
+      "object_id": "98163a297e974b998385eeb3fe85cc45",
+      "ground_truth": "Bunny with long ears, blue hat, black vest, blue shirt, red scarf, black shorts and wristbands.",
+      "model_output": "this is a 3d model of a cartoon character, a girl, wearing a white dress and blue shoes.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 2.556549962824567,
+        "bleu-3": 1.6660661223010558,
+        "bleu-4": 1.284618972676772,
+        "rouge-l": 6.896551224732497,
+        "rouge-1": 13.793102948870409,
+        "rouge-2": 0.0,
+        "meteor": 6.17283950617284,
+        "sbert_similarity": 39.68852460384369,
+        "simcse_similarity": 30.2728533744812
+      }
+    },
+    {
+      "object_id": "dc797a35886940e19cc79edeb69ec933",
+      "ground_truth": "A black cap with a camouflage flat part and a white front logo.\nA cartoon black and green hat",
+      "model_output": "this is a 3d model of a cartoonish, black baseball cap.",
+      "scores": {
+        "bleu-1": 13.178865850631603,
+        "bleu-2": 2.5235606829757984,
+        "bleu-3": 1.5596956738531293,
+        "bleu-4": 1.1988048353388248,
+        "rouge-l": 15.999999520000014,
+        "rouge-1": 23.999999520000006,
+        "rouge-2": 0.0,
+        "meteor": 8.241758241758241,
+        "sbert_similarity": 63.678932189941406,
+        "simcse_similarity": 69.11735534667969
+      }
+    },
+    {
+      "object_id": "fa221f081f3844b5b013d5c1d863d572",
+      "ground_truth": "A 3d girrafee diagram with white colour and in all directions",
+      "model_output": "this is a 3d model of a cartoon-style giraffe.",
+      "scores": {
+        "bleu-1": 8.897082254631197,
+        "bleu-2": 2.984172108414368,
+        "bleu-3": 2.2474396477098004,
+        "bleu-4": 1.9201920550239777,
+        "rouge-l": 10.52631530193908,
+        "rouge-1": 10.52631530193908,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 45.88974416255951,
+        "simcse_similarity": 43.37092339992523
+      }
+    },
+    {
+      "object_id": "47f6f6f2e43a4c21896bd6e1c8ddda8f",
+      "ground_truth": "A cartoon silver mouse",
+      "model_output": "this is a 3d model of a white cat.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 32.84072279930115,
+        "simcse_similarity": 44.31644082069397
+      }
+    },
+    {
+      "object_id": "5c08f723bfc94a98b7d7918e3e4ff1dc",
+      "ground_truth": "Images of an all dark car.wheels are also dark and the windows tinted",
+      "model_output": "this is a 3d model of a black car.",
+      "scores": {
+        "bleu-1": 7.124226538110606,
+        "bleu-2": 2.3895382239484966,
+        "bleu-3": 1.7996089867194118,
+        "bleu-4": 1.5375695992413887,
+        "rouge-l": 19.04761857596373,
+        "rouge-1": 19.04761857596373,
+        "rouge-2": 0.0,
+        "meteor": 7.936507936507938,
+        "sbert_similarity": 59.430307149887085,
+        "simcse_similarity": 54.94350790977478
+      }
+    },
+    {
+      "object_id": "3ae619d071214c058d49364b972782f5",
+      "ground_truth": "A flat grey object with a key hole gap in the top and having two flat regions in the back.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship.",
+      "scores": {
+        "bleu-1": 3.273053647890081,
+        "bleu-2": 1.0978155676028822,
+        "bleu-3": 0.8267868416660243,
+        "bleu-4": 0.7063991801440642,
+        "rouge-l": 7.999999564800023,
+        "rouge-1": 7.999999564800023,
+        "rouge-2": 0.0,
+        "meteor": 5.291005291005291,
+        "sbert_similarity": 39.27348852157593,
+        "simcse_similarity": 23.474709689617157
+      }
+    },
+    {
+      "object_id": "5e04c38c79dd4b85a88fe997b70abc8d",
+      "ground_truth": "A cartoon blue look like a pokemon in 3d",
+      "model_output": "this is a 3d model of a cartoon-style dragon with a vibrant blue body and a contrasting black tail.",
+      "scores": {
+        "bleu-1": 15.789473684210522,
+        "bleu-2": 2.961744388795461,
+        "bleu-3": 1.7995886897626243,
+        "bleu-4": 1.340082578177889,
+        "rouge-l": 15.999999539200013,
+        "rouge-1": 23.999999539200008,
+        "rouge-2": 0.0,
+        "meteor": 20.0,
+        "sbert_similarity": 61.90732717514038,
+        "simcse_similarity": 75.2289354801178
+      }
+    },
+    {
+      "object_id": "f12f0dd7968d4f14ac7c3d0562a5d394",
+      "ground_truth": "A cartoon usb white in 3d",
+      "model_output": "this is a 3d model of a cartoon-style, white-colored pen.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 13.33333285333335,
+        "rouge-1": 13.33333285333335,
+        "rouge-2": 0.0,
+        "meteor": 15.625,
+        "sbert_similarity": 60.04093885421753,
+        "simcse_similarity": 74.39107298851013
+      }
+    },
+    {
+      "object_id": "12c80f148c6840ad92433948566ef5a4",
+      "ground_truth": "3d version of a blue robot",
+      "model_output": "this is a 3d model of a cartoon-style car.",
+      "scores": {
+        "bleu-1": 33.33333333333333,
+        "bleu-2": 20.412414523193153,
+        "bleu-3": 8.622792534209154,
+        "bleu-4": 5.61222232430573,
+        "rouge-l": 42.85714236734694,
+        "rouge-1": 42.85714236734694,
+        "rouge-2": 15.38461491124262,
+        "meteor": 40.564373897707235,
+        "sbert_similarity": 45.93469798564911,
+        "simcse_similarity": 55.29202222824097
+      }
+    },
+    {
+      "object_id": "b156e91504374c77ac354a3dbe803876",
+      "ground_truth": "A cartoon yellow look like a banana with arms",
+      "model_output": "this is a 3d model of a cartoon-style bird with a vibrant yellow color.",
+      "scores": {
+        "bleu-1": 21.428571428571423,
+        "bleu-2": 4.059989714705751,
+        "bleu-3": 2.4859743585800658,
+        "bleu-4": 1.8798317647335088,
+        "rouge-l": 19.047618557823142,
+        "rouge-1": 28.57142808163266,
+        "rouge-2": 0.0,
+        "meteor": 21.052631578947366,
+        "sbert_similarity": 55.11115789413452,
+        "simcse_similarity": 61.39838099479675
+      }
+    },
+    {
+      "object_id": "252c69eec4ff4fdcaeaee1b709d42012",
+      "ground_truth": "A yellow and white fish with black stripes and fins",
+      "model_output": "this is a 3d model of a cartoon-style fish with a vibrant orange color.",
+      "scores": {
+        "bleu-1": 14.285714285714285,
+        "bleu-2": 10.482848367219184,
+        "bleu-3": 4.649288856043541,
+        "bleu-4": 3.020620525243555,
+        "rouge-l": 19.047618557823142,
+        "rouge-1": 19.047618557823142,
+        "rouge-2": 9.090908607438044,
+        "meteor": 24.57264957264957,
+        "sbert_similarity": 48.5319584608078,
+        "simcse_similarity": 52.04460620880127
+      }
+    },
+    {
+      "object_id": "92a1f1eb6a6843e4b60044725cfae8b6",
+      "ground_truth": "A clay made purple hippotomus",
+      "model_output": "this is a 3d model of a cartoon-style pig.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 42.20050871372223,
+        "simcse_similarity": 48.519301414489746
+      }
+    },
+    {
+      "object_id": "346548d0577b44ff9817e2007048f859",
+      "ground_truth": "A gold coloured bird",
+      "model_output": "this is a 3d model of a golden dragon.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 41.66666666666667,
+        "sbert_similarity": 40.94902575016022,
+        "simcse_similarity": 33.08298587799072
+      }
+    },
+    {
+      "object_id": "5691d345d5394df886f7c6c5b7441a5f",
+      "ground_truth": "A cartoon different tools",
+      "model_output": "this is a 3d model of a cartoon-style castle.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 41.09850227832794,
+        "simcse_similarity": 43.18000376224518
+      }
+    },
+    {
+      "object_id": "3a528f050d1443dc8b5423253627d349",
+      "ground_truth": "Grey coloured circular disc panel space ship with antenna.",
+      "model_output": "this is a 3d model of a cartoon-style spaceship.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 61.168015003204346,
+        "simcse_similarity": 52.86862254142761
+      }
+    },
+    {
+      "object_id": "ae0d06982560423a8dab1590ffc4de4f",
+      "ground_truth": "A cartoon colorful look like a woman in 3d",
+      "model_output": "this is a 3d model of a cartoon-style doll dressed in a vibrant purple dress.",
+      "scores": {
+        "bleu-1": 20.0,
+        "bleu-2": 3.7796447300922726,
+        "bleu-3": 2.3094913529823704,
+        "bleu-4": 1.7395797375642235,
+        "rouge-l": 18.18181769834712,
+        "rouge-1": 27.272726789256208,
+        "rouge-2": 0.0,
+        "meteor": 20.833333333333332,
+        "sbert_similarity": 61.657023429870605,
+        "simcse_similarity": 69.58659887313843
+      }
+    },
+    {
+      "object_id": "118d0fa6d01947b7823878769834bfd8",
+      "ground_truth": "A cartoon wheel of boat",
+      "model_output": "this is a 3d model of a traditional, ornate, and intricately designed clock. the clock has a brown finish and is mounted on a wooden base. it features a circular dial with roman numerals and a minute hand.",
+      "scores": {
+        "bleu-1": 2.6315789473684212,
+        "bleu-2": 0.8433490104000938,
+        "bleu-3": 0.6131758177229627,
+        "bleu-4": 0.48742862874501,
+        "rouge-l": 5.8823526903114285,
+        "rouge-1": 5.8823526903114285,
+        "rouge-2": 0.0,
+        "meteor": 12.048192771084338,
+        "sbert_similarity": 29.94379699230194,
+        "simcse_similarity": 43.05769205093384
+      }
+    },
+    {
+      "object_id": "b103a1ec9bb549848d884a003f96b3fe",
+      "ground_truth": "Grey coloured toy push button telephone.",
+      "model_output": "this is a 3d model of a cartoon-style, white-colored toy car.",
+      "scores": {
+        "bleu-1": 9.09090909090909,
+        "bleu-2": 3.015113445777637,
+        "bleu-3": 2.2461584318318093,
+        "bleu-4": 1.8850319022747353,
+        "rouge-l": 12.499999531250019,
+        "rouge-1": 12.499999531250019,
+        "rouge-2": 0.0,
+        "meteor": 7.6923076923076925,
+        "sbert_similarity": 43.83777976036072,
+        "simcse_similarity": 41.04446768760681
+      }
+    },
+    {
+      "object_id": "19a2ee7b29914c90bfc5e008aa6fded5",
+      "ground_truth": "Maroon and black saloon car",
+      "model_output": "this is a 3d model of a red car with black windows.",
+      "scores": {
+        "bleu-1": 16.666666666666668,
+        "bleu-2": 3.892494720807617,
+        "bleu-3": 2.567736776099698,
+        "bleu-4": 2.0255986027125643,
+        "rouge-l": 12.499999570312518,
+        "rouge-1": 24.999999570312507,
+        "rouge-2": 0.0,
+        "meteor": 17.543859649122805,
+        "sbert_similarity": 50.079065561294556,
+        "simcse_similarity": 49.533212184906006
+      }
+    },
+    {
+      "object_id": "ff0bbee222f546c899b029c4b64f7bea",
+      "ground_truth": "A man in a red diving costume swimming.",
+      "model_output": "this is a 3d model of a red and white striped toy horse.",
+      "scores": {
+        "bleu-1": 15.384615384615385,
+        "bleu-2": 11.322770341445958,
+        "bleu-3": 5.034417113155098,
+        "bleu-4": 3.285702044797773,
+        "rouge-l": 19.99999952000001,
+        "rouge-1": 19.99999952000001,
+        "rouge-2": 10.526315324099745,
+        "meteor": 30.065359477124183,
+        "sbert_similarity": 12.730616331100464,
+        "simcse_similarity": 4.562724754214287
+      }
+    },
+    {
+      "object_id": "51be235eb692425ebb7aaaeb056fd3b7",
+      "ground_truth": "A cartoon purple rectangle figure with circles",
+      "model_output": "this is a 3d model of a cartoon-style house with a vibrant purple color.",
+      "scores": {
+        "bleu-1": 14.285714285714285,
+        "bleu-2": 3.31496772065898,
+        "bleu-3": 2.174635779966523,
+        "bleu-4": 1.6986197490626302,
+        "rouge-l": 10.526315324099745,
+        "rouge-1": 21.05263111357342,
+        "rouge-2": 0.0,
+        "meteor": 19.480519480519483,
+        "sbert_similarity": 51.87618136405945,
+        "simcse_similarity": 56.658703088760376
+      }
+    },
+    {
+      "object_id": "83cb2a9e9afb47cd9f45461613796645",
+      "ground_truth": "Two yellow shoes with white tied laces.",
+      "model_output": "this is a 3d model of a pair of yellow and white sneakers.",
+      "scores": {
+        "bleu-1": 15.384615384615385,
+        "bleu-2": 3.580574370197164,
+        "bleu-3": 2.3547737997202884,
+        "bleu-4": 1.8476860420522199,
+        "rouge-l": 22.22222174691359,
+        "rouge-1": 22.22222174691359,
+        "rouge-2": 0.0,
+        "meteor": 13.157894736842108,
+        "sbert_similarity": 54.29585576057434,
+        "simcse_similarity": 54.94605302810669
+      }
+    },
+    {
+      "object_id": "494854c6ffd540339a1bc6bd91c0349b",
+      "ground_truth": "A cartoon purple figure of a several box",
+      "model_output": "this is a 3d model of a cartoon-style, purple cube.",
+      "scores": {
+        "bleu-1": 30.0,
+        "bleu-2": 18.257418583505533,
+        "bleu-3": 7.6653200071956045,
+        "bleu-4": 4.939382737115372,
+        "rouge-l": 23.529411266435996,
+        "rouge-1": 35.294117148788935,
+        "rouge-2": 12.499999507812518,
+        "meteor": 38.49085365853659,
+        "sbert_similarity": 62.37322688102722,
+        "simcse_similarity": 61.20862364768982
+      }
+    },
+    {
+      "object_id": "c016a85431eb4ded9b6dbdc409345c2c",
+      "ground_truth": "A white u shaped bar with grey base.",
+      "model_output": "this is a 3d model of a cartoon-style arch.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.17283950617284,
+        "sbert_similarity": 38.46960663795471,
+        "simcse_similarity": 22.424688935279846
+      }
+    },
+    {
+      "object_id": "e85ebb729b02402bbe3b917e1196f8d3",
+      "ground_truth": "A cartoon black monster like a dragon",
+      "model_output": "this is a 3d model of a cartoon-style dragon.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 26.6666661688889,
+        "rouge-1": 26.6666661688889,
+        "rouge-2": 0.0,
+        "meteor": 13.88888888888889,
+        "sbert_similarity": 63.007646799087524,
+        "simcse_similarity": 59.454357624053955
+      }
+    },
+    {
+      "object_id": "c8ea472ef90f4df4ad1d98e02e1e4dfe",
+      "ground_truth": "A cartoon look like a bomb with legs",
+      "model_output": "this is a 3d model of a cartoon-style, black and white cat with a blue ball on its head.",
+      "scores": {
+        "bleu-1": 10.526315789473681,
+        "bleu-2": 2.4182541670333726,
+        "bleu-3": 1.5742117131956883,
+        "bleu-4": 1.210901302644187,
+        "rouge-l": 15.99999956480001,
+        "rouge-1": 15.99999956480001,
+        "rouge-2": 0.0,
+        "meteor": 16.483516483516485,
+        "sbert_similarity": 42.82425045967102,
+        "simcse_similarity": 42.44314730167389
+      }
+    },
+    {
+      "object_id": "4df0c79458844dc2a7ee80367e7426c1",
+      "ground_truth": "A cartoon green figure of a man work",
+      "model_output": "this is a 3d model of a cartoon character, a girl, wearing a purple dress and a green hat.",
+      "scores": {
+        "bleu-1": 21.052631578947366,
+        "bleu-2": 10.814761408717501,
+        "bleu-3": 4.230610452681119,
+        "bleu-4": 2.560744480557418,
+        "rouge-l": 17.391303894139902,
+        "rouge-1": 34.78260824196598,
+        "rouge-2": 7.999999596800021,
+        "meteor": 27.472527472527474,
+        "sbert_similarity": 42.831236124038696,
+        "simcse_similarity": 40.54327309131622
+      }
+    },
+    {
+      "object_id": "84f0854871d246d0b9d1c9c4c85926de",
+      "ground_truth": "Black colour panels made toy camera model.",
+      "model_output": "this is a 3d model of a cartoon-style house with a distinct red roof.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 10.526315324099745,
+        "rouge-1": 10.526315324099745,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 41.88072383403778,
+        "simcse_similarity": 39.75721001625061
+      }
+    },
+    {
+      "object_id": "0e708d1e0ce0447ba5637a5320f5729c",
+      "ground_truth": "3d figure of an octo expansion octopus from splatoon 2 in fuccia color with its two large tentacles and large gray eyes.",
+      "model_output": "this is a 3d model of a cartoon-style, red-colored frog.",
+      "scores": {
+        "bleu-1": 6.02388423824404,
+        "bleu-2": 1.4198431313150404,
+        "bleu-3": 0.9446410114111051,
+        "bleu-4": 0.7559559445663099,
+        "rouge-l": 13.333332913333345,
+        "rouge-1": 13.333332913333345,
+        "rouge-2": 0.0,
+        "meteor": 4.807692307692308,
+        "sbert_similarity": 49.86470341682434,
+        "simcse_similarity": 64.16060328483582
+      }
+    },
+    {
+      "object_id": "844518dcccf44c86ad1ead660ab103fb",
+      "ground_truth": "A cartoon figure of a white man fat",
+      "model_output": "this is a 3d model of a cartoon character.",
+      "scores": {
+        "bleu-1": 33.33333333333333,
+        "bleu-2": 20.412414523193153,
+        "bleu-3": 8.622792534209154,
+        "bleu-4": 5.61222232430573,
+        "rouge-l": 24.99999950000001,
+        "rouge-1": 37.4999995,
+        "rouge-2": 13.333332835555575,
+        "meteor": 38.96604938271605,
+        "sbert_similarity": 49.51956868171692,
+        "simcse_similarity": 51.17688775062561
+      }
+    },
+    {
+      "object_id": "8c83e6584b90436882a68c690a324a4b",
+      "ground_truth": "A cartoon white and red look like a boat",
+      "model_output": "this is a 3d model of a toy boat.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 23.529411266435996,
+        "rouge-1": 23.529411266435996,
+        "rouge-2": 0.0,
+        "meteor": 11.11111111111111,
+        "sbert_similarity": 58.19283127784729,
+        "simcse_similarity": 55.38984537124634
+      }
+    },
+    {
+      "object_id": "ab02bde2768849e89dbb4ef3312c85ff",
+      "ground_truth": "A cartoon white a beautiful tree in 3d",
+      "model_output": "this is a 3d model of a cartoon-style, white, spherical object.",
+      "scores": {
+        "bleu-1": 18.181818181818183,
+        "bleu-2": 4.26401432711221,
+        "bleu-3": 2.8234511901075607,
+        "bleu-4": 2.24169335019223,
+        "rouge-l": 22.222221728395073,
+        "rouge-1": 22.222221728395073,
+        "rouge-2": 0.0,
+        "meteor": 18.072289156626503,
+        "sbert_similarity": 52.7076780796051,
+        "simcse_similarity": 57.01877474784851
+      }
+    },
+    {
+      "object_id": "8257772b0e2f408ba269264855dfea00",
+      "ground_truth": "A brown hard cover book with white pages.",
+      "model_output": "this is a 3d model of a book with a brown cover and a white interior.",
+      "scores": {
+        "bleu-1": 31.25,
+        "bleu-2": 14.433756729740645,
+        "bleu-3": 5.457178254306466,
+        "bleu-4": 3.2709344708772172,
+        "rouge-l": 28.571428099773243,
+        "rouge-1": 47.6190471473923,
+        "rouge-2": 9.090908657024814,
+        "meteor": 48.45328282828284,
+        "sbert_similarity": 67.15465784072876,
+        "simcse_similarity": 62.94942498207092
+      }
+    },
+    {
+      "object_id": "7ee9a0f997ed42dfa01a8a8bfd87c6ac",
+      "ground_truth": "A cartoon rare figure look like a box blue with legs red",
+      "model_output": "this is a 3d model of a cartoon-style robot with a vibrant blue color.",
+      "scores": {
+        "bleu-1": 21.428571428571423,
+        "bleu-2": 4.059989714705751,
+        "bleu-3": 2.4859743585800658,
+        "bleu-4": 1.8798317647335088,
+        "rouge-l": 16.666666166666683,
+        "rouge-1": 24.99999950000001,
+        "rouge-2": 0.0,
+        "meteor": 16.393442622950822,
+        "sbert_similarity": 61.52822971343994,
+        "simcse_similarity": 59.43878889083862
+      }
+    },
+    {
+      "object_id": "99d626e0967d418096b6b5546f144e01",
+      "ground_truth": "A blue toy with yellow vertical cardboard on the head and wearing a black coat.",
+      "model_output": "this is a 3d model of a cartoon-style dog with a vibrant blue color.",
+      "scores": {
+        "bleu-1": 19.951345279371914,
+        "bleu-2": 3.7801053093436794,
+        "bleu-3": 2.314598196572481,
+        "bleu-4": 1.7502413882486993,
+        "rouge-l": 14.81481432098767,
+        "rouge-1": 22.222221728395073,
+        "rouge-2": 0.0,
+        "meteor": 13.422818791946309,
+        "sbert_similarity": 61.70074939727783,
+        "simcse_similarity": 57.785630226135254
+      }
+    },
+    {
+      "object_id": "d501614def4d4d1d8dc9e7c3795467c9",
+      "ground_truth": "A cartoon black figure with open arms",
+      "model_output": "this is a 3d model of a cartoon-style, black-colored robot.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.8493150684931505,
+        "sbert_similarity": 59.34499502182007,
+        "simcse_similarity": 43.76472234725952
+      }
+    },
+    {
+      "object_id": "6d9f07e743444513a1a564e309b455af",
+      "ground_truth": "A cartoon black look like a rimel",
+      "model_output": "this is a 3d model of a black, cylindrical object with a red stripe running down its length.",
+      "scores": {
+        "bleu-1": 5.555555555555554,
+        "bleu-2": 1.8077538151554673,
+        "bleu-3": 1.3254163846385745,
+        "bleu-4": 1.0802314890908065,
+        "rouge-l": 8.69565175047261,
+        "rouge-1": 8.69565175047261,
+        "rouge-2": 0.0,
+        "meteor": 12.34567901234568,
+        "sbert_similarity": 45.61622142791748,
+        "simcse_similarity": 54.92023825645447
+      }
+    },
+    {
+      "object_id": "b8ebc803ac0d4157986c718328a00205",
+      "ground_truth": "A white cartoon scorpion with eight legs.",
+      "model_output": "this is a 3d model of a cartoon-style octopus.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 46.815454959869385,
+        "simcse_similarity": 53.832435607910156
+      }
+    },
+    {
+      "object_id": "d79a32a512c64c5e93dc856864789a7e",
+      "ground_truth": "A animated man that has popcin face and he has big hands and big shoes",
+      "model_output": "this is a 3d model of a cartoon character, a girl, wearing a vibrant green dress. she is standing on two legs, one foot on each side of a rectangular base. the model is colored in a bright green hue, which is a common color for cartoon characters. the girl is depicted as having long, flowing hair, which adds to her cartoonish appearance.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.05050505050505,
+        "sbert_similarity": 49.78687763214111,
+        "simcse_similarity": 31.31396472454071
+      }
+    },
+    {
+      "object_id": "98630065b01e40f38714e8b0d39c8ef9",
+      "ground_truth": "Bronze age axe mould",
+      "model_output": "this is a 3d model of a woman's dress. the dress is predominantly white with a brown stripe running down the side. the model is designed to be realistic, with detailed features like the neckline, sleeves, and hem.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.756756756756757,
+        "sbert_similarity": 11.776253581047058,
+        "simcse_similarity": 22.93892353773117
+      }
+    },
+    {
+      "object_id": "526b18079304425fa7c694b6fce38db8",
+      "ground_truth": "A cartoon doll in a black gas mask and in an orange hoodie and trousers.",
+      "model_output": "this is a 3d model of a cartoon character, specifically a boy, wearing a red shirt and black pants.",
+      "scores": {
+        "bleu-1": 21.052631578947366,
+        "bleu-2": 3.4199278402838478,
+        "bleu-3": 1.9788051778159006,
+        "bleu-4": 1.4400124446705302,
+        "rouge-l": 20.689654677764576,
+        "rouge-1": 27.5862064019025,
+        "rouge-2": 0.0,
+        "meteor": 16.233766233766236,
+        "sbert_similarity": 52.41883397102356,
+        "simcse_similarity": 60.582488775253296
+      }
+    },
+    {
+      "object_id": "4813a6e6bea446f7a59597456c9a7e83",
+      "ground_truth": "A yellow spherical ball with a circular yellow holding ring.",
+      "model_output": "this is a 3d model of a cartoon-style, yellow apple.",
+      "scores": {
+        "bleu-1": 20.0,
+        "bleu-2": 4.714045207910317,
+        "bleu-3": 3.136318607896979,
+        "bleu-4": 2.5098621243978974,
+        "rouge-l": 22.222221722222233,
+        "rouge-1": 22.222221722222233,
+        "rouge-2": 0.0,
+        "meteor": 15.0,
+        "sbert_similarity": 36.74103915691376,
+        "simcse_similarity": 34.89013314247131
+      }
+    },
+    {
+      "object_id": "ffa6a425ecb04b229542a66d8df21e90",
+      "ground_truth": "Red spiral",
+      "model_output": "this is a 3d model of a cartoon-style, pink heart.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 23.71819317340851,
+        "simcse_similarity": 15.477731823921204
+      }
+    },
+    {
+      "object_id": "6aba73fade25443c910a1cb9c54032db",
+      "ground_truth": "A cartoon figure circle look like a shield",
+      "model_output": "this is a 3d model of a cartoon-style shield. it's predominantly white with a brown circular disc in the center.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 1.6222142113076252,
+        "bleu-3": 1.186947435439869,
+        "bleu-4": 0.9629943614188134,
+        "rouge-l": 15.384614958579892,
+        "rouge-1": 15.384614958579892,
+        "rouge-2": 0.0,
+        "meteor": 10.869565217391305,
+        "sbert_similarity": 70.24250030517578,
+        "simcse_similarity": 73.18095564842224
+      }
+    },
+    {
+      "object_id": "c9c36e9cfdc64f22b7199940af434092",
+      "ground_truth": "A cartoon white figure look like a rare figure in 3d",
+      "model_output": "this is a 3d model of a cartoonish, stylized rock. it's predominantly white with a black stripe running down the middle.",
+      "scores": {
+        "bleu-1": 14.285714285714285,
+        "bleu-2": 2.672612419124244,
+        "bleu-3": 1.6210225632977324,
+        "bleu-4": 1.2021577610863727,
+        "rouge-l": 20.689654720570758,
+        "rouge-1": 20.689654720570758,
+        "rouge-2": 0.0,
+        "meteor": 16.666666666666668,
+        "sbert_similarity": 61.143577098846436,
+        "simcse_similarity": 67.53033995628357
+      }
+    },
+    {
+      "object_id": "ac880a2f5402467dad230ce23655a929",
+      "ground_truth": "White petal shape folding iron ing table model with folding grey leg on back side.",
+      "model_output": "this is a 3d model of a cartoon-style piano.",
+      "scores": {
+        "bleu-1": 5.704634655917689,
+        "bleu-2": 1.9133926316149612,
+        "bleu-3": 1.4410142262914503,
+        "bleu-4": 1.2311894877003868,
+        "rouge-l": 9.090908628099196,
+        "rouge-1": 9.090908628099196,
+        "rouge-2": 0.0,
+        "meteor": 3.4722222222222223,
+        "sbert_similarity": 45.31143307685852,
+        "simcse_similarity": 28.94185483455658
+      }
+    },
+    {
+      "object_id": "5151b9ce52a84656bd7c0fac96f5a743",
+      "ground_truth": "Three d model of grey walled home with brown wooden panel balcony and flower light grey floored drawing area placed with white coloured three seater and single seater sofa and centre brown coffee table. set of wooden cabinets in study room, bed room and store and grey flooring on rest of floor. with white relaxing chairs in balcony",
+      "model_output": "this is a 3d model of a residential building.",
+      "scores": {
+        "bleu-1": 0.0960053216465348,
+        "bleu-2": 0.07200399123490112,
+        "bleu-3": 0.03258709466939867,
+        "bleu-4": 0.021908864680307765,
+        "rouge-l": 7.999999731200008,
+        "rouge-1": 7.999999731200008,
+        "rouge-2": 3.1249997812500157,
+        "meteor": 1.8832391713747645,
+        "sbert_similarity": 66.29791259765625,
+        "simcse_similarity": 56.050312519073486
+      }
+    },
+    {
+      "object_id": "df3dd33df99e4f79a73e1cd00aaa12e7",
+      "ground_truth": "A white human cartoon had with a virtual reality headset with red writing on it.",
+      "model_output": "this is a 3d model of a cartoon-style helmet.",
+      "scores": {
+        "bleu-1": 5.704634655917689,
+        "bleu-2": 1.9133926316149612,
+        "bleu-3": 1.4410142262914503,
+        "bleu-4": 1.2311894877003868,
+        "rouge-l": 9.090908628099196,
+        "rouge-1": 9.090908628099196,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 49.49938952922821,
+        "simcse_similarity": 62.76572942733765
+      }
+    },
+    {
+      "object_id": "f33e91fbbc424d07ad0ca4972ed2b4c6",
+      "ground_truth": "A cartoon black rectangle look like a box of tools",
+      "model_output": "this is a 3d model of a cartoon-style, black and white radio.",
+      "scores": {
+        "bleu-1": 25.0,
+        "bleu-2": 4.767312946227962,
+        "bleu-3": 2.935354896563489,
+        "bleu-4": 2.24169335019223,
+        "rouge-l": 19.04761854875285,
+        "rouge-1": 28.57142807256236,
+        "rouge-2": 0.0,
+        "meteor": 19.607843137254903,
+        "sbert_similarity": 45.69765031337738,
+        "simcse_similarity": 31.283816695213318
+      }
+    },
+    {
+      "object_id": "91440f33337a4b51929806dc5a5b9d1d",
+      "ground_truth": "A animated instruments for physical disabled people that has in white colour it is helping such people to walk",
+      "model_output": "this is a 3d model of a cartoon-style chair.",
+      "scores": {
+        "bleu-1": 3.6576998645322836,
+        "bleu-2": 1.2268298307578938,
+        "bleu-3": 0.9239500613466425,
+        "bleu-4": 0.7894145539546107,
+        "rouge-l": 7.692307266272212,
+        "rouge-1": 7.692307266272212,
+        "rouge-2": 0.0,
+        "meteor": 5.555555555555555,
+        "sbert_similarity": 36.45074665546417,
+        "simcse_similarity": 35.70330739021301
+      }
+    },
+    {
+      "object_id": "b58f1f0d4f0c4e02b6398b13826397d3",
+      "ground_truth": "A gold ring with red extension",
+      "model_output": "this is a 3d model of a gold ring with a red stone in the center.",
+      "scores": {
+        "bleu-1": 25.0,
+        "bleu-2": 18.25741858350554,
+        "bleu-3": 13.624724651304662,
+        "bleu-4": 6.541868941754436,
+        "rouge-l": 39.99999958,
+        "rouge-1": 39.99999958,
+        "rouge-2": 19.999999625000004,
+        "meteor": 63.71428571428572,
+        "sbert_similarity": 62.469661235809326,
+        "simcse_similarity": 66.02397561073303
+      }
+    },
+    {
+      "object_id": "c4dc6b82f917442aaa4000cdb62232c8",
+      "ground_truth": "A multicolored carving",
+      "model_output": "this is a 3d model of a cartoon-style tree.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 13.888888888888893,
+        "sbert_similarity": 34.18737053871155,
+        "simcse_similarity": 45.07010579109192
+      }
+    },
+    {
+      "object_id": "ff4cd9547f5543c2b85b3a021c5bea0f",
+      "ground_truth": "Protein structure",
+      "model_output": "this is a 3d model of a cartoon-style molecule.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 46.12349569797516,
+        "simcse_similarity": 54.05200719833374
+      }
+    },
+    {
+      "object_id": "82caf23bb2ac4a46811d9dde1b8cc25e",
+      "ground_truth": "Yellow star with white eyes",
+      "model_output": "this is a 3d model of a cartoon-style bird with a vibrant yellow color.",
+      "scores": {
+        "bleu-1": 7.1428571428571415,
+        "bleu-2": 2.344036154692477,
+        "bleu-3": 1.7300021018422027,
+        "bleu-4": 1.4283632578659289,
+        "rouge-l": 11.764705467128042,
+        "rouge-1": 11.764705467128042,
+        "rouge-2": 0.0,
+        "meteor": 16.949152542372882,
+        "sbert_similarity": 37.534767389297485,
+        "simcse_similarity": 36.95632219314575
+      }
+    },
+    {
+      "object_id": "0b1ded6f5a8a4e1fbf835e59e5d49359",
+      "ground_truth": "A red copper like wire with tied top and curved center.",
+      "model_output": "this is a 3d model of a cartoon-style, red-colored, and curved line.",
+      "scores": {
+        "bleu-1": 16.666666666666668,
+        "bleu-2": 12.309149097933275,
+        "bleu-3": 5.489723883121835,
+        "bleu-4": 3.602080288207364,
+        "rouge-l": 18.181817681818195,
+        "rouge-1": 18.181817681818195,
+        "rouge-2": 9.523809024943338,
+        "meteor": 23.023023023023022,
+        "sbert_similarity": 46.92860245704651,
+        "simcse_similarity": 38.80995213985443
+      }
+    },
+    {
+      "object_id": "19e2303fdbae4b979f46797b1c6bea45",
+      "ground_truth": "White coloured blue masked superman character three d model with black and yellow head and yellow belt",
+      "model_output": "this is a 3d model of a cartoon-style character, a blue-haired girl, standing on her tiptoes.",
+      "scores": {
+        "bleu-1": 5.871331642584224,
+        "bleu-2": 1.917568884665115,
+        "bleu-3": 1.4098231361053557,
+        "bleu-4": 1.1555425380953475,
+        "rouge-l": 6.896551224732497,
+        "rouge-1": 6.896551224732497,
+        "rouge-2": 0.0,
+        "meteor": 2.9585798816568047,
+        "sbert_similarity": 43.579548597335815,
+        "simcse_similarity": 41.90593361854553
+      }
+    },
+    {
+      "object_id": "3061e9a9236d4b98b74c95ff189d28a0",
+      "ground_truth": "Three story building in a beige color floor.",
+      "model_output": "this is a 3d model of a staircase with a brown base and a grey top.",
+      "scores": {
+        "bleu-1": 6.25,
+        "bleu-2": 2.0412414523193148,
+        "bleu-3": 1.5007489164383503,
+        "bleu-4": 1.230068628846377,
+        "rouge-l": 9.52380905215422,
+        "rouge-1": 9.52380905215422,
+        "rouge-2": 0.0,
+        "meteor": 5.681818181818182,
+        "sbert_similarity": 37.3852401971817,
+        "simcse_similarity": 51.18840932846069
+      }
+    },
+    {
+      "object_id": "8d79676617024cd69197dab1b353e163",
+      "ground_truth": "Sword with a dark blade and a dark handle\nA black sword",
+      "model_output": "this is a 3d model of a cartoon-style sword.",
+      "scores": {
+        "bleu-1": 15.922918012750872,
+        "bleu-2": 3.7764515937311076,
+        "bleu-3": 2.5279762776508004,
+        "bleu-4": 2.0433709973083953,
+        "rouge-l": 22.222221728395073,
+        "rouge-1": 22.222221728395073,
+        "rouge-2": 0.0,
+        "meteor": 8.547008547008547,
+        "sbert_similarity": 50.96116065979004,
+        "simcse_similarity": 46.553078293800354
+      }
+    },
+    {
+      "object_id": "7103b9e0a43744a69d1658ae120ba7d7",
+      "ground_truth": "Image of a mat",
+      "model_output": "this is a 3d model of a white square.",
+      "scores": {
+        "bleu-1": 22.22222222222222,
+        "bleu-2": 16.666666666666668,
+        "bleu-3": 7.542890820012247,
+        "bleu-4": 5.071215336946558,
+        "rouge-l": 33.3333328888889,
+        "rouge-1": 33.3333328888889,
+        "rouge-2": 18.181817785123975,
+        "meteor": 41.66666666666667,
+        "sbert_similarity": 43.268486857414246,
+        "simcse_similarity": 32.11053013801575
+      }
+    },
+    {
+      "object_id": "d109af142eb84b45bc2c4c97f1b93354",
+      "ground_truth": "A white bag with blue straps",
+      "model_output": "this is a 3d model of a cartoon-style, white backpack.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 13.33333285333335,
+        "rouge-1": 13.33333285333335,
+        "rouge-2": 0.0,
+        "meteor": 15.625,
+        "sbert_similarity": 50.971823930740356,
+        "simcse_similarity": 44.46740448474884
+      }
+    },
+    {
+      "object_id": "5fe793315b0a4b7882cbb67cf1ef6703",
+      "ground_truth": "A animated white colour dog that has hais",
+      "model_output": "this is a 3d model of a cartoon character, specifically a female, in a vibrant shade of pink. the character is depicted as a humanoid figure with exaggerated features, such as large eyes and a large head. the model is in a playful, cartoonish style, which is typical of children's content. it could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 3.676470588235295,
+        "sbert_similarity": 37.94583082199097,
+        "simcse_similarity": 39.03417885303497
+      }
+    },
+    {
+      "object_id": "69865c89fc7344be8ed5c1a54dbddc20",
+      "ground_truth": "A storyed building",
+      "model_output": "this is a 3d model of a tall, multi-story building with a red roof.",
+      "scores": {
+        "bleu-1": 7.1428571428571415,
+        "bleu-2": 2.344036154692477,
+        "bleu-3": 1.7300021018422027,
+        "bleu-4": 1.4283632578659289,
+        "rouge-l": 13.333333013333343,
+        "rouge-1": 13.333333013333343,
+        "rouge-2": 0.0,
+        "meteor": 24.39024390243903,
+        "sbert_similarity": 61.860573291778564,
+        "simcse_similarity": 60.906338691711426
+      }
+    },
+    {
+      "object_id": "e02e1f5f7cf2419fb47a6ecc8ec63120",
+      "ground_truth": "A brown trench with curved u top.",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.944444444444445,
+        "sbert_similarity": 32.1078896522522,
+        "simcse_similarity": 5.569810792803764
+      }
+    },
+    {
+      "object_id": "8c1ff2dd65be40c283bcb178e7079487",
+      "ground_truth": "A green house building",
+      "model_output": "this is a 3d model of a house with a distinct blue roof.",
+      "scores": {
+        "bleu-1": 7.6923076923076925,
+        "bleu-2": 2.5318484177091665,
+        "bleu-3": 1.8733084686676875,
+        "bleu-4": 1.553712569276035,
+        "rouge-l": 13.333332942222235,
+        "rouge-1": 13.333332942222235,
+        "rouge-2": 0.0,
+        "meteor": 20.408163265306122,
+        "sbert_similarity": 51.21344327926636,
+        "simcse_similarity": 42.44825839996338
+      }
+    },
+    {
+      "object_id": "fb766137ad7d4767bd89acab7a8c3191",
+      "ground_truth": "Unfinished house",
+      "model_output": "this is a 3d model of a house with a purple roof.",
+      "scores": {
+        "bleu-1": 8.333333333333332,
+        "bleu-2": 2.752409412815903,
+        "bleu-3": 2.0427282860665446,
+        "bleu-4": 1.7033186037639283,
+        "rouge-l": 16.666666388888892,
+        "rouge-1": 16.666666388888892,
+        "rouge-2": 0.0,
+        "meteor": 16.666666666666668,
+        "sbert_similarity": 49.09578859806061,
+        "simcse_similarity": 44.854745268821716
+      }
+    },
+    {
+      "object_id": "7a488a80bd184b479b4d358b9473a782",
+      "ground_truth": "A circular brown board with three blue mugs on top.",
+      "model_output": "this is a 3d model of a cartoon-style table with a blue top and a brown base.",
+      "scores": {
+        "bleu-1": 17.647058823529413,
+        "bleu-2": 3.3210558207753578,
+        "bleu-3": 2.0227031939554037,
+        "bleu-4": 1.5138514598766055,
+        "rouge-l": 24.999999513888895,
+        "rouge-1": 33.33333284722222,
+        "rouge-2": 0.0,
+        "meteor": 18.69158878504673,
+        "sbert_similarity": 54.28718328475952,
+        "simcse_similarity": 43.65450739860535
+      }
+    },
+    {
+      "object_id": "69e3f3ec5cc44b14afaa85c53db09c1f",
+      "ground_truth": "A mouse",
+      "model_output": "this is a 3d model of a cartoon-style, black-colored shoe.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 17.857142857142858,
+        "sbert_similarity": 20.83434909582138,
+        "simcse_similarity": 25.395646691322327
+      }
+    },
+    {
+      "object_id": "7dd564ce814e4d22b8eeb9d4e79dbca2",
+      "ground_truth": "A dark green motherboard",
+      "model_output": "this is a 3d model of a cartoon-style keyboard.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 28.06965410709381,
+        "simcse_similarity": 35.80613136291504
+      }
+    },
+    {
+      "object_id": "8b8fd739dabf43a2a03ffc2989ec7365",
+      "ground_truth": "A plant with purple and white flowers",
+      "model_output": "this is a 3d model of a plant with a unique feature of having pink flowers.",
+      "scores": {
+        "bleu-1": 12.500000000000004,
+        "bleu-2": 9.12870929175277,
+        "bleu-3": 4.033183084278514,
+        "bleu-4": 2.6012784404037923,
+        "rouge-l": 29.999999545000005,
+        "rouge-1": 29.999999545000005,
+        "rouge-2": 9.523809115646275,
+        "meteor": 32.34880450070323,
+        "sbert_similarity": 49.37627911567688,
+        "simcse_similarity": 62.613970041275024
+      }
+    },
+    {
+      "object_id": "b745134fe5ce468fb029278e8e0d5369",
+      "ground_truth": "Stairway in a brown background",
+      "model_output": "this is a 3d model of a staircase with a brown color and a white railing.",
+      "scores": {
+        "bleu-1": 12.500000000000004,
+        "bleu-2": 9.12870929175277,
+        "bleu-3": 4.033183084278514,
+        "bleu-4": 2.6012784404037923,
+        "rouge-l": 22.22222182098766,
+        "rouge-1": 22.22222182098766,
+        "rouge-2": 10.526315457063722,
+        "meteor": 16.393442622950822,
+        "sbert_similarity": 59.51060652732849,
+        "simcse_similarity": 69.71166729927063
+      }
+    },
+    {
+      "object_id": "bd97f1a7c97345e5a86a581205b19193",
+      "ground_truth": "Woods interconnected to form a pulpit",
+      "model_output": "this is a 3d model of a house with a purple roof.",
+      "scores": {
+        "bleu-1": 8.333333333333332,
+        "bleu-2": 2.752409412815903,
+        "bleu-3": 2.0427282860665446,
+        "bleu-4": 1.7033186037639283,
+        "rouge-l": 12.499999531250019,
+        "rouge-1": 12.499999531250019,
+        "rouge-2": 0.0,
+        "meteor": 7.575757575757576,
+        "sbert_similarity": 14.33589905500412,
+        "simcse_similarity": 13.070465624332428
+      }
+    },
+    {
+      "object_id": "d628e081977243609432fc82f180d82b",
+      "ground_truth": "Black and maroon lighting chanderlier",
+      "model_output": "this is a 3d model of a cartoon-style, black and red hanging lamp.",
+      "scores": {
+        "bleu-1": 7.6923076923076925,
+        "bleu-2": 2.5318484177091665,
+        "bleu-3": 1.8733084686676875,
+        "bleu-4": 1.553712569276035,
+        "rouge-l": 11.764705467128042,
+        "rouge-1": 11.764705467128042,
+        "rouge-2": 0.0,
+        "meteor": 32.327586206896555,
+        "sbert_similarity": 43.41781139373779,
+        "simcse_similarity": 40.82797467708588
+      }
+    },
+    {
+      "object_id": "abc413b5e2d14a028dab615b49777167",
+      "ground_truth": "A black and brown colored gun.",
+      "model_output": "this is a 3d model of a cartoon-style gun.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 14.285713795918387,
+        "rouge-1": 14.285713795918387,
+        "rouge-2": 0.0,
+        "meteor": 15.873015873015875,
+        "sbert_similarity": 58.74970555305481,
+        "simcse_similarity": 51.86163783073425
+      }
+    },
+    {
+      "object_id": "e280e015ed534bec916a06b37f004af1",
+      "ground_truth": "A grey background with two slaps",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 7.936507936507938,
+        "sbert_similarity": 19.24295723438263,
+        "simcse_similarity": 9.04553085565567
+      }
+    },
+    {
+      "object_id": "ca0f888791514830a99d4c4ae057ade8",
+      "ground_truth": "A dark writing board with a yellow stand.",
+      "model_output": "this is a 3d model of a cartoon-style house with a green roof.",
+      "scores": {
+        "bleu-1": 15.384615384615385,
+        "bleu-2": 11.322770341445958,
+        "bleu-3": 5.034417113155098,
+        "bleu-4": 3.285702044797773,
+        "rouge-l": 21.052631091412756,
+        "rouge-1": 21.052631091412756,
+        "rouge-2": 10.526315324099745,
+        "meteor": 30.065359477124183,
+        "sbert_similarity": 14.801831543445587,
+        "simcse_similarity": 14.03612345457077
+      }
+    },
+    {
+      "object_id": "b5ff764eaf4847eb928a8bb627221531",
+      "ground_truth": "A orange and green cuboid",
+      "model_output": "this is a 3d model of a cartoon-style box with a vibrant yellow color.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 8.474576271186441,
+        "sbert_similarity": 49.99770522117615,
+        "simcse_similarity": 47.223079204559326
+      }
+    },
+    {
+      "object_id": "91701f32c03b49f0b30ce565ff1655c6",
+      "ground_truth": "House in 3d",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 18.181817785123975,
+        "rouge-1": 18.181817785123975,
+        "rouge-2": 0.0,
+        "meteor": 13.888888888888893,
+        "sbert_similarity": 77.16942429542542,
+        "simcse_similarity": 74.66185688972473
+      }
+    },
+    {
+      "object_id": "e69c1c6adcd94e15920380728200b931",
+      "ground_truth": "Various grey pyramids together",
+      "model_output": "this is a 3d model of a castle, featuring a central tower and several smaller towers.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 39.225733280181885,
+        "simcse_similarity": 30.784034729003906
+      }
+    },
+    {
+      "object_id": "0fe718a253bd43aca376780aad0f318b",
+      "ground_truth": "A garlic shaped white object.",
+      "model_output": "this is a 3d model of a human skull.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 27.86765694618225,
+        "simcse_similarity": 27.29285955429077
+      }
+    },
+    {
+      "object_id": "4b0d6de0185648019e51021e3a976a1b",
+      "ground_truth": "A humanoid dressing a white suit and strange mask in similar color , covering its black head",
+      "model_output": "this is a 3d model of a warrior, depicted in a white color. the warrior is wearing a helmet and a long, white robe.",
+      "scores": {
+        "bleu-1": 16.666666666666668,
+        "bleu-2": 8.512565307587488,
+        "bleu-3": 3.3177252405692115,
+        "bleu-4": 1.9900763312868126,
+        "rouge-l": 22.85714235755103,
+        "rouge-1": 28.571428071836742,
+        "rouge-2": 5.128204644312998,
+        "meteor": 14.124293785310735,
+        "sbert_similarity": 51.798081398010254,
+        "simcse_similarity": 52.844685316085815
+      }
+    },
+    {
+      "object_id": "733e3986850b43bea83523fff82e6ee3",
+      "ground_truth": "A three dimensional white on a green highland.",
+      "model_output": "this is a 3d model of a castle, featuring a distinctively designed roof. the castle is situated on a lush green landscape, adding to its aesthetic appeal. the castle is a popular choice for video games, animations, and other digital media.",
+      "scores": {
+        "bleu-1": 7.317073170731706,
+        "bleu-2": 4.276994613841508,
+        "bleu-3": 1.7438142564187118,
+        "bleu-4": 1.054040505861668,
+        "rouge-l": 14.63414602736467,
+        "rouge-1": 14.63414602736467,
+        "rouge-2": 4.545454277892578,
+        "meteor": 17.699115044247787,
+        "sbert_similarity": 43.25392246246338,
+        "simcse_similarity": 40.20386338233948
+      }
+    },
+    {
+      "object_id": "a7e1c2fedd5540c48dd10324ea5514fc",
+      "ground_truth": "Green and white balloon capped face with green eyes three d model.",
+      "model_output": "this is a 3d model of a cartoon character with a distinct green head and a white body.",
+      "scores": {
+        "bleu-1": 22.22222222222222,
+        "bleu-2": 3.6155076303109346,
+        "bleu-3": 2.0942673985701483,
+        "bleu-4": 1.5276780223747026,
+        "rouge-l": 14.81481432098767,
+        "rouge-1": 37.03703654320989,
+        "rouge-2": 0.0,
+        "meteor": 15.873015873015875,
+        "sbert_similarity": 64.51194286346436,
+        "simcse_similarity": 70.71412801742554
+      }
+    },
+    {
+      "object_id": "3a1f027057894d1a9ecfee18752b96a2",
+      "ground_truth": "Circles connected forming a c",
+      "model_output": "this is a 3d model of a cartoon-style human figure.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.333333333333335,
+        "bleu-3": 2.4950558772614846,
+        "bleu-4": 2.1105340631872647,
+        "rouge-l": 14.285713826530626,
+        "rouge-1": 14.285713826530626,
+        "rouge-2": 0.0,
+        "meteor": 9.090909090909092,
+        "sbert_similarity": 11.08890026807785,
+        "simcse_similarity": 19.807954132556915
+      }
+    },
+    {
+      "object_id": "0a203577c66c402085d7b85f4bb281f2",
+      "ground_truth": "A carton looking rod with rolls on its middle",
+      "model_output": "this is a 3d model of a cartoon-style, white, cylindrical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.434782608695651,
+        "sbert_similarity": 36.65252327919006,
+        "simcse_similarity": 45.15041708946228
+      }
+    },
+    {
+      "object_id": "7610a160fbaf41d681c7d7b9627df85d",
+      "ground_truth": "A yellow coloured brown panels made sloping roofed house model with brown windows and grey tiled front base.",
+      "model_output": "this is a 3d model of a house with a brown roof.",
+      "scores": {
+        "bleu-1": 20.21768865708778,
+        "bleu-2": 3.338841393908982,
+        "bleu-3": 1.9576865581641036,
+        "bleu-4": 1.4610451828903939,
+        "rouge-l": 22.222221755829917,
+        "rouge-1": 29.62962916323732,
+        "rouge-2": 0.0,
+        "meteor": 14.367816091954024,
+        "sbert_similarity": 70.75726985931396,
+        "simcse_similarity": 77.62268781661987
+      }
+    },
+    {
+      "object_id": "7f309e755a0c4b69b64e667977268087",
+      "ground_truth": "A white drawing",
+      "model_output": "this is a 3d model of a cartoon-style, white, spherical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 13.157894736842108,
+        "sbert_similarity": 42.22481846809387,
+        "simcse_similarity": 55.79842925071716
+      }
+    },
+    {
+      "object_id": "b2f41619cb43474383840cc6f2d2121e",
+      "ground_truth": "A cartoon green look like a very big and old church",
+      "model_output": "this is a 3d model of a church with a steeple.",
+      "scores": {
+        "bleu-1": 18.181818181818183,
+        "bleu-2": 4.26401432711221,
+        "bleu-3": 2.8234511901075607,
+        "bleu-4": 2.24169335019223,
+        "rouge-l": 19.99999950500001,
+        "rouge-1": 19.99999950500001,
+        "rouge-2": 0.0,
+        "meteor": 13.636363636363635,
+        "sbert_similarity": 56.112515926361084,
+        "simcse_similarity": 58.78586173057556
+      }
+    },
+    {
+      "object_id": "260d1fe21bd741849e885058d5df4318",
+      "ground_truth": "A grey model of a brief case",
+      "model_output": "this is a 3d model of a cartoon-style box.",
+      "scores": {
+        "bleu-1": 33.33333333333333,
+        "bleu-2": 28.867513459481287,
+        "bleu-3": 23.173297416566232,
+        "bleu-4": 11.868405219520975,
+        "rouge-l": 39.999999502222224,
+        "rouge-1": 39.999999502222224,
+        "rouge-2": 28.57142808163266,
+        "meteor": 52.083333333333336,
+        "sbert_similarity": 39.28677439689636,
+        "simcse_similarity": 39.635613560676575
+      }
+    },
+    {
+      "object_id": "64bae3331cb043c5b11bbb219e96e2c4",
+      "ground_truth": "A sword with a cross at its middle",
+      "model_output": "this is a 3d model of a cartoon-style sword.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 3.726779962499649,
+        "bleu-3": 2.8067124621919235,
+        "bleu-4": 2.3980296761827105,
+        "rouge-l": 12.499999500000019,
+        "rouge-1": 24.99999950000001,
+        "rouge-2": 0.0,
+        "meteor": 12.34567901234568,
+        "sbert_similarity": 60.39893627166748,
+        "simcse_similarity": 44.15038228034973
+      }
+    },
+    {
+      "object_id": "e31257064fa64cdeac1cf264fded96b7",
+      "ground_truth": "A brown bottle with a black cap",
+      "model_output": "this is a 3d model of a cartoon-style bottle. it's painted in a vibrant orange color and has a black cap.",
+      "scores": {
+        "bleu-1": 9.523809523809526,
+        "bleu-2": 6.900655593423542,
+        "bleu-3": 3.0316491853278915,
+        "bleu-4": 1.9316954186233335,
+        "rouge-l": 23.999999596800002,
+        "rouge-1": 31.999999596800006,
+        "rouge-2": 15.384615029585808,
+        "meteor": 30.423280423280424,
+        "sbert_similarity": 64.05458450317383,
+        "simcse_similarity": 54.194289445877075
+      }
+    },
+    {
+      "object_id": "bb84fad67afe490ca7c29211bebf68ba",
+      "ground_truth": "3d version of a house print",
+      "model_output": "this is a 3d model of a house with a purple roof.",
+      "scores": {
+        "bleu-1": 33.33333333333333,
+        "bleu-2": 24.618298195866544,
+        "bleu-3": 18.545147779376364,
+        "bleu-4": 9.058752341587764,
+        "rouge-l": 49.999999531250005,
+        "rouge-1": 49.999999531250005,
+        "rouge-2": 24.999999570312507,
+        "meteor": 30.303030303030305,
+        "sbert_similarity": 63.180458545684814,
+        "simcse_similarity": 66.06940031051636
+      }
+    },
+    {
+      "object_id": "505aae38374944608ad985e0e6d734a5",
+      "ground_truth": "Three d model of yellow diamond shaped and blue coloured rectangular wall along with grey coloured long battens unit.",
+      "model_output": "this is a 3d model of a cartoon-style, blue-colored rectangular box.",
+      "scores": {
+        "bleu-1": 13.178865850631603,
+        "bleu-2": 7.980199571853623,
+        "bleu-3": 3.3345702218586286,
+        "bleu-4": 2.1318099553381327,
+        "rouge-l": 21.428570969387764,
+        "rouge-1": 21.428570969387764,
+        "rouge-2": 7.1428566836735,
+        "meteor": 14.04151404151404,
+        "sbert_similarity": 56.00497126579285,
+        "simcse_similarity": 56.986576318740845
+      }
+    },
+    {
+      "object_id": "a107f9d8e87c4693a9b5f8fa94ac505c",
+      "ground_truth": "A tree with a green plant",
+      "model_output": "this is a 3d model of a cartoonish tree with a blue sky.",
+      "scores": {
+        "bleu-1": 23.076923076923077,
+        "bleu-2": 19.61161351381841,
+        "bleu-3": 15.466755103052703,
+        "bleu-4": 7.6896839726290604,
+        "rouge-l": 35.29411719031142,
+        "rouge-1": 35.29411719031142,
+        "rouge-2": 23.529411349480974,
+        "meteor": 55.970149253731336,
+        "sbert_similarity": 51.54458284378052,
+        "simcse_similarity": 47.24282920360565
+      }
+    },
+    {
+      "object_id": "d43136ef2b1a46998b7214df1a15b72c",
+      "ground_truth": "3d image of a building",
+      "model_output": "this is a 3d model of a house with a unique design.",
+      "scores": {
+        "bleu-1": 25.0,
+        "bleu-2": 15.075567228888179,
+        "bleu-3": 6.275677488087485,
+        "bleu-4": 3.9863571282680152,
+        "rouge-l": 39.99999955555556,
+        "rouge-1": 39.99999955555556,
+        "rouge-2": 13.333332942222235,
+        "meteor": 26.31578947368421,
+        "sbert_similarity": 67.52908825874329,
+        "simcse_similarity": 68.47778558731079
+      }
+    },
+    {
+      "object_id": "f8a5f438efca4099893afb27ee60c520",
+      "ground_truth": "A white cuboid three dimensional house with pyramids on top.",
+      "model_output": "this is a 3d model of a cartoon-style house.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 11.111110617283973,
+        "rouge-1": 11.111110617283973,
+        "rouge-2": 0.0,
+        "meteor": 5.050505050505051,
+        "sbert_similarity": 69.56412196159363,
+        "simcse_similarity": 55.07952570915222
+      }
+    },
+    {
+      "object_id": "a4a0a21eedae4d82b0deac43b61dc4a3",
+      "ground_truth": "A brown wooden shelf",
+      "model_output": "this is a 3d model of a brown bookcase with multiple shelves.",
+      "scores": {
+        "bleu-1": 8.333333333333332,
+        "bleu-2": 2.752409412815903,
+        "bleu-3": 2.0427282860665446,
+        "bleu-4": 1.7033186037639283,
+        "rouge-l": 13.333332942222235,
+        "rouge-1": 13.333332942222235,
+        "rouge-2": 0.0,
+        "meteor": 39.0625,
+        "sbert_similarity": 61.78742051124573,
+        "simcse_similarity": 63.20176124572754
+      }
+    },
+    {
+      "object_id": "b8dd58c2ac084267a3b50aeef0598988",
+      "ground_truth": "A red peg",
+      "model_output": "this is a 3d model of a cartoon-style, red-colored object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 13.513513513513514,
+        "sbert_similarity": 44.21287178993225,
+        "simcse_similarity": 43.45644414424896
+      }
+    },
+    {
+      "object_id": "64e3683f33c74e1680a626a630fab41e",
+      "ground_truth": "A white knitted rattan flower vase",
+      "model_output": "this is a 3d model of a cartoon-style, white, cylindrical object.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 7.6923076923076925,
+        "sbert_similarity": 36.349233984947205,
+        "simcse_similarity": 27.136269211769104
+      }
+    },
+    {
+      "object_id": "85f82b805b804a32804ea3e2afdb6e19",
+      "ground_truth": "Blue coloured curved striped irregular shaped entangled abstract three d model.",
+      "model_output": "this is a 3d model of a cartoon-style tree with a blue color.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 9.09090859090912,
+        "rouge-1": 9.09090859090912,
+        "rouge-2": 0.0,
+        "meteor": 4.464285714285714,
+        "sbert_similarity": 42.6195353269577,
+        "simcse_similarity": 65.35720229148865
+      }
+    },
+    {
+      "object_id": "d69b3382961c4a2bb031f21bdbe5e93d",
+      "ground_truth": "A green and yellow model of a basket",
+      "model_output": "this is a 3d model of a vibrant, green plant with purple flowers.",
+      "scores": {
+        "bleu-1": 30.769230769230766,
+        "bleu-2": 22.64554068289192,
+        "bleu-3": 17.0070501420901,
+        "bleu-4": 8.263103182212594,
+        "rouge-l": 29.999999520000003,
+        "rouge-1": 39.99999952000001,
+        "rouge-2": 21.05263111357342,
+        "meteor": 52.470588235294116,
+        "sbert_similarity": 39.642733335494995,
+        "simcse_similarity": 47.8549987077713
+      }
+    },
+    {
+      "object_id": "8733696148774e39b558cd7e8df0c544",
+      "ground_truth": "A animated white colour object that is in triangle shape",
+      "model_output": "this is a 3d model of a cartoon-style mountain.",
+      "scores": {
+        "bleu-1": 9.942659075715216,
+        "bleu-2": 3.334869235560668,
+        "bleu-3": 2.511556662162198,
+        "bleu-4": 2.145851237135921,
+        "rouge-l": 11.111110617283973,
+        "rouge-1": 11.111110617283973,
+        "rouge-2": 0.0,
+        "meteor": 10.101010101010102,
+        "sbert_similarity": 38.00102770328522,
+        "simcse_similarity": 45.89327275753021
+      }
+    }
+  ]
+}

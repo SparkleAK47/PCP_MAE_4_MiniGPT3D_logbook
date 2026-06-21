@@ -1,0 +1,3417 @@
+{
+  "inference_prompt": "Caption this 3D model in detail.",
+  "overall_scores": {
+    "bleu-1": "5.0852",
+    "bleu-2": "1.7642",
+    "bleu-3": "0.9091",
+    "bleu-4": "0.5623",
+    "rouge-1": "10.8290",
+    "rouge-2": "1.2370",
+    "rouge-l": "9.6991",
+    "meteor": "13.9896",
+    "sbert_similarity": "47.3606",
+    "simcse_similarity": "49.3061"
+  },
+  "results": [
+    {
+      "object_id": "059a7936ed89419ba9eae3153753ae86",
+      "ground_truth": "A blue cartoon",
+      "model_output": "the 3d model is a vibrant blue horse with a white mane and tail. the horse is standing on two legs, one on each side, and it has a pair of large, expressive eyes. the horse's mane and tail give it a playful and whimsical appearance.",
+      "scores": {
+        "bleu-1": 2.1739130434782608,
+        "bleu-2": 0.6950480468569155,
+        "bleu-3": 0.5051151595217986,
+        "bleu-4": 0.39973956048230985,
+        "rouge-l": 5.714285557551025,
+        "rouge-1": 5.714285557551025,
+        "rouge-2": 0.0,
+        "meteor": 13.698630136986303,
+        "sbert_similarity": 40.789395570755005,
+        "simcse_similarity": 45.470622181892395
+      }
+    },
+    {
+      "object_id": "c345e4dd7d584ca0beee9c06247c82ec",
+      "ground_truth": "A dark brown and light brown truck",
+      "model_output": "the 3d model is of a wooden box, painted in a rich brown color. the box has a lid, which is also brown, and it's designed to be used as a storage container. the box is sturdy and durable, suggesting it could be used for various purposes such as storing small items or as a decorative piece.",
+      "scores": {
+        "bleu-1": 3.508771929824561,
+        "bleu-2": 0.7915594835766298,
+        "bleu-3": 0.5113043172504745,
+        "bleu-4": 0.38111203719291503,
+        "rouge-l": 8.163265091212,
+        "rouge-1": 8.163265091212,
+        "rouge-2": 0.0,
+        "meteor": 12.5,
+        "sbert_similarity": 38.062697649002075,
+        "simcse_similarity": 35.1960688829422
+      }
+    },
+    {
+      "object_id": "0ea33b6617174530b97d6b7a92c275fb",
+      "ground_truth": "A cartoon green and red like a fruit",
+      "model_output": "the 3d model is a cartoon-style representation of a ripe, red apple. the apple is depicted with a vibrant red color, giving it a fresh and appealing appearance. it is also shown to have a green leaf on top, which adds a touch of realism to the model. this model could be used in animations, video games, or educational materials to teach children about fruits.",
+      "scores": {
+        "bleu-1": 6.153846153846154,
+        "bleu-2": 0.98058067569092,
+        "bleu-3": 0.5631143785026793,
+        "bleu-4": 0.39610343210404914,
+        "rouge-l": 10.714285469387761,
+        "rouge-1": 14.285714040816327,
+        "rouge-2": 0.0,
+        "meteor": 18.248175182481756,
+        "sbert_similarity": 65.78729748725891,
+        "simcse_similarity": 71.86924815177917
+      }
+    },
+    {
+      "object_id": "c20eb3a5a93e4cddb06c2f98626b1830",
+      "ground_truth": "A wooden rectangular board with a clay pot on a three stand and a table having some utensils on top.",
+      "model_output": "the 3d model depicts a vibrant, cartoon-style scene featuring a table with a green top and a blue-colored cup. the table is placed on a rectangular, green-colored floor. the cup is positioned on the table, and the cup is filled with a dark liquid. the scene is set in a playful, cartoonish style, which suggests it could be used in children's media or video games.",
+      "scores": {
+        "bleu-1": 12.30769230769231,
+        "bleu-2": 8.770580193070293,
+        "bleu-3": 2.391202259572483,
+        "bleu-4": 1.1846255688686647,
+        "rouge-l": 16.666666260555566,
+        "rouge-1": 19.999999593888898,
+        "rouge-2": 9.999999637812513,
+        "meteor": 18.367346938775512,
+        "sbert_similarity": 38.34625482559204,
+        "simcse_similarity": 47.4636048078537
+      }
+    },
+    {
+      "object_id": "267b8ecaf2884abaaa5f03680ce39ad8",
+      "ground_truth": "Black color computer cpu\nA desktop central processing unit.",
+      "model_output": "the 3d model is of a cartoon-style, black box with a blue screen on the front. the box is designed in a simplistic, cartoonish style, which is typical of animated content. the blue screen suggests that it could be used for displaying animated content or video games. the box's black color and cartoonish design make it suitable for use in children's media or video games.",
+      "scores": {
+        "bleu-1": 1.538461538461539,
+        "bleu-2": 0.49029033784545994,
+        "bleu-3": 0.35638286887462123,
+        "bleu-4": 0.28008742289203836,
+        "rouge-l": 3.846153559911264,
+        "rouge-1": 3.846153559911264,
+        "rouge-2": 0.0,
+        "meteor": 17.50380517503805,
+        "sbert_similarity": 32.3673278093338,
+        "simcse_similarity": 34.763866662979126
+      }
+    },
+    {
+      "object_id": "30eb9fd904b942e9abb3be2195255c6e",
+      "ground_truth": "An 3d image of a light house in white colour in all directions",
+      "model_output": "the 3d model is a cartoon-style, white, cylindrical object with a pointed tip. it appears to be a pole or a stick, possibly used for various purposes such as decoration, support, or even as a toy. the cartoonish design suggests it could be used in animations, video games, or children's media.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 1.0846522890932806,
+        "bleu-3": 0.653923655469998,
+        "bleu-4": 0.4729181034073561,
+        "rouge-l": 11.538461183431963,
+        "rouge-1": 11.538461183431963,
+        "rouge-2": 0.0,
+        "meteor": 11.904761904761905,
+        "sbert_similarity": 32.631275057792664,
+        "simcse_similarity": 46.36590778827667
+      }
+    },
+    {
+      "object_id": "73e092e4ce344683b1347521e28d5df6",
+      "ground_truth": "A strip blue white shade with two wooden standing poles.\nA shed with a triangular curved roof and having two standing poles at each end.",
+      "model_output": "the 3d model is a cartoon-style representation of a tent. it is predominantly blue in color, with a white roof and a white floor. the tent is designed with a sturdy, rectangular base and four poles, which are typically used for stability. the tent's design suggests it could be used for camping, outdoor activities, or as a decorative element in a child's room.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 5.986843400892497,
+        "bleu-3": 1.8784159504452935,
+        "bleu-4": 0.9947837396193072,
+        "rouge-l": 15.384614958579892,
+        "rouge-1": 18.46153803550297,
+        "rouge-2": 4.878048376859047,
+        "meteor": 17.361111111111114,
+        "sbert_similarity": 53.655362129211426,
+        "simcse_similarity": 43.21953058242798
+      }
+    },
+    {
+      "object_id": "f2785bbde26b4b0f8e09ee736f1c9638",
+      "ground_truth": "A toy house with cubical body and triangular roof and open door.",
+      "model_output": "the 3d model is a cartoon-like representation of a house with a distinct white color. the house is depicted as a simple, two-story structure with a pitched roof. it has two windows on each side and a door at the front. the house is situated in a field, surrounded by trees and grass. the model appears to be animated, suggesting it could be used in children's media or video games.",
+      "scores": {
+        "bleu-1": 5.7142857142857135,
+        "bleu-2": 2.87777231534477,
+        "bleu-3": 1.1175045570206732,
+        "bleu-4": 0.6529535483249475,
+        "rouge-l": 16.393442327331368,
+        "rouge-1": 16.393442327331368,
+        "rouge-2": 2.5974023525046612,
+        "meteor": 14.04494382022472,
+        "sbert_similarity": 68.11770796775818,
+        "simcse_similarity": 62.8415584564209
+      }
+    },
+    {
+      "object_id": "9d34f25cb4744435a087099c6d273d04",
+      "ground_truth": "A gift box.",
+      "model_output": "the 3d model is a cartoon-style representation of a blue box. the box is characterized by its simplistic design, with clean lines and a smooth finish. the blue color of the box is vibrant and eye-catching, making it visually appealing. this model could be used in various contexts, such as animations, video games, or digital art.",
+      "scores": {
+        "bleu-1": 1.785714285714285,
+        "bleu-2": 0.56980288229819,
+        "bleu-3": 0.4140838788240166,
+        "bleu-4": 0.3263584888402175,
+        "rouge-l": 4.347825965028359,
+        "rouge-1": 4.347825965028359,
+        "rouge-2": 0.0,
+        "meteor": 12.048192771084338,
+        "sbert_similarity": 29.778218269348145,
+        "simcse_similarity": 35.87721288204193
+      }
+    },
+    {
+      "object_id": "da1c77dbf00c436ab8d294e431adf2ed",
+      "ground_truth": "Part of a red and white train.",
+      "model_output": "the 3d model is a cartoon-style train, painted in a vibrant red color. it has a distinct design, featuring a long, slender body with a pointed front and a flat top. the train is equipped with two large wheels at the front and two smaller wheels at the back. the wheels are painted in a contrasting white color, adding to the overall aesthetic appeal of the model.",
+      "scores": {
+        "bleu-1": 7.46268656716418,
+        "bleu-2": 1.0633485251477834,
+        "bleu-3": 0.5879555714962693,
+        "bleu-4": 0.4060359468269582,
+        "rouge-l": 19.607842900422913,
+        "rouge-1": 23.529411527873894,
+        "rouge-2": 0.0,
+        "meteor": 19.23076923076923,
+        "sbert_similarity": 60.52123308181763,
+        "simcse_similarity": 72.44037389755249
+      }
+    },
+    {
+      "object_id": "39930c4d685f4a9c8f7bd63c1a2a7dee",
+      "ground_truth": "A red toy car with black windscreen and windows and having a v shaped logo at the back.",
+      "model_output": "the 3d model is a vibrant red car with a sleek design. the car has a black windscreen and windows, giving it a sporty look. the car is equipped with four wheels, two of which are black and the other two are white. the front of the car is adorned with two large, round headlights, adding to its aesthetic appeal. this model can be used in various digital platforms, such as video games, animations, or virtual reality experiences.",
+      "scores": {
+        "bleu-1": 11.53846153846154,
+        "bleu-2": 6.704852344015115,
+        "bleu-3": 4.024837943018027,
+        "bleu-4": 1.675814312150803,
+        "rouge-l": 21.917807861887788,
+        "rouge-1": 21.917807861887788,
+        "rouge-2": 6.593406289578568,
+        "meteor": 28.615702479338843,
+        "sbert_similarity": 65.92453718185425,
+        "simcse_similarity": 71.607905626297
+      }
+    },
+    {
+      "object_id": "d56401a8a5d142feb1108106b0f581cc",
+      "ground_truth": "Gray color thin panel",
+      "model_output": "the 3d model is a cartoon-style representation of a white door. the door is depicted with a simple, clean design, typical of cartoon aesthetics. it is made of wood, which gives it a rustic and natural look. the door is open, suggesting it's a part of a larger scene or environment. the cartoonish style and the open state of the door suggest it could be a part of a children's animation or a video game.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 22.293375432491302,
+        "simcse_similarity": 30.27815818786621
+      }
+    },
+    {
+      "object_id": "ac73f58f1ca8483eb3e14264da12c3d9",
+      "ground_truth": "It is a red icosahedron with a ferrari emblem.",
+      "model_output": "the 3d model is a vibrant red car with a sleek design. it has a black windscreen and windows, giving it a sporty look. the car's body is painted in a glossy red color, which gives it a striking appearance. the car's wheels are black, adding to its overall aesthetic appeal. this model can be used in various digital platforms, such as video games, animations, or virtual reality experiences.",
+      "scores": {
+        "bleu-1": 7.246376811594201,
+        "bleu-2": 4.6165867234654065,
+        "bleu-3": 1.5340770538636042,
+        "bleu-4": 0.8332125726972622,
+        "rouge-l": 12.698412476694381,
+        "rouge-1": 12.698412476694381,
+        "rouge-2": 5.405405212563923,
+        "meteor": 20.0,
+        "sbert_similarity": 56.30937218666077,
+        "simcse_similarity": 42.920130491256714
+      }
+    },
+    {
+      "object_id": "983fa8b23a084f5dacd157e6c9ceba97",
+      "ground_truth": "A cartoon pony",
+      "model_output": "the 3d model is a whimsical representation of a pony, painted in a vibrant shade of pink. the pony is adorned with a pair of purple ears, adding a touch of fantasy to its appearance. the model is designed to be a toy, suitable for children's play or as a decorative item. its whimsical design and vibrant colors make it appealing to both children and adults.",
+      "scores": {
+        "bleu-1": 1.5151515151515158,
+        "bleu-2": 0.4828045495852677,
+        "bleu-3": 0.3509536004056586,
+        "bleu-4": 0.27574366655649984,
+        "rouge-l": 4.081632538109124,
+        "rouge-1": 4.081632538109124,
+        "rouge-2": 0.0,
+        "meteor": 10.75268817204301,
+        "sbert_similarity": 71.84771299362183,
+        "simcse_similarity": 68.67726445198059
+      }
+    },
+    {
+      "object_id": "3a61b9d2451c4df2a1c6a6550e1875df",
+      "ground_truth": "A white cartoon bus with blue windscreen and windows and black side mirrors.",
+      "model_output": "the 3d model is a cartoon-style bus, predominantly white in color. it has a distinct blue stripe running along its length, adding a vibrant touch to its appearance. the bus is designed with a cartoonish aesthetic, which is typical for children's animations or games. the bus is a common sight in animated films, video games, and children's educational content.",
+      "scores": {
+        "bleu-1": 8.47457627118644,
+        "bleu-2": 1.2087736925743093,
+        "bleu-3": 0.668203886543245,
+        "bleu-4": 0.4625479698079485,
+        "rouge-l": 17.241378982164097,
+        "rouge-1": 17.241378982164097,
+        "rouge-2": 0.0,
+        "meteor": 17.045454545454547,
+        "sbert_similarity": 70.05612254142761,
+        "simcse_similarity": 78.60559821128845
+      }
+    },
+    {
+      "object_id": "e72dcc58707843fa93384690e3f16d9f",
+      "ground_truth": "A white pony with pink hair on the head and tail.",
+      "model_output": "the 3d model is a whimsical representation of a pony, painted in a vibrant shade of blue. the pony is adorned with a multicolored mane and tail, adding to its playful and lively appearance. the pony's face is adorned with a pair of bright red eyes, giving it a friendly and approachable look. this model could be used in various contexts, such as children's toys, animations, or even as a decorative piece in a child's room.",
+      "scores": {
+        "bleu-1": 5.263157894736841,
+        "bleu-2": 0.8377078165833907,
+        "bleu-3": 0.4812764678622011,
+        "bleu-4": 0.33760404303371727,
+        "rouge-l": 12.121211843434349,
+        "rouge-1": 12.121211843434349,
+        "rouge-2": 0.0,
+        "meteor": 14.285714285714288,
+        "sbert_similarity": 60.8830988407135,
+        "simcse_similarity": 59.22591686248779
+      }
+    },
+    {
+      "object_id": "304f656a07d741caabdf36d58b9eb471",
+      "ground_truth": "Not clear",
+      "model_output": "the 3d model is a cartoon-style representation of a black, cylindrical object. it has a distinct, circular opening at the top, which could potentially be a vent or an access point. the cylindrical shape suggests that it could be a part of a larger system, such as a machine or a piece of equipment. the cartoonish style adds an element of fun and whimsy, making it suitable for use in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.319148936170214,
+        "sbert_similarity": 17.900851368904114,
+        "simcse_similarity": 8.46867486834526
+      }
+    },
+    {
+      "object_id": "56834061ce914fd29843fcfdf3369eec",
+      "ground_truth": "A cuboid horizontal tv box with large speakers and an antenna on top.",
+      "model_output": "the 3d model is of a cartoon-style, white-colored portable radio. it has a rectangular shape with a flat top and a circular base. the radio has two buttons, one on top and one on the side, which are used to tune in to different radio stations. it also has a small antenna at the top, which is used to receive radio signals.",
+      "scores": {
+        "bleu-1": 6.451612903225806,
+        "bleu-2": 1.0284169677447048,
+        "bleu-3": 0.5905297497561097,
+        "bleu-4": 0.41575147740977714,
+        "rouge-l": 15.094339252403,
+        "rouge-1": 18.867924158063374,
+        "rouge-2": 2.8985504373031166,
+        "meteor": 13.966480446927376,
+        "sbert_similarity": 49.07708466053009,
+        "simcse_similarity": 59.966570138931274
+      }
+    },
+    {
+      "object_id": "76faa9de2b1a446387a930e37465081e",
+      "ground_truth": "A white computer mouse",
+      "model_output": "the 3d model is a cartoon-style representation of a white ball. it is characterized by its round shape and the absence of any discernible features. this object could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 2.5641025641025643,
+        "bleu-2": 0.8214400968169069,
+        "bleu-3": 0.5971913710144566,
+        "bleu-4": 0.4744188024111083,
+        "rouge-l": 5.263157706371198,
+        "rouge-1": 5.263157706371198,
+        "rouge-2": 0.0,
+        "meteor": 13.333333333333334,
+        "sbert_similarity": 28.412798047065735,
+        "simcse_similarity": 45.47378122806549
+      }
+    },
+    {
+      "object_id": "8bd70337959749db8b16af638722b53d",
+      "ground_truth": "A circular frame fan with black circle in the front and having a standing pole with plus sign four legs at the base.",
+      "model_output": "the 3d model is of a cartoon-style, white-colored, stand-alone fan. it has a circular base and a circular fan blade, which are both white. the fan is designed in a playful, cartoonish style, which makes it suitable for use in children's animations, video games, or other digital media.",
+      "scores": {
+        "bleu-1": 14.583333333333334,
+        "bleu-2": 1.7614871215630914,
+        "bleu-3": 0.9195394526675945,
+        "bleu-4": 0.6222245607755165,
+        "rouge-l": 20.689654710463742,
+        "rouge-1": 24.137930572532703,
+        "rouge-2": 0.0,
+        "meteor": 24.92156862745098,
+        "sbert_similarity": 57.358115911483765,
+        "simcse_similarity": 58.785492181777954
+      }
+    },
+    {
+      "object_id": "b408ae196798446ea5e23e41b89d5506",
+      "ground_truth": "Green coloured toy van with rectangular curved surface yellow front lights and red seats with grey coloured wheels.",
+      "model_output": "the 3d model is a cartoon-style representation of a green car. the car is designed with exaggerated features, such as oversized wheels and a large, round headlight. the car's body is painted in a vibrant green color, giving it a playful and eye-catching appearance. this model could be used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 3.508771929824561,
+        "bleu-2": 0.7915594835766298,
+        "bleu-3": 0.5113043172504745,
+        "bleu-4": 0.38111203719291503,
+        "rouge-l": 9.999999608888904,
+        "rouge-1": 9.999999608888904,
+        "rouge-2": 0.0,
+        "meteor": 9.132420091324201,
+        "sbert_similarity": 54.822224378585815,
+        "simcse_similarity": 59.6598744392395
+      }
+    },
+    {
+      "object_id": "990ac62a74304d8fad0cdcb6c76dc432",
+      "ground_truth": "A green fat hen cartoon standing and having two eara on head top.",
+      "model_output": "the 3d model is a cartoon-style representation of a green frog. the frog is depicted with a round, bulbous head and large, expressive eyes. its body is slim and elongated, giving it a cute and friendly appearance. the frog is colored in a vibrant shade of green, which is a common color choice for cartoon characters. this model could be used in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 5.797101449275361,
+        "bleu-2": 0.9233173446930816,
+        "bleu-3": 0.5303065253797425,
+        "bleu-4": 0.3726239904517125,
+        "rouge-l": 12.499999676269539,
+        "rouge-1": 12.499999676269539,
+        "rouge-2": 0.0,
+        "meteor": 16.12903225806452,
+        "sbert_similarity": 51.00443959236145,
+        "simcse_similarity": 50.85727572441101
+      }
+    },
+    {
+      "object_id": "252f3b3f5cd64698826fc1ab42614677",
+      "ground_truth": "A drown with grey body and four red arms.",
+      "model_output": "the 3d model is a cartoon-style representation of a car, predominantly grey in color. it features a unique design with a pair of red wheels at the front and a pair of black wheels at the back. the wheels are circular in shape and have a smooth finish. the car's overall appearance is playful and whimsical, making it suitable for use in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 0.9369968652822313,
+        "bleu-3": 0.5381429713104896,
+        "bleu-4": 0.37822893157531384,
+        "rouge-l": 14.285714015943881,
+        "rouge-1": 14.285714015943881,
+        "rouge-2": 0.0,
+        "meteor": 16.77852348993289,
+        "sbert_similarity": 33.479493856430054,
+        "simcse_similarity": 25.712528824806213
+      }
+    },
+    {
+      "object_id": "35c07a68cdb246c59bb425610b934bf8",
+      "ground_truth": "A white candle stick with thin stand.",
+      "model_output": "the 3d model is a cartoon-style representation of a rocket. it is predominantly white in color, with a sleek and aerodynamic design. the rocket is equipped with a long, cylindrical body, which is a common feature in real-life rockets. the rocket is also equipped with a tail fin, which is a crucial part of a rocket's stability and control during flight. the rocket is also equipped with a nozzle, which is used to expel gases at high speeds, propelling the rocket into space.",
+      "scores": {
+        "bleu-1": 2.409638554216868,
+        "bleu-2": 0.5420870412307879,
+        "bleu-3": 0.3504979648249633,
+        "bleu-4": 0.25950203102542513,
+        "rouge-l": 7.142856924107149,
+        "rouge-1": 7.142856924107149,
+        "rouge-2": 0.0,
+        "meteor": 10.273972602739727,
+        "sbert_similarity": 14.306554198265076,
+        "simcse_similarity": 24.755749106407166
+      }
+    },
+    {
+      "object_id": "a9fa3b6a1da74b5aa36925012f251638",
+      "ground_truth": "A black smartphone with a blue colored screen saver.",
+      "model_output": "the 3d model is of a sleek, black smartphone with a vibrant blue screen. the device is equipped with a high-resolution display, indicating its advanced technology. the black color of the phone suggests it's a premium model, possibly with a high-end processor and a high-quality camera. the blue screen adds a touch of modernity and style to the device.",
+      "scores": {
+        "bleu-1": 10.16949152542373,
+        "bleu-2": 7.2526421554458596,
+        "bleu-3": 5.859070465218475,
+        "bleu-4": 4.2607877769290345,
+        "rouge-l": 25.53191458397465,
+        "rouge-1": 25.53191458397465,
+        "rouge-2": 9.677419130072845,
+        "meteor": 28.571428571428577,
+        "sbert_similarity": 59.271591901779175,
+        "simcse_similarity": 71.30815982818604
+      }
+    },
+    {
+      "object_id": "37906c6e67c24b71b36bdc03ae55834a",
+      "ground_truth": "A grey cylindrical shaped object like a pot with five base curved legs.",
+      "model_output": "the 3d model is a cartoon-style representation of a sea creature, specifically a squid. the squid is depicted in a vibrant shade of blue, which gives it a lively and playful appearance. the squid's body is elongated and cylindrical, typical of squids, and it has two large eyes on either side. it also has two tentacles, one on each side, which is a common feature of squids. this model could be used in animations, video games, or educational materials about marine life.",
+      "scores": {
+        "bleu-1": 1.219512195121951,
+        "bleu-2": 0.388016830983099,
+        "bleu-3": 0.282242023299515,
+        "bleu-4": 0.22092558446917795,
+        "rouge-l": 2.8169011093037417,
+        "rouge-1": 2.8169011093037417,
+        "rouge-2": 0.0,
+        "meteor": 5.025125628140705,
+        "sbert_similarity": 26.76759660243988,
+        "simcse_similarity": 28.88200879096985
+      }
+    },
+    {
+      "object_id": "78e89f3165164480a2738f11f1d5a568",
+      "ground_truth": "Ornament-type golden horse is standing facing forward.",
+      "model_output": "the 3d model is a cartoon-style representation of a horse. it is predominantly green in color, with a distinctively large head and a slender body. the horse is depicted in a playful, cartoonish style, which is typical for children's animations or games. this model can be used in various digital platforms, such as video games, animations, or educational content for children.",
+      "scores": {
+        "bleu-1": 3.278688524590164,
+        "bleu-2": 2.3376229110609223,
+        "bleu-3": 1.020962936844226,
+        "bleu-4": 0.6321457555337234,
+        "rouge-l": 7.407407181755836,
+        "rouge-1": 7.407407181755836,
+        "rouge-2": 3.030302865013783,
+        "meteor": 8.06451612903226,
+        "sbert_similarity": 48.95764887332916,
+        "simcse_similarity": 37.036141753196716
+      }
+    },
+    {
+      "object_id": "c8f45fe11d684b30ade3b547be5cefd1",
+      "ground_truth": "White and red toy car with heavy bumpers in front and back",
+      "model_output": "the 3d model is a cartoon-style toy car, predominantly white in color. it has a distinct design with a large, open top, which is a common feature in many toy cars. the car is equipped with four wheels, which are typically made of plastic or rubber. the car is designed to be a plaything for children, encouraging imaginative play and motor skill development.",
+      "scores": {
+        "bleu-1": 7.936507936507935,
+        "bleu-2": 1.1314070555035511,
+        "bleu-3": 0.6255033169346935,
+        "bleu-4": 0.43245325468400436,
+        "rouge-l": 16.666666367222227,
+        "rouge-1": 16.666666367222227,
+        "rouge-2": 0.0,
+        "meteor": 17.543859649122805,
+        "sbert_similarity": 62.28768229484558,
+        "simcse_similarity": 71.99016213417053
+      }
+    },
+    {
+      "object_id": "cb5fba40366f47858acebc90cf37479f",
+      "ground_truth": "A 3d model of a sports car and a high body with black windows.",
+      "model_output": "the 3d model is a sleek, black sports car with a white windscreen and windows. the car's body is designed for speed and performance, with a glossy black exterior. the windscreen and windows are clear, providing a clear view of the road ahead. the car's interior is spacious, with comfortable seating and advanced technology features. this model is often used in the automotive industry for display purposes, car shows, and virtual reality experiences.",
+      "scores": {
+        "bleu-1": 16.43835616438356,
+        "bleu-2": 6.7573737839948596,
+        "bleu-3": 1.935254950248668,
+        "bleu-4": 0.9790387336440859,
+        "rouge-l": 32.258064184703436,
+        "rouge-1": 35.48387063631635,
+        "rouge-2": 4.999999727812514,
+        "meteor": 32.66331658291457,
+        "sbert_similarity": 83.12599062919617,
+        "simcse_similarity": 77.938711643219
+      }
+    },
+    {
+      "object_id": "c0c0f2d8b980400cae6045139244c3d7",
+      "ground_truth": "A white doll with a red tie and a red belly",
+      "model_output": "the 3d model is a cartoon-style representation of a white rabbit. the rabbit is depicted with large, expressive eyes and a mouth that appears to be smiling. the rabbit's body is white, and it has a pair of black shoes on its hind legs. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 8.620689655172413,
+        "bleu-2": 3.8889609073503117,
+        "bleu-3": 1.4534098939009759,
+        "bleu-4": 0.8371034072789827,
+        "rouge-l": 11.11111083333334,
+        "rouge-1": 14.81481453703704,
+        "rouge-2": 3.0303027947658587,
+        "meteor": 19.10828025477707,
+        "sbert_similarity": 44.80606019496918,
+        "simcse_similarity": 41.47086441516876
+      }
+    },
+    {
+      "object_id": "78bdd5a7735f42fc879849803a6678dc",
+      "ground_truth": "A 3d model of a old game cd with a super mario image.",
+      "model_output": "the 3d model is a sleek, black smartphone with a vibrant display. it has a modern design and is equipped with a high-quality camera, suggesting it could be used for photography or videography. the phone is also equipped with a large, clear screen, making it ideal for multimedia consumption.",
+      "scores": {
+        "bleu-1": 10.20408163265306,
+        "bleu-2": 6.520506636966261,
+        "bleu-3": 2.165875018623898,
+        "bleu-4": 1.1842046122543795,
+        "rouge-l": 16.666666291666676,
+        "rouge-1": 16.666666291666676,
+        "rouge-2": 7.017543527239168,
+        "meteor": 30.78982597054887,
+        "sbert_similarity": 39.010024070739746,
+        "simcse_similarity": 28.865352272987366
+      }
+    },
+    {
+      "object_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
+      "ground_truth": "White car with gray thick band running all over roof and bonnet having gray side panels and wheels",
+      "model_output": "the 3d model is a cartoon-style car, predominantly black in color. it has a sleek and modern design, with a large, round headlight and a small, compact engine. the car is equipped with four wheels, two of which are black and two are white. the car's body is smooth and shiny, giving it a polished appearance. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 5.7142857142857135,
+        "bleu-2": 0.9100315103865803,
+        "bleu-3": 0.5226961518671522,
+        "bleu-4": 0.36718276365279184,
+        "rouge-l": 8.955223517041672,
+        "rouge-1": 8.955223517041672,
+        "rouge-2": 0.0,
+        "meteor": 12.93103448275862,
+        "sbert_similarity": 40.0595486164093,
+        "simcse_similarity": 52.16664671897888
+      }
+    },
+    {
+      "object_id": "b4bbf2116b1a41a5a3b9d3622b07074c",
+      "ground_truth": "A black shoe with a white sole",
+      "model_output": "the 3d model is a pair of black shoes with a contrasting orange sole. the shoes are designed with a sleek and modern aesthetic, featuring a clean, minimalistic design. the orange sole adds a pop of color to the shoes, making them stand out. this type of shoe is versatile and can be worn for various occasions, from casual outings to formal events.",
+      "scores": {
+        "bleu-1": 7.936507936507935,
+        "bleu-2": 3.577823256175764,
+        "bleu-3": 1.3373023784642735,
+        "bleu-4": 0.7690227186088835,
+        "rouge-l": 18.51851829286694,
+        "rouge-1": 18.51851829286694,
+        "rouge-2": 3.030302865013783,
+        "meteor": 23.80952380952381,
+        "sbert_similarity": 57.27161765098572,
+        "simcse_similarity": 68.5545027256012
+      }
+    },
+    {
+      "object_id": "607145499815434d9ee4e8ae5b0689ca",
+      "ground_truth": "A yellow pipe joint",
+      "model_output": "the 3d model is a cartoon-style representation of a yellow fire extinguisher. it is designed with a cylindrical body and a handle, which is typically used for easy grip and control. the color yellow is a common choice for fire extinguishers as it's highly visible and can be easily spotted in emergency situations. the cartoonish design adds a playful element to the otherwise serious and potentially dangerous tool.",
+      "scores": {
+        "bleu-1": 1.4705882352941173,
+        "bleu-2": 0.46849843264111557,
+        "bleu-3": 0.3405790072175058,
+        "bleu-4": 0.2674482423578473,
+        "rouge-l": 3.6363635014876086,
+        "rouge-1": 3.6363635014876086,
+        "rouge-2": 0.0,
+        "meteor": 9.615384615384617,
+        "sbert_similarity": 42.13131368160248,
+        "simcse_similarity": 42.038941383361816
+      }
+    },
+    {
+      "object_id": "d4aa4126fce64397935d128ed54c3def",
+      "ground_truth": "Fictional character",
+      "model_output": "the 3d model is a cartoon-style bird with a vibrant yellow body and a contrasting blue head. the bird is wearing a blue hat and a blue scarf, adding a touch of color to its appearance. the bird's eyes are black, giving it a unique and eye-catching look.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 17.50115603208542,
+        "simcse_similarity": 39.49158489704132
+      }
+    },
+    {
+      "object_id": "c6f203f1cf554c188272a10756e9498a",
+      "ground_truth": "A black robot with four tyres, a white face and a long neck",
+      "model_output": "the 3d model is a cartoon-style representation of a wheeled robot. the robot is predominantly black in color, giving it a sleek and futuristic appearance. it is equipped with four wheels, each bearing a small, white, cylindrical object. these objects are likely to be used as a power source for the robot, providing it with the ability to move and function. the robot's design suggests it could be used in a variety of settings, such as in animation, video games, or even as a toy.",
+      "scores": {
+        "bleu-1": 8.235294117647058,
+        "bleu-2": 3.1311214554257476,
+        "bleu-3": 1.1062828321235345,
+        "bleu-4": 0.6160656164911099,
+        "rouge-l": 14.084506761356877,
+        "rouge-1": 16.90140816980758,
+        "rouge-2": 2.1276593517428934,
+        "meteor": 19.801980198019805,
+        "sbert_similarity": 66.27104878425598,
+        "simcse_similarity": 68.86737942695618
+      }
+    },
+    {
+      "object_id": "dab99241a6294b6292a69ef9a2ee0e72",
+      "ground_truth": "Excavator supported by red ropes to a metal structure.",
+      "model_output": "the 3d model is a cartoon-style toy train, predominantly yellow in color. it features a distinct red stripe running along its length, adding a vibrant touch to its appearance. the train is designed with a simplistic and playful aesthetic, making it suitable for children's play. it's likely to be used for imaginative play, educational purposes, or as a decorative item.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 0.9205746178983234,
+        "bleu-3": 0.5550699286362121,
+        "bleu-4": 0.40013246159036714,
+        "rouge-l": 10.16949126687734,
+        "rouge-1": 10.16949126687734,
+        "rouge-2": 0.0,
+        "meteor": 10.638297872340424,
+        "sbert_similarity": 22.10056781768799,
+        "simcse_similarity": 29.197117686271667
+      }
+    },
+    {
+      "object_id": "2552879ebfe34d209658731149e7b8d1",
+      "ground_truth": "A brown box with a cream white paper.",
+      "model_output": "the 3d model is a toy car, primarily brown in color, with a white roof. it has four wheels, two of which are black and the other two are white. the car is designed to resemble a real-life vehicle, with a small window on the front and a door at the back. the toy car is a popular choice for children's play, helping them learn about transportation and motor skills.",
+      "scores": {
+        "bleu-1": 5.7142857142857135,
+        "bleu-2": 2.87777231534477,
+        "bleu-3": 1.1175045570206732,
+        "bleu-4": 0.6529535483249475,
+        "rouge-l": 13.79310321046374,
+        "rouge-1": 13.79310321046374,
+        "rouge-2": 2.7397258540063913,
+        "meteor": 17.6056338028169,
+        "sbert_similarity": 22.38519936800003,
+        "simcse_similarity": 29.279309511184692
+      }
+    },
+    {
+      "object_id": "71e499219de548a7a1be74c237b6a2fb",
+      "ground_truth": "A toy truck with a red head and black trailer.",
+      "model_output": "the 3d model is a cartoon-style truck with a vibrant red body. the truck is equipped with a white top, which contrasts with the red body. the truck also has a black cab, which is a common feature in real-life trucks. the model appears to be a toy or a decorative item, possibly used in animations, video games, or as a collectible item.",
+      "scores": {
+        "bleu-1": 9.523809523809526,
+        "bleu-2": 5.542739954736931,
+        "bleu-3": 3.8167993253695616,
+        "bleu-4": 1.7021270770464787,
+        "rouge-l": 23.999999680000002,
+        "rouge-1": 23.999999680000002,
+        "rouge-2": 6.06060582506888,
+        "meteor": 22.875816993464053,
+        "sbert_similarity": 72.3793625831604,
+        "simcse_similarity": 76.90515518188477
+      }
+    },
+    {
+      "object_id": "541747a461f84142a113e2f591a7eb9b",
+      "ground_truth": "A brown curved rectangular front object with various machines and gadgets and a green circular display.",
+      "model_output": "the 3d model is of a brown, rectangular-shaped cabinet with a unique design. it has a flat top and is made of wood, giving it a rustic and vintage look. the cabinet has two doors, one on each side, which are hinged and can be opened and closed. the doors are made of wood, adding to the overall aesthetic appeal of the cabinet. the cabinet is functional, providing storage space for various items.",
+      "scores": {
+        "bleu-1": 6.8493150684931505,
+        "bleu-2": 0.9753428933010877,
+        "bleu-3": 0.5394219053244484,
+        "bleu-4": 0.3719542837289603,
+        "rouge-l": 12.499999641113293,
+        "rouge-1": 12.499999641113293,
+        "rouge-2": 0.0,
+        "meteor": 13.82488479262673,
+        "sbert_similarity": 47.49051630496979,
+        "simcse_similarity": 61.727166175842285
+      }
+    },
+    {
+      "object_id": "e0e688d507be49738bf80e83828631ba",
+      "ground_truth": "Forklift 3d model",
+      "model_output": "the 3d model is of a toy truck, painted in a vibrant shade of blue. the truck is equipped with a large, rectangular, brown box on the back, which is used for carrying items. the truck's body is sturdy and robust, suggesting it's designed for outdoor play or imaginative play. the truck's wheels are black, providing stability and mobility.",
+      "scores": {
+        "bleu-1": 3.3898305084745757,
+        "bleu-2": 2.417547385148619,
+        "bleu-3": 1.0558173502336656,
+        "bleu-4": 0.654141612150541,
+        "rouge-l": 8.333333216145835,
+        "rouge-1": 8.333333216145835,
+        "rouge-2": 3.3898304429761565,
+        "meteor": 21.80232558139535,
+        "sbert_similarity": 56.152474880218506,
+        "simcse_similarity": 54.46016788482666
+      }
+    },
+    {
+      "object_id": "dd491278516040998667f9dd998fad4f",
+      "ground_truth": "A black fish with yellow stripes",
+      "model_output": "the 3d model is a detailed representation of a fish, specifically a goldfish. the fish is depicted in a vibrant shade of gold, with its scales shimmering in the light. it is a realistic model, capturing the fish's physical attributes accurately. the model is also accompanied by a rubik's cube, a popular puzzle game, which adds an element of fun and challenge to the scene.",
+      "scores": {
+        "bleu-1": 3.0769230769230766,
+        "bleu-2": 0.6933752452815363,
+        "bleu-3": 0.44797803262585784,
+        "bleu-4": 0.3330819561259882,
+        "rouge-l": 7.547169610537563,
+        "rouge-1": 7.547169610537563,
+        "rouge-2": 0.0,
+        "meteor": 12.605042016806722,
+        "sbert_similarity": 44.096243381500244,
+        "simcse_similarity": 48.546746373176575
+      }
+    },
+    {
+      "object_id": "82ad2c59603d4e48b0d3b003949fd884",
+      "ground_truth": "Pink statue looks like a cat with circular hair",
+      "model_output": "the 3d model is a cartoonish representation of a human head, predominantly white in color. it has exaggerated features, such as large eyes and a large mouth, which are typical of cartoonish aesthetics. the model is designed to be used in animations, video games, or other digital media, adding a playful and whimsical touch to the content.",
+      "scores": {
+        "bleu-1": 1.7543859649122806,
+        "bleu-2": 0.559717078549556,
+        "bleu-3": 0.40676123867415154,
+        "bleu-4": 0.32047574588556277,
+        "rouge-l": 3.7735846237095263,
+        "rouge-1": 3.7735846237095263,
+        "rouge-2": 0.0,
+        "meteor": 3.6231884057971016,
+        "sbert_similarity": 31.254303455352783,
+        "simcse_similarity": 35.209980607032776
+      }
+    },
+    {
+      "object_id": "9a48392c60034e898befe16424359b79",
+      "ground_truth": "Small black and white robot toy with disattachable parts",
+      "model_output": "the 3d model is a cartoon-style representation of a tank. it is predominantly white in color, with a distinct yellow stripe running down its side. the tank is equipped with two large, powerful cannons, which are a common feature in military vehicles. the tank is designed for combat and is often used in war zones or military operations.",
+      "scores": {
+        "bleu-1": 5.172413793103449,
+        "bleu-2": 0.9525969852639355,
+        "bleu-3": 0.574351850819955,
+        "bleu-4": 0.41430189738284556,
+        "rouge-l": 11.538461252218942,
+        "rouge-1": 11.538461252218942,
+        "rouge-2": 0.0,
+        "meteor": 10.79136690647482,
+        "sbert_similarity": 24.603520333766937,
+        "simcse_similarity": 31.52306377887726
+      }
+    },
+    {
+      "object_id": "88867268d228490da73b99d3126dc25c",
+      "ground_truth": "A cartoon blue and red car with flag of usa",
+      "model_output": "the 3d model is a vibrant red car with a white windscreen and a black roof. the car's body is designed with a sleek and aerodynamic shape, typical of modern vehicles. the white windscreen and black roof give the car a clean and stylish appearance. this model can be used in various digital platforms, such as video games, animations, or virtual reality experiences.",
+      "scores": {
+        "bleu-1": 7.936507936507935,
+        "bleu-2": 5.059806172657634,
+        "bleu-3": 3.5939291858279994,
+        "bleu-4": 1.6262850471799448,
+        "rouge-l": 18.181817884297523,
+        "rouge-1": 18.181817884297523,
+        "rouge-2": 5.970149021162852,
+        "meteor": 19.607843137254903,
+        "sbert_similarity": 52.853816747665405,
+        "simcse_similarity": 48.22434186935425
+      }
+    },
+    {
+      "object_id": "82413f74efb84bc3b872a7a8f26cca81",
+      "ground_truth": "A white fish with orange spots\nA white fish with red spots on the body\nWhite fish with red spots.",
+      "model_output": "the 3d model is a cartoonish representation of a fish, with a vibrant red stripe running along its body. the fish is depicted in a playful and whimsical style, typical of animations and children's content. the red stripe adds a pop of color and makes the fish stand out. this model could be used in various digital platforms, such as video games, animations, or educational content for children.",
+      "scores": {
+        "bleu-1": 8.823529411764707,
+        "bleu-2": 1.1475821052644082,
+        "bleu-3": 0.6151879042239252,
+        "bleu-4": 0.41857912008197024,
+        "rouge-l": 13.114753802741205,
+        "rouge-1": 16.393442327331368,
+        "rouge-2": 0.0,
+        "meteor": 18.14516129032258,
+        "sbert_similarity": 44.26981806755066,
+        "simcse_similarity": 51.04023218154907
+      }
+    },
+    {
+      "object_id": "4ef9e579fddd48589ba5e36915503b98",
+      "ground_truth": "Prostock 3d model car\nA red racing car\nA red toy car with a cylindrical part on top of the bonnet and white writing on the bonnet.",
+      "model_output": "the 3d model is a vibrant red car with a sleek design. it has a distinct white windscreen and windows, giving it a modern and stylish look. the car is equipped with four wheels, two of which are black and the other two are white. the car's body is smooth and glossy, suggesting a high-quality finish. this model could be used in various digital platforms, such as video games, animations, or virtual reality experiences.",
+      "scores": {
+        "bleu-1": 16.216216216216218,
+        "bleu-2": 8.163454198450776,
+        "bleu-3": 4.665703002070993,
+        "bleu-4": 1.9001560507076105,
+        "rouge-l": 26.666666275555556,
+        "rouge-1": 26.666666275555556,
+        "rouge-2": 6.249999635633702,
+        "meteor": 22.082018927444793,
+        "sbert_similarity": 68.73193383216858,
+        "simcse_similarity": 74.74191784858704
+      }
+    },
+    {
+      "object_id": "f7d86614605947cfa0a21dbaeac6a112",
+      "ground_truth": "A black tyre\nBlack tyres",
+      "model_output": "the 3d model is a cartoonish representation of a wheel, predominantly black in color. it is designed with a circular shape, which is a common feature of wheels in real life. the cartoonish style adds a playful and whimsical touch to the model, making it suitable for use in animations, video games, and other digital media.",
+      "scores": {
+        "bleu-1": 1.785714285714285,
+        "bleu-2": 0.56980288229819,
+        "bleu-3": 0.4140838788240166,
+        "bleu-4": 0.3263584888402175,
+        "rouge-l": 4.255318958804898,
+        "rouge-1": 4.255318958804898,
+        "rouge-2": 0.0,
+        "meteor": 9.900990099009901,
+        "sbert_similarity": 36.963075399398804,
+        "simcse_similarity": 29.096263647079468
+      }
+    },
+    {
+      "object_id": "c8540e358b7b47d68bb7ec9c39cc6a75",
+      "ground_truth": "A model of a blue colure car\nA toy blue car with black windscreen and windows.",
+      "model_output": "the 3d model is a vibrant blue car with a sleek design. it has a black windscreen and windows, giving it a modern and stylish look. the car is equipped with four wheels, two of which are black and the other two are white. the car's color and design suggest it could be a sports car or a luxury vehicle.",
+      "scores": {
+        "bleu-1": 16.666666666666668,
+        "bleu-2": 10.629880069054675,
+        "bleu-3": 7.497515656947725,
+        "bleu-4": 2.8753847755865958,
+        "rouge-l": 30.769230394230775,
+        "rouge-1": 34.615384240384614,
+        "rouge-2": 10.810810487582186,
+        "meteor": 29.41176470588236,
+        "sbert_similarity": 79.91474866867065,
+        "simcse_similarity": 66.96502566337585
+      }
+    },
+    {
+      "object_id": "dab2073ee4084e5f8c5f8bfc53831b74",
+      "ground_truth": "Three d football\nA ball of football",
+      "model_output": "the 3d model is a cartoon-style soccer ball, predominantly white with black stripes. the ball is spherical in shape and has a smooth, polished surface. the black stripes on the ball are evenly distributed, giving it a unique and eye-catching appearance. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 1.8181818181818177,
+        "bleu-2": 0.5802588531856593,
+        "bleu-3": 0.421676438118695,
+        "bleu-4": 0.3324612889947367,
+        "rouge-l": 4.166666447916678,
+        "rouge-1": 4.166666447916678,
+        "rouge-2": 0.0,
+        "meteor": 8.47457627118644,
+        "sbert_similarity": 58.2699179649353,
+        "simcse_similarity": 40.299585461616516
+      }
+    },
+    {
+      "object_id": "8026380c3c734754951fa2315968e979",
+      "ground_truth": "A pencil",
+      "model_output": "the 3d model is a cartoon-style, white, cylindrical object with a pointed tip. it appears to be a pencil, a common writing instrument. the cartoonish design suggests it could be used in children's media or animations.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.25925925925926,
+        "sbert_similarity": 58.4065318107605,
+        "simcse_similarity": 57.1973979473114
+      }
+    },
+    {
+      "object_id": "93fc33be25e34b44b205c5b962d66e61",
+      "ground_truth": "A four wheel drive",
+      "model_output": "the 3d model is a cartoon-style car with a vibrant blue color. it has a distinctively large, round, and black windscreen. the car's body is designed in a simplistic, cartoonish style, with exaggerated features such as large, round headlights and a small, round rear window. the car's tires are black, adding to its overall aesthetic. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 4.761904761904763,
+        "sbert_similarity": 41.93303883075714,
+        "simcse_similarity": 36.90626919269562
+      }
+    },
+    {
+      "object_id": "0031ba19d3e042c4bcf79eba40ccc812",
+      "ground_truth": "A white container like car with six black tractor legs and yellow sides.",
+      "model_output": "the 3d model is a cartoon-style truck with a vibrant yellow body. the truck is equipped with a large, open-top cab, which is a common feature in real-life trucks. the truck's design is playful and appealing, making it suitable for children's animations or video games.",
+      "scores": {
+        "bleu-1": 6.666666666666667,
+        "bleu-2": 1.2309149097933272,
+        "bleu-3": 0.7421742989734127,
+        "bleu-4": 0.5381887058206485,
+        "rouge-l": 12.499999605034736,
+        "rouge-1": 12.499999605034736,
+        "rouge-2": 0.0,
+        "meteor": 12.34567901234568,
+        "sbert_similarity": 52.42074131965637,
+        "simcse_similarity": 46.553489565849304
+      }
+    },
+    {
+      "object_id": "8caaef98c3704e688242aac0e49cee03",
+      "ground_truth": "A cartoon girl with long yellow hair and a bow on her head",
+      "model_output": "the 3d model is of a cartoon-style girl with long, flowing hair. she is dressed in a vibrant yellow dress, which contrasts beautifully with her hair. she is standing upright, her arms outstretched, and her hands are extended, giving a friendly and welcoming appearance. this model could be used in animations, video games, or as a character in a story.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 4.1169348479630905,
+        "bleu-3": 1.4917209816017982,
+        "bleu-4": 0.846177132910779,
+        "rouge-l": 20.68965482461356,
+        "rouge-1": 24.137930686682523,
+        "rouge-2": 2.9411761799308245,
+        "meteor": 19.774011299435028,
+        "sbert_similarity": 66.2409245967865,
+        "simcse_similarity": 75.89518427848816
+      }
+    },
+    {
+      "object_id": "650c53d68d374c18886aab91bcf8bb54",
+      "ground_truth": "A green toy dinosaur with white belly.",
+      "model_output": "the 3d model is a cartoon-style representation of a green frog. the frog is depicted with a vibrant green color, which is typical for most frogs. it has a round, bulbous head and large, expressive eyes. the frog's body is slim and elongated, typical of most frogs. the frog is standing on two legs, which is a common posture for most frogs.",
+      "scores": {
+        "bleu-1": 3.225806451612903,
+        "bleu-2": 0.7272006117795883,
+        "bleu-3": 0.4697879606736476,
+        "bleu-4": 0.34960392699031706,
+        "rouge-l": 8.888888626172847,
+        "rouge-1": 8.888888626172847,
+        "rouge-2": 0.0,
+        "meteor": 12.0,
+        "sbert_similarity": 44.20861303806305,
+        "simcse_similarity": 58.145612478256226
+      }
+    },
+    {
+      "object_id": "70b5238278b144158b482f5359c3ee8e",
+      "ground_truth": "Private jet",
+      "model_output": "the 3d model is a cartoon-style airplane, predominantly white in color. it has a sleek and aerodynamic design, typical of modern aircraft. the airplane is depicted with two large, round windows on either side, adding to its aesthetic appeal. the model is a simplified representation of a real-life airplane, often used in animations, video games, or educational materials to explain the concept of flight.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 27.281111478805542,
+        "simcse_similarity": 33.05291533470154
+      }
+    },
+    {
+      "object_id": "430837577eb740c793f80a713dba1305",
+      "ground_truth": "A cartoon orange car look like the formula 1 toy",
+      "model_output": "the 3d model is a cartoon-style toy car, predominantly orange in color. it has a distinct design with a large, round headlight and a small, black tail. the car is equipped with four wheels, two of which are black and two are white. the car is designed to be a plaything for children, promoting imaginative play and motor skills.",
+      "scores": {
+        "bleu-1": 6.779661016949152,
+        "bleu-2": 1.0811600584038359,
+        "bleu-3": 0.6207671019110131,
+        "bleu-4": 0.43745086120732124,
+        "rouge-l": 7.407407105624156,
+        "rouge-1": 14.814814513031557,
+        "rouge-2": 0.0,
+        "meteor": 16.778523489932883,
+        "sbert_similarity": 72.14657068252563,
+        "simcse_similarity": 82.80437588691711
+      }
+    },
+    {
+      "object_id": "245af7dde0cd4add9f7e11db3bbbccba",
+      "ground_truth": "Yellow colored blue glassed submarine",
+      "model_output": "the 3d model is a cartoon-style representation of a toy boat. it is predominantly yellow in color, with a distinct blue stripe running down its length. the boat is designed with a playful and whimsical aesthetic, typical of children's toys. it is likely to be used for entertainment purposes, such as in video games, animations, or as a collectible item.",
+      "scores": {
+        "bleu-1": 1.666666666666667,
+        "bleu-2": 0.5314940034527341,
+        "bleu-3": 0.38627596455119273,
+        "bleu-4": 0.3040349233039763,
+        "rouge-l": 3.921568450595933,
+        "rouge-1": 3.921568450595933,
+        "rouge-2": 0.0,
+        "meteor": 9.523809523809526,
+        "sbert_similarity": 51.17447376251221,
+        "simcse_similarity": 25.919193029403687
+      }
+    },
+    {
+      "object_id": "9906e5863a89474da4ee4e178a2daa28",
+      "ground_truth": "Animated brown monkey",
+      "model_output": "the 3d model is a cartoon-style representation of a brown-colored monster. the monster has a distinct feature of having two large, protruding eyes, which are a common characteristic of many cartoon monsters. the monster is also equipped with two large, sharp teeth, which adds to its menacing appearance. the model is designed in a way that it can be used in various digital platforms such as video games, animations, or children's educational content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 40.62740504741669,
+        "simcse_similarity": 45.65444588661194
+      }
+    },
+    {
+      "object_id": "de8ec2a724f14fc4b54624512f80f13e",
+      "ground_truth": "A black insect",
+      "model_output": "the 3d model is a cartoon-style representation of a spider. it is predominantly black in color, with a distinctively long and thin body. the spider has eight legs, each ending in a sharp point, which is a common characteristic of spiders. the model is designed in a stylized, exaggerated manner, typical of cartoonish representations. it could be used in animations, video games, or educational materials to teach children about spiders.",
+      "scores": {
+        "bleu-1": 1.428571428571428,
+        "bleu-2": 0.45501575519329,
+        "bleu-3": 0.3308030504343694,
+        "bleu-4": 0.25963742211370644,
+        "rouge-l": 3.703703598765435,
+        "rouge-1": 3.703703598765435,
+        "rouge-2": 0.0,
+        "meteor": 10.309278350515465,
+        "sbert_similarity": 41.53669774532318,
+        "simcse_similarity": 40.4413640499115
+      }
+    },
+    {
+      "object_id": "a6d8409125274a8187c32bbd0aeae04c",
+      "ground_truth": "A cartoon black car",
+      "model_output": "the 3d model is a cartoon-style car, predominantly black in color. it has a distinctively large, round headlight, which is a common feature in many modern cars. the car is designed in a simplistic, cartoonish style, which is typical for children's animations and games. the model does not have any visible wheels, which is a common feature in cartoonish designs.",
+      "scores": {
+        "bleu-1": 3.3333333333333335,
+        "bleu-2": 0.7516460280028291,
+        "bleu-3": 0.48555405369716886,
+        "bleu-4": 0.3615604940023951,
+        "rouge-l": 8.888888726913583,
+        "rouge-1": 8.888888726913583,
+        "rouge-2": 0.0,
+        "meteor": 15.625000000000004,
+        "sbert_similarity": 73.88882040977478,
+        "simcse_similarity": 67.21698045730591
+      }
+    },
+    {
+      "object_id": "0a9893005a7a4985ba1ee8625d0f859f",
+      "ground_truth": "Digital image for the tr-909 drum machine by roland brand with 30 dials and 8 scuare yellow buttons , 6 little scuare white buttons and 18 white buttons 16 buttons with leds light and a red scuare power button.",
+      "model_output": "the 3d model is a cartoon-style representation of a white piano. the piano is depicted in a playful, exaggerated manner, with exaggerated features and colors. the keys are black and white, and the body of the piano is painted in a vibrant shade of white. this model could be used in animations, video games, or as a decorative piece.",
+      "scores": {
+        "bleu-1": 11.864406779661016,
+        "bleu-2": 1.4302403209963077,
+        "bleu-3": 0.7466743784641228,
+        "bleu-4": 0.5031399335050509,
+        "rouge-l": 11.764705389273376,
+        "rouge-1": 14.705881859861607,
+        "rouge-2": 0.0,
+        "meteor": 8.536585365853659,
+        "sbert_similarity": 42.02738404273987,
+        "simcse_similarity": 45.93287110328674
+      }
+    },
+    {
+      "object_id": "65c1ca532f5b4769b991654bcdb51208",
+      "ground_truth": "A headset without microphone. the headband is gray on the top and light blue in downside. the earcups and the cushion are grey with a little light blue highlite.",
+      "model_output": "the 3d model is a cartoon-style representation of a pair of headphones. the headphones are predominantly blue, with a sleek and modern design. the color scheme is vibrant and eye-catching, making them visually appealing. the headphones are likely to be used for listening to music, watching videos, or engaging in other audio-based activities.",
+      "scores": {
+        "bleu-1": 20.754716981132077,
+        "bleu-2": 6.317667075068758,
+        "bleu-3": 2.0647586187216587,
+        "bleu-4": 1.11851888957889,
+        "rouge-l": 21.874999539550792,
+        "rouge-1": 21.874999539550792,
+        "rouge-2": 2.59740214201391,
+        "meteor": 23.498319179051663,
+        "sbert_similarity": 55.823588371276855,
+        "simcse_similarity": 51.65300965309143
+      }
+    },
+    {
+      "object_id": "dd45a467c50541ef897d4243242e243d",
+      "ground_truth": "A cellphone",
+      "model_output": "the 3d model is of a sleek, black iphone. it is a high-end device with a glossy finish and a slim profile. it features a large, high-resolution screen and a high-quality camera. the iphone is equipped with advanced features like a dual-core processor, a high-resolution camera, and a large storage capacity, making it suitable for both personal and professional use.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.4102564102564115,
+        "sbert_similarity": 37.04676926136017,
+        "simcse_similarity": 37.444233894348145
+      }
+    },
+    {
+      "object_id": "3ca7caa7f6e14bbb8c5e17381d5d8c39",
+      "ground_truth": "Grey colored whale with shaded body having pointed short fins and tail.",
+      "model_output": "the 3d model is a cartoonish representation of a fish. the fish is depicted in a vibrant shade of blue, with exaggerated features such as large eyes and a large mouth. the fish has a streamlined body, typical of aquatic life, and is colored in a bright shade of blue. the model appears to be animated, suggesting it could be used in a digital environment such as video games or animations.",
+      "scores": {
+        "bleu-1": 4.225352112676055,
+        "bleu-2": 0.7769309688655058,
+        "bleu-3": 0.4686322862294921,
+        "bleu-4": 0.3367842053959438,
+        "rouge-l": 6.89655139595721,
+        "rouge-1": 10.34482725802617,
+        "rouge-2": 0.0,
+        "meteor": 11.173184357541901,
+        "sbert_similarity": 47.71575629711151,
+        "simcse_similarity": 31.422045826911926
+      }
+    },
+    {
+      "object_id": "c27165c83e9040fb88e50eb3d3d88f08",
+      "ground_truth": "A black and red colored spaceship toy",
+      "model_output": "the 3d model is a cartoon-style spaceship with a sleek, streamlined design. it is predominantly black in color, with a red stripe running down the middle. the spaceship is equipped with two large, circular windows on either side, giving it a futuristic look. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 5.263157894736841,
+        "bleu-2": 0.9694584179118517,
+        "bleu-3": 0.5845068097497846,
+        "bleu-4": 0.4217698009415556,
+        "rouge-l": 11.999999759200005,
+        "rouge-1": 11.999999759200005,
+        "rouge-2": 0.0,
+        "meteor": 16.666666666666664,
+        "sbert_similarity": 59.59106087684631,
+        "simcse_similarity": 62.1731698513031
+      }
+    },
+    {
+      "object_id": "4593a635ce1a48c3803f161ae836fdb2",
+      "ground_truth": "Half upper portion of fox statue.",
+      "model_output": "the 3d model is a cartoonish representation of a dog's head, colored in a vibrant shade of grey. the head is designed with exaggerated features, such as large eyes and a snout, typical of cartoonish aesthetics. the head is placed on a circular base, providing stability. this model could be used in animation, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 1.666666666666667,
+        "bleu-2": 0.5314940034527341,
+        "bleu-3": 0.38627596455119273,
+        "bleu-4": 0.3040349233039763,
+        "rouge-l": 3.9999997888000114,
+        "rouge-1": 3.9999997888000114,
+        "rouge-2": 0.0,
+        "meteor": 4.385964912280701,
+        "sbert_similarity": 32.4122279882431,
+        "simcse_similarity": 44.29016411304474
+      }
+    },
+    {
+      "object_id": "a2ce958da7c248118813eb8e2e349674",
+      "ground_truth": "A cartoon small dog pink",
+      "model_output": "the 3d model is a cute, cartoon-style representation of a pig. the pig is depicted in a vibrant shade of pink, which adds to its playful and friendly appearance. the pig is standing on a green surface, which could be interpreted as a grassy field or a garden. the pig is depicted in a standing position, suggesting it's ready to interact with its surroundings. this model could be used in animations, video games, children's books, or any other medium that requires a cute and engaging character.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 3.816793893129771,
+        "sbert_similarity": 40.85278809070587,
+        "simcse_similarity": 62.27813959121704
+      }
+    },
+    {
+      "object_id": "1ccbda8800b94066b48af17f93fa9712",
+      "ground_truth": "A cartoon old computer",
+      "model_output": "the 3d model is a cartoon-style representation of a television set. it is predominantly white, with a rectangular shape and a flat screen. the screen is black, giving it a modern and sleek appearance. the television is equipped with a remote control, which is a common feature in most modern televisions. this model could be used in animations, video games, or as a visual aid in educational settings.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 4.807692307692308,
+        "sbert_similarity": 37.48598396778107,
+        "simcse_similarity": 43.74808073043823
+      }
+    },
+    {
+      "object_id": "9ca585120bdb44d1b35105dfcf11316a",
+      "ground_truth": "A iguana with shirt yellow",
+      "model_output": "the 3d model is a cartoon-style figure of a man, painted in a vibrant shade of yellow. the man is depicted with a relaxed and friendly expression, with his arms outstretched. he appears to be in a standing position. the model could be used in animations, video games, or as a decorative piece.",
+      "scores": {
+        "bleu-1": 1.8867924528301883,
+        "bleu-2": 0.6023659207386688,
+        "bleu-3": 0.4377334161663775,
+        "bleu-4": 0.3453783827607846,
+        "rouge-l": 9.090908889462815,
+        "rouge-1": 9.090908889462815,
+        "rouge-2": 0.0,
+        "meteor": 10.204081632653061,
+        "sbert_similarity": 28.85822057723999,
+        "simcse_similarity": 29.61316704750061
+      }
+    },
+    {
+      "object_id": "f9e4b03e63624e7aa050a798b63bc9c4",
+      "ground_truth": "A rare tool",
+      "model_output": "the 3d model is a cartoon-style representation of a spaceship. it is predominantly grey in color, with a distinct blue stripe running down the middle. the spaceship is designed with a sleek, aerodynamic shape, suggesting it's built for space travel. the blue stripe could be a representation of a futuristic technology or a symbolic element. the spaceship is a common theme in science fiction, and this model could be used in animations, video games, or educational materials.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 4.807692307692308,
+        "sbert_similarity": 15.437930822372437,
+        "simcse_similarity": 10.665352642536163
+      }
+    },
+    {
+      "object_id": "6b4ab1eb046447f69fb514aece085fb3",
+      "ground_truth": "A cartoon white dinosaur",
+      "model_output": "the 3d model is of a cartoon-style dinosaur, specifically a t-rex. it is predominantly white in color, with a distinctively large head and long, sharp teeth. the dinosaur is standing on two legs, which is a common feature of dinosaurs. the model is designed in a stylized, cartoonish manner, which is typical of children's animations and games.",
+      "scores": {
+        "bleu-1": 3.508771929824561,
+        "bleu-2": 0.7915594835766298,
+        "bleu-3": 0.5113043172504745,
+        "bleu-4": 0.38111203719291503,
+        "rouge-l": 9.090908925619837,
+        "rouge-1": 9.090908925619837,
+        "rouge-2": 0.0,
+        "meteor": 16.129032258064516,
+        "sbert_similarity": 67.73092746734619,
+        "simcse_similarity": 79.91586923599243
+      }
+    },
+    {
+      "object_id": "0b8da82a3d7a436f9b585436c4b72f56",
+      "ground_truth": "A cartoon red car in 3d",
+      "model_output": "the 3d model is a vibrant red car with a distinct black windscreen and windows. the car's body is designed in a sleek and modern style, with a black roof and a black front grille. the car's wheels are black, adding to its overall aesthetic appeal. this model could be used in various digital platforms such as video games, animations, or virtual reality experiences.",
+      "scores": {
+        "bleu-1": 6.25,
+        "bleu-2": 3.149703941743561,
+        "bleu-3": 1.2228375517280197,
+        "bleu-4": 0.7156562786973337,
+        "rouge-l": 10.909090714710747,
+        "rouge-1": 14.54545435107438,
+        "rouge-2": 3.0769229349112495,
+        "meteor": 31.525423728813568,
+        "sbert_similarity": 73.12272191047668,
+        "simcse_similarity": 68.84840130805969
+      }
+    },
+    {
+      "object_id": "66d40cfa1e4a4aa2805e516a75156162",
+      "ground_truth": "A silver robot with blue eyes and a blue diamond shape on its chest",
+      "model_output": "the 3d model is a cartoon-style robot with a distinct white body and blue eyes. the robot has two arms and two legs, giving it a human-like appearance. the robot's design suggests it could be used in animation, video games, or as a character in a story.",
+      "scores": {
+        "bleu-1": 10.638297872340424,
+        "bleu-2": 4.809026357287709,
+        "bleu-3": 1.7972049012577633,
+        "bleu-4": 1.039590449594692,
+        "rouge-l": 20.408162875468562,
+        "rouge-1": 24.489795528529783,
+        "rouge-2": 6.779660673369739,
+        "meteor": 20.23121387283237,
+        "sbert_similarity": 61.795711517333984,
+        "simcse_similarity": 56.61187171936035
+      }
+    },
+    {
+      "object_id": "69e85f0a164f47e0bfe9f8c1c6229fd3",
+      "ground_truth": "Gray colored toy elephant with curved front teeth and long stringed tail.",
+      "model_output": "the 3d model is of a cartoon-style elephant, rendered in a light brown color. the elephant has a distinctively long trunk, which is a defining feature of elephants. the trunk is also adorned with two large, round eyes, giving the elephant a friendly and approachable appearance. this model could be used in animations, video games, or as a decorative piece.",
+      "scores": {
+        "bleu-1": 6.666666666666667,
+        "bleu-2": 1.0629880069054682,
+        "bleu-3": 0.6103479395506313,
+        "bleu-4": 0.4299703119715468,
+        "rouge-l": 13.793103120095132,
+        "rouge-1": 13.793103120095132,
+        "rouge-2": 0.0,
+        "meteor": 11.904761904761903,
+        "sbert_similarity": 70.28069496154785,
+        "simcse_similarity": 65.92001914978027
+      }
+    },
+    {
+      "object_id": "ace648eb3044412099c5fae424dcc30c",
+      "ground_truth": "Grey fin threaded hexagonal umbrella panel sided camera.",
+      "model_output": "the 3d model is a cartoon-style representation of a spaceship. it is predominantly white in color, with a distinct circular shape and a pointed nose. the spaceship is equipped with two large, circular windows, which are a common feature in many sci-fi and fantasy settings. the spaceship's design suggests it could be used in animations, video games, or other digital media.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 32.77319669723511,
+        "simcse_similarity": 22.57392257452011
+      }
+    },
+    {
+      "object_id": "7c2049d2a4654625b56ab719fd6a507b",
+      "ground_truth": "A cartoon green geometric figure in 3d",
+      "model_output": "the 3d model is a vibrant green rectangular block with a hole in the middle. the block is designed with a flat top and a flat bottom, suggesting it could be used as a base or a base for other objects. the hole in the middle could be used for various purposes, such as a hole for a pipe or a slot for a key.",
+      "scores": {
+        "bleu-1": 4.615384615384617,
+        "bleu-2": 0.8492077756084472,
+        "bleu-3": 0.5121142181943552,
+        "bleu-4": 0.3686157786230468,
+        "rouge-l": 9.523809246031753,
+        "rouge-1": 14.285714007936512,
+        "rouge-2": 0.0,
+        "meteor": 15.625000000000004,
+        "sbert_similarity": 48.64889681339264,
+        "simcse_similarity": 55.38923740386963
+      }
+    },
+    {
+      "object_id": "b6452e7e86fc4270b7ef471329a640eb",
+      "ground_truth": "White colored doll with red colored long and wide gown.",
+      "model_output": "the 3d model is a cartoon-style figure of a woman dressed in a vibrant red dress. she is holding a golden crown on her head, adding a regal touch to her appearance. the model is designed in a playful and whimsical style, typical of cartoon characters. it could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 3.3898305084745757,
+        "bleu-2": 0.7644956088453955,
+        "bleu-3": 0.49384287748501865,
+        "bleu-4": 0.36785086103888687,
+        "rouge-l": 7.4074071296296395,
+        "rouge-1": 7.4074071296296395,
+        "rouge-2": 0.0,
+        "meteor": 6.711409395973156,
+        "sbert_similarity": 51.84345245361328,
+        "simcse_similarity": 62.522608041763306
+      }
+    },
+    {
+      "object_id": "2221aec5809d43d88aedf82738432318",
+      "ground_truth": "A cartoon robotic white toy",
+      "model_output": "the 3d model is a cartoon-style representation of a robot. it is predominantly black in color, with a distinct feature being its two large, circular eyes. the robot is designed with a simplistic, cartoonish aesthetic, which is typical of many animated or children's content. the robot's design suggests it could be used in various digital platforms, such as video games, animations, or educational content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 9.174311926605506,
+        "sbert_similarity": 55.59462904930115,
+        "simcse_similarity": 61.83880567550659
+      }
+    },
+    {
+      "object_id": "23553a1bc13a478486033f2e19c14497",
+      "ground_truth": "A white cuboid object like container.",
+      "model_output": "the 3d model is a cartoon-like representation of a white, rectangular-shaped object. it is characterized by its simplistic design and clean lines, typical of cartoonish aesthetics. the object appears to be a flat surface, possibly a table or a piece of furniture. its white color suggests it could be made of a material like plastic or glass.",
+      "scores": {
+        "bleu-1": 5.263157894736841,
+        "bleu-2": 0.9694584179118517,
+        "bleu-3": 0.5845068097497846,
+        "bleu-4": 0.4217698009415556,
+        "rouge-l": 12.499999781250002,
+        "rouge-1": 12.499999781250002,
+        "rouge-2": 0.0,
+        "meteor": 18.01801801801802,
+        "sbert_similarity": 53.6332905292511,
+        "simcse_similarity": 55.83752393722534
+      }
+    },
+    {
+      "object_id": "b609a8c52be74eaf82f3a1713d264779",
+      "ground_truth": "A white brown skeleton",
+      "model_output": "the 3d model is a cartoon-style representation of a human figure, predominantly yellow in color. the figure is depicted with exaggerated features, such as large eyes and a large mouth, which are typical of cartoonish designs. the model appears to be in a state of animation, suggesting that it could be used in digital media, video games, or children's entertainment.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.208333333333334,
+        "sbert_similarity": 28.1559556722641,
+        "simcse_similarity": 24.875101447105408
+      }
+    },
+    {
+      "object_id": "bed2c5c9c36a4659820597b422fc95a9",
+      "ground_truth": "A model of a yellow bird",
+      "model_output": "the 3d model is a cartoon-style representation of a bird, specifically a parrot, in a vibrant shade of yellow. the bird is depicted with exaggerated features, such as large, round eyes and a long, pointed beak. the model is designed to be used in animations, video games, or other digital media, adding a touch of fun and whimsy.",
+      "scores": {
+        "bleu-1": 6.896551724137931,
+        "bleu-2": 3.478392380269826,
+        "bleu-3": 1.350230170604239,
+        "bleu-4": 0.791683523302066,
+        "rouge-l": 19.9999997888,
+        "rouge-1": 19.9999997888,
+        "rouge-2": 3.2786883740929924,
+        "meteor": 22.321428571428577,
+        "sbert_similarity": 72.74455428123474,
+        "simcse_similarity": 67.64598488807678
+      }
+    },
+    {
+      "object_id": "b11ad0a8c43e43579925d37e5341aeaa",
+      "ground_truth": "A black smartphone with a circular rear camera and torch. it is also having a black screen.",
+      "model_output": "the 3d model is of a sleek, black iphone. it is a high-end device with a glossy finish and a large, vibrant display. the phone is equipped with a high-resolution camera, a fingerprint scanner, and a dual-core processor, indicating its advanced features. the model is designed to resemble a real-life iphone, making it suitable for use in animations, video games, and digital art.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 5.986843400892497,
+        "bleu-3": 1.8784159504452935,
+        "bleu-4": 0.9947837396193072,
+        "rouge-l": 19.67213077667294,
+        "rouge-1": 19.67213077667294,
+        "rouge-2": 5.333332997688911,
+        "meteor": 20.833333333333336,
+        "sbert_similarity": 49.53276813030243,
+        "simcse_similarity": 53.37820053100586
+      }
+    },
+    {
+      "object_id": "7ac4782d7acf461a8786c6761a54e6d4",
+      "ground_truth": "A fat blue doll with a white belly.",
+      "model_output": "the 3d model is a cartoon-style representation of a dog, specifically a pug. the dog is depicted in a vibrant purple color, which is a common color choice for cartoon characters. the model is designed to be a toy, with a round head and a small body, typical of a pug. the dog's face is open, revealing its expressive eyes, and it has a tail that is curled around its body. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 2.352941176470588,
+        "bleu-2": 1.673654817511446,
+        "bleu-3": 0.731684269456171,
+        "bleu-4": 0.4504120074588204,
+        "rouge-l": 5.970149043439526,
+        "rouge-1": 5.970149043439526,
+        "rouge-2": 2.3255812458085545,
+        "meteor": 9.554140127388536,
+        "sbert_similarity": 41.42340421676636,
+        "simcse_similarity": 33.95416438579559
+      }
+    },
+    {
+      "object_id": "c048d2bee4954a48ad37debad7cb9daa",
+      "ground_truth": "Figure of a black cat with yellow eyes the face or undefined face cannot be distinguished following a small green ball that is suspended by a very thin white rope the cat stands on two legs on a round light brown surface and the other two legs are outside touching what would be the floor the image is in 3d with a gray background.",
+      "model_output": "the 3d model is a cartoon-style representation of a black cat with a green leaf on its head. the cat is depicted in a playful and whimsical manner, which is typical of cartoon designs. the green leaf on its head adds a unique and vibrant touch to the model. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 37.495325582427064,
+        "bleu-2": 18.89824884718256,
+        "bleu-3": 12.25703958925864,
+        "bleu-4": 8.678237697857426,
+        "rouge-l": 26.6666661688889,
+        "rouge-1": 31.111110613333338,
+        "rouge-2": 9.99999950055558,
+        "meteor": 25.482417443235857,
+        "sbert_similarity": 64.07173871994019,
+        "simcse_similarity": 59.250229597091675
+      }
+    },
+    {
+      "object_id": "d6a3520486bb474f9b5e72eda8408974",
+      "ground_truth": "Wooden batten united rectangular box with open top.",
+      "model_output": "the 3d model is a cartoonish representation of a wooden crate. the crate is painted in a vibrant shade of brown, giving it a rustic and natural look. the crate is designed with a sturdy structure, suggesting it could be used for storage or transportation of goods. the cartoonish style adds a playful and whimsical touch, making it suitable for use in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 1.4705882352941173,
+        "bleu-2": 0.46849843264111557,
+        "bleu-3": 0.3405790072175058,
+        "bleu-4": 0.2674482423578473,
+        "rouge-l": 3.6363633877686117,
+        "rouge-1": 3.6363633877686117,
+        "rouge-2": 0.0,
+        "meteor": 10.714285714285714,
+        "sbert_similarity": 44.516634941101074,
+        "simcse_similarity": 44.595664739608765
+      }
+    },
+    {
+      "object_id": "fc8dd5a2fc9f4dd19ad6a64a8a6e89e9",
+      "ground_truth": "A white snow doll wearing a brown circular hat and carrying a brown hand bag on the side.",
+      "model_output": "the 3d model is a cartoon-style representation of a man wearing a white shirt and a black hat. the man is depicted with a friendly and approachable demeanor, which is typical of cartoon characters. the white shirt and black hat combination gives the character a clean and classic look. this model could be used in animations, video games, or other digital media to add a touch of whimsy and humor.",
+      "scores": {
+        "bleu-1": 10.000000000000002,
+        "bleu-2": 3.806934938134404,
+        "bleu-3": 1.3441627592305123,
+        "bleu-4": 0.7510032189201753,
+        "rouge-l": 15.873015494079123,
+        "rouge-1": 19.047618668682293,
+        "rouge-2": 2.4390240761451922,
+        "meteor": 19.396551724137932,
+        "sbert_similarity": 32.27279484272003,
+        "simcse_similarity": 37.26204335689545
+      }
+    },
+    {
+      "object_id": "f223fd8263bb401da586fa6c34cf8fe6",
+      "ground_truth": "A white police van with yellow and blue plaid pattern sides.",
+      "model_output": "the 3d model is a cartoon-style police car, painted in a vibrant shade of blue. it features a distinct yellow stripe on the side, which is a common design element in police vehicles. the car is equipped with a siren, which is a common feature in emergency vehicles, and it also has a flashing light on the front, which is another common feature in police cars. the car is designed to be easily recognizable and easily distinguishable, making it suitable for use in animated films, video games, or other forms of digital media.",
+      "scores": {
+        "bleu-1": 4.301075268817205,
+        "bleu-2": 0.6837456993599116,
+        "bleu-3": 0.3931395911018842,
+        "bleu-4": 0.2748693582120728,
+        "rouge-l": 14.084506780400716,
+        "rouge-1": 14.084506780400716,
+        "rouge-2": 0.0,
+        "meteor": 15.625,
+        "sbert_similarity": 56.46194815635681,
+        "simcse_similarity": 49.31211173534393
+      }
+    },
+    {
+      "object_id": "62d737fd396b40b7ba7752b765a37898",
+      "ground_truth": "A cartoon black professional camera in 3d",
+      "model_output": "the 3d model is a cartoon-style, black-colored, portable camera. it has a sleek design with a compact size, making it suitable for everyday use. the camera is equipped with a lens and a shutter button, allowing users to capture images and videos. it's a common sight in daily life, used for capturing memories, documenting events, or even for professional photography.",
+      "scores": {
+        "bleu-1": 6.666666666666667,
+        "bleu-2": 1.0629880069054682,
+        "bleu-3": 0.6103479395506313,
+        "bleu-4": 0.4299703119715468,
+        "rouge-l": 11.111110885459539,
+        "rouge-1": 14.81481458916324,
+        "rouge-2": 0.0,
+        "meteor": 20.325203252032523,
+        "sbert_similarity": 64.6230399608612,
+        "simcse_similarity": 61.340540647506714
+      }
+    },
+    {
+      "object_id": "8b39b8957231420d919b60febb627bd5",
+      "ground_truth": "A storyed building with green background",
+      "model_output": "the 3d model is a cartoon-style representation of a ship. it is predominantly green in color, with a distinct white stripe running down the middle. the ship is designed with a playful and whimsical aesthetic, typical of children's cartoons. the ship is depicted as a large vessel, suggesting it could be used for transportation or recreational activities.",
+      "scores": {
+        "bleu-1": 3.508771929824561,
+        "bleu-2": 0.7915594835766298,
+        "bleu-3": 0.5113043172504745,
+        "bleu-4": 0.38111203719291503,
+        "rouge-l": 8.33333311458334,
+        "rouge-1": 8.33333311458334,
+        "rouge-2": 0.0,
+        "meteor": 13.513513513513514,
+        "sbert_similarity": 31.68444335460663,
+        "simcse_similarity": 25.976988673210144
+      }
+    },
+    {
+      "object_id": "3066dc0d8f1c48a49c415caf769924a5",
+      "ground_truth": "A grey coloured mug with gold top and golden handle",
+      "model_output": "the 3d model is a cartoon-style mug with a white exterior and a brown handle. the mug is designed in a playful, cartoonish style, which is typical of children's toys or animations. the brown handle adds a touch of realism to the otherwise simplistic design. this mug could be used for drinking hot beverages like coffee or tea, or even as a decorative piece in a child's room.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 2.963044254729799,
+        "bleu-3": 1.1505292713939146,
+        "bleu-4": 0.6725967213014014,
+        "rouge-l": 13.559321752370012,
+        "rouge-1": 13.559321752370012,
+        "rouge-2": 2.7027024890431144,
+        "meteor": 15.822784810126583,
+        "sbert_similarity": 61.964231729507446,
+        "simcse_similarity": 53.752559423446655
+      }
+    },
+    {
+      "object_id": "e5ed116b39f04332a44da04668ac4c64",
+      "ground_truth": "Grey coloured paper boat with green connecting rafts inside with a tapering front and rectangular other end.",
+      "model_output": "the 3d model is a cartoon-style boat, painted in a vibrant shade of green. it features a small, round, green light bulb at the front, which is a unique and eye-catching feature. the boat is designed with a simplistic and playful aesthetic, making it suitable for children's entertainment or educational purposes.",
+      "scores": {
+        "bleu-1": 9.803921568627452,
+        "bleu-2": 4.428074427700477,
+        "bleu-3": 1.654768082246365,
+        "bleu-4": 0.9555383603768256,
+        "rouge-l": 17.8571424489796,
+        "rouge-1": 17.8571424489796,
+        "rouge-2": 3.0769227057988613,
+        "meteor": 18.235294117647058,
+        "sbert_similarity": 60.46231389045715,
+        "simcse_similarity": 59.09382104873657
+      }
+    },
+    {
+      "object_id": "92536192d82c4ee59da4c29e691d5de5",
+      "ground_truth": "Yellow,blue and brown discs",
+      "model_output": "the 3d model is a cartoon-like representation of a vibrant orange fish. the fish is depicted with exaggerated features, such as large eyes and a large mouth, which are typical of cartoonish designs. the color scheme is bright and cheerful, with the fish being predominantly orange. this model could be used in animations, video games, or educational materials to engage children in a fun and educational way.",
+      "scores": {
+        "bleu-1": 1.4925373134328364,
+        "bleu-2": 0.4755439172009179,
+        "bleu-3": 0.3456880833502093,
+        "bleu-4": 0.2715326029124504,
+        "rouge-l": 3.846153704142017,
+        "rouge-1": 3.846153704142017,
+        "rouge-2": 0.0,
+        "meteor": 4.8543689320388355,
+        "sbert_similarity": 29.71847355365753,
+        "simcse_similarity": 29.39993143081665
+      }
+    },
+    {
+      "object_id": "7bcf8626eaca40e592ffd0aed08aa30b",
+      "ground_truth": "A cartoon black tuning car",
+      "model_output": "the 3d model is a sleek, black sports car with a distinct yellow stripe running along its length. the car's design suggests high-speed performance and a luxurious feel. the yellow stripe adds a touch of uniqueness and can be seen as a form of personalization. the car's black color and the yellow stripe make it stand out, making it a desirable choice for car enthusiasts.",
+      "scores": {
+        "bleu-1": 3.0769230769230766,
+        "bleu-2": 0.6933752452815363,
+        "bleu-3": 0.44797803262585784,
+        "bleu-4": 0.3330819561259882,
+        "rouge-l": 7.999999820000003,
+        "rouge-1": 7.999999820000003,
+        "rouge-2": 0.0,
+        "meteor": 13.636363636363638,
+        "sbert_similarity": 55.02702593803406,
+        "simcse_similarity": 49.09611642360687
+      }
+    },
+    {
+      "object_id": "67beae18c3d24be68f9c8f0ec382d8e3",
+      "ground_truth": "A cartoon black truck in 3d",
+      "model_output": "the 3d model is a cartoon-style pickup truck, painted in a vibrant shade of black. it has a distinctively large, round, and round headlight, which is a common feature in many pickup trucks. the truck is also equipped with a large, flatbed at the back, which is typically used for transporting heavy items. the truck's design suggests it could be used in a variety of settings, from construction sites to farms, and even in video games.",
+      "scores": {
+        "bleu-1": 3.9473684210526314,
+        "bleu-2": 0.7254762501100118,
+        "bleu-3": 0.43768820595551383,
+        "bleu-4": 0.31417596289969146,
+        "rouge-l": 9.83606539639882,
+        "rouge-1": 13.114753920988981,
+        "rouge-2": 0.0,
+        "meteor": 15.384615384615385,
+        "sbert_similarity": 72.21894860267639,
+        "simcse_similarity": 75.20033121109009
+      }
+    },
+    {
+      "object_id": "c1af9921cc2640018703a8481b1af64e",
+      "ground_truth": "A cartoon black carpet in 3d",
+      "model_output": "the 3d model is a cartoon-style representation of a black rectangular board. the board is adorned with a vibrant assortment of colors, including red, blue, yellow, and green. the board appears to be used for various purposes, such as a game board, a learning tool, or a decorative piece. its cartoonish design suggests it could be used in children's entertainment or educational settings.",
+      "scores": {
+        "bleu-1": 4.761904761904762,
+        "bleu-2": 0.8763841367493648,
+        "bleu-3": 0.5284690157952201,
+        "bleu-4": 0.38060718506189495,
+        "rouge-l": 7.272727078347112,
+        "rouge-1": 10.909090714710747,
+        "rouge-2": 0.0,
+        "meteor": 17.094017094017097,
+        "sbert_similarity": 52.71986722946167,
+        "simcse_similarity": 58.125901222229004
+      }
+    },
+    {
+      "object_id": "b472057e7749488b867e6c72d365b925",
+      "ground_truth": "A red toy car with white windscreen and windows and three black lines in the bonnet .",
+      "model_output": "the 3d model is a vibrant red car with a sleek design. it has a black windscreen and windows, giving it a modern and stylish look. the car is equipped with four wheels, two of which are black and the other two are white. the car's body is smooth and glossy, giving it a luxurious feel. the model appears to be a sports car, suggesting it might be used for high-speed driving or racing.",
+      "scores": {
+        "bleu-1": 10.810810810810814,
+        "bleu-2": 5.442302798967185,
+        "bleu-3": 1.6699245871728985,
+        "bleu-4": 0.872456212377748,
+        "rouge-l": 21.874999641113284,
+        "rouge-1": 24.999999641113284,
+        "rouge-2": 4.6511625027041825,
+        "meteor": 19.82378854625551,
+        "sbert_similarity": 68.61616969108582,
+        "simcse_similarity": 70.54892778396606
+      }
+    },
+    {
+      "object_id": "19b64dad6ab542bc903119201f74b251",
+      "ground_truth": "Light brown shaded toy car with red tail in back.",
+      "model_output": "the 3d model is a cartoonish representation of a toy car, predominantly in shades of brown. the car is designed with exaggerated features, such as large, round headlights and a small, round, flat bottom. the car is painted in a vibrant yellow color, which adds a playful and eye-catching element to the model. this toy car is likely to be used for play, especially by children, and can also be used as a decorative item in a child's room or a collector's item for toy enthusiasts.",
+      "scores": {
+        "bleu-1": 4.651162790697675,
+        "bleu-2": 2.3392212858877217,
+        "bleu-3": 0.9090230554871049,
+        "bleu-4": 0.5292931932686872,
+        "rouge-l": 11.940298253508582,
+        "rouge-1": 14.92537288037425,
+        "rouge-2": 2.247190829440742,
+        "meteor": 17.045454545454547,
+        "sbert_similarity": 68.29517483711243,
+        "simcse_similarity": 74.8320460319519
+      }
+    },
+    {
+      "object_id": "93bfec3a68214dc5ba44f225698a5af5",
+      "ground_truth": "A foldable knife pen with white holder.",
+      "model_output": "the 3d model is a cartoonish representation of a white bicycle. it features a sleek, streamlined design with a single wheel at the front and two wheels at the back. the bicycle is painted in a vibrant white color, giving it a playful and cheerful appearance. this model could be used in animations, video games, or educational materials to teach children about bicycles.",
+      "scores": {
+        "bleu-1": 3.1746031746031735,
+        "bleu-2": 0.7155646512351527,
+        "bleu-3": 0.46228458728286803,
+        "bleu-4": 0.3439174150102313,
+        "rouge-l": 7.407407181755836,
+        "rouge-1": 7.407407181755836,
+        "rouge-2": 0.0,
+        "meteor": 11.904761904761905,
+        "sbert_similarity": 20.963652431964874,
+        "simcse_similarity": 29.674848914146423
+      }
+    },
+    {
+      "object_id": "98163a297e974b998385eeb3fe85cc45",
+      "ground_truth": "Bunny with long ears, blue hat, black vest, blue shirt, red scarf, black shorts and wristbands.",
+      "model_output": "the 3d model is of a cartoon-style female character, wearing a white shirt and blue pants. she is depicted with a pair of blue shoes, adding a pop of color to her outfit. the model is designed in a simplistic and cartoonish style, typical of children's animations or video games.",
+      "scores": {
+        "bleu-1": 7.999999999999999,
+        "bleu-2": 1.27775312999988,
+        "bleu-3": 0.7335764503904604,
+        "bleu-4": 0.5186671025518577,
+        "rouge-l": 11.764705484044613,
+        "rouge-1": 11.764705484044613,
+        "rouge-2": 0.0,
+        "meteor": 10.309278350515463,
+        "sbert_similarity": 48.09063374996185,
+        "simcse_similarity": 32.81643092632294
+      }
+    },
+    {
+      "object_id": "dc797a35886940e19cc79edeb69ec933",
+      "ground_truth": "A black cap with a camouflage flat part and a white front logo.\nA cartoon black and green hat",
+      "model_output": "the 3d model is a cartoonish representation of a black cat. the cat is depicted with a vibrant, eye-catching color scheme, which is a common characteristic of cartoonish designs. the cat's face is expressive, with large, round eyes and a mouth that appears to be smiling. the cat's body is sleek and streamlined, suggesting a high level of detail and realism. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 7.999999999999999,
+        "bleu-2": 4.649905549752772,
+        "bleu-3": 1.4983614223591102,
+        "bleu-4": 0.8008629943608984,
+        "rouge-l": 11.940298159946547,
+        "rouge-1": 11.940298159946547,
+        "rouge-2": 4.444444124444467,
+        "meteor": 22.35772357723577,
+        "sbert_similarity": 31.471458077430725,
+        "simcse_similarity": 42.79676079750061
+      }
+    },
+    {
+      "object_id": "fa221f081f3844b5b013d5c1d863d572",
+      "ground_truth": "A 3d girrafee diagram with white colour and in all directions",
+      "model_output": "the 3d model is a cartoon-style representation of a giraffe. the giraffe is depicted in a simplistic, cartoonish style, with exaggerated features such as a long neck and long legs. the giraffe is depicted in a solid white color, giving it a clean and minimalist look. this model could be used in animations, video games, or educational materials to teach children about giraffes.",
+      "scores": {
+        "bleu-1": 7.936507936507935,
+        "bleu-2": 1.1314070555035511,
+        "bleu-3": 0.6255033169346935,
+        "bleu-4": 0.43245325468400436,
+        "rouge-l": 17.543859337642356,
+        "rouge-1": 17.543859337642356,
+        "rouge-2": 0.0,
+        "meteor": 18.51851851851852,
+        "sbert_similarity": 52.041828632354736,
+        "simcse_similarity": 46.20369076728821
+      }
+    },
+    {
+      "object_id": "47f6f6f2e43a4c21896bd6e1c8ddda8f",
+      "ground_truth": "A cartoon silver mouse",
+      "model_output": "the 3d model is a cartoonish representation of a white cat. the cat is depicted with exaggerated features, such as large eyes and a large mouth, typical of cartoonish aesthetics. the model is in a state of animation, suggesting it could be used in a digital environment, such as video games or animations.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.617977528089889,
+        "sbert_similarity": 41.83467626571655,
+        "simcse_similarity": 50.38368105888367
+      }
+    },
+    {
+      "object_id": "5c08f723bfc94a98b7d7918e3e4ff1dc",
+      "ground_truth": "Images of an all dark car.wheels are also dark and the windows tinted",
+      "model_output": "the 3d model is a sleek, black car with a distinctively large, round headlight. the car's body is painted in a glossy black color, giving it a sleek and modern look. the large headlight is a standout feature, providing a sense of power and visibility. this model could be used in various contexts, such as in video games, animations, or as a reference for car enthusiasts.",
+      "scores": {
+        "bleu-1": 4.545454545454546,
+        "bleu-2": 0.8362420100070908,
+        "bleu-3": 0.5043124807367441,
+        "bleu-4": 0.3628990737912465,
+        "rouge-l": 9.836065238376793,
+        "rouge-1": 13.114753762966952,
+        "rouge-2": 0.0,
+        "meteor": 13.661202185792352,
+        "sbert_similarity": 53.252387046813965,
+        "simcse_similarity": 62.779468297958374
+      }
+    },
+    {
+      "object_id": "3ae619d071214c058d49364b972782f5",
+      "ground_truth": "A flat grey object with a key hole gap in the top and having two flat regions in the back.",
+      "model_output": "the 3d model is a cartoon-style representation of a spaceship. it is predominantly grey in color, with a sleek and aerodynamic design. the spaceship is equipped with two large, circular windows on either side, giving it a futuristic look. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 16.9811320754717,
+        "bleu-2": 5.714544883195946,
+        "bleu-3": 1.932456513322887,
+        "bleu-4": 1.063789694942228,
+        "rouge-l": 24.137930620095126,
+        "rouge-1": 24.137930620095126,
+        "rouge-2": 2.8571424751020924,
+        "meteor": 23.60515021459228,
+        "sbert_similarity": 40.06059169769287,
+        "simcse_similarity": 37.14921176433563
+      }
+    },
+    {
+      "object_id": "5e04c38c79dd4b85a88fe997b70abc8d",
+      "ground_truth": "A cartoon blue look like a pokemon in 3d",
+      "model_output": "the 3d model is a cartoon-style representation of a bird, specifically a sparrow. the bird is predominantly blue in color, with a distinctively long tail. the bird's wings are spread wide, giving it a dynamic and lively appearance. the bird's body is small and compact, typical of a bird species. the model is designed to be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 6.060606060606061,
+        "bleu-2": 0.9656090991705354,
+        "bleu-3": 0.5545356857353239,
+        "bleu-4": 0.3899604329826862,
+        "rouge-l": 14.285714015943881,
+        "rouge-1": 14.285714015943881,
+        "rouge-2": 0.0,
+        "meteor": 17.006802721088437,
+        "sbert_similarity": 49.22319054603577,
+        "simcse_similarity": 59.15424823760986
+      }
+    },
+    {
+      "object_id": "f12f0dd7968d4f14ac7c3d0562a5d394",
+      "ground_truth": "A cartoon usb white in 3d",
+      "model_output": "the 3d model is a cartoon-style representation of a white and blue usb connector. it is designed with a playful and simplistic aesthetic, typical of children's animations or video games. the connector is a common electronic device used for transferring data between computers, smartphones, and other devices.",
+      "scores": {
+        "bleu-1": 6.382978723404255,
+        "bleu-2": 1.1779660734950188,
+        "bleu-3": 0.7102111838316822,
+        "bleu-4": 0.5145174324020216,
+        "rouge-l": 4.6511625505678875,
+        "rouge-1": 13.953488131963226,
+        "rouge-2": 0.0,
+        "meteor": 19.801980198019802,
+        "sbert_similarity": 62.17712759971619,
+        "simcse_similarity": 74.9121606349945
+      }
+    },
+    {
+      "object_id": "12c80f148c6840ad92433948566ef5a4",
+      "ground_truth": "3d version of a blue robot",
+      "model_output": "the 3d model is a cartoon-style robot with a vibrant blue body. it has a distinct feature of a red face, which adds a playful and friendly touch to its appearance. the robot's design suggests it could be used in children's entertainment, animation, or video games.",
+      "scores": {
+        "bleu-1": 10.869565217391305,
+        "bleu-2": 4.914731871829905,
+        "bleu-3": 1.83675192716765,
+        "bleu-4": 1.062966632179831,
+        "rouge-l": 17.39130412098299,
+        "rouge-1": 21.73913020793951,
+        "rouge-2": 3.999999820000008,
+        "meteor": 25.000000000000007,
+        "sbert_similarity": 73.58130812644958,
+        "simcse_similarity": 73.59212636947632
+      }
+    },
+    {
+      "object_id": "b156e91504374c77ac354a3dbe803876",
+      "ground_truth": "A cartoon yellow look like a banana with arms",
+      "model_output": "the 3d model is a cartoon-like representation of a bird with a vibrant yellow color. the bird has two distinct eyes, one blue and one red, giving it a unique and eye-catching appearance. this model could be used in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 6.521739130434781,
+        "bleu-2": 1.2038585308576921,
+        "bleu-3": 0.7258391960126113,
+        "bleu-4": 0.5260868474998188,
+        "rouge-l": 8.51063798822998,
+        "rouge-1": 12.765957137166147,
+        "rouge-2": 0.0,
+        "meteor": 15.748031496062993,
+        "sbert_similarity": 42.373111844062805,
+        "simcse_similarity": 50.50385594367981
+      }
+    },
+    {
+      "object_id": "252c69eec4ff4fdcaeaee1b709d42012",
+      "ground_truth": "A yellow and white fish with black stripes and fins",
+      "model_output": "the 3d model is a cartoon-style fish with a vibrant orange body and a contrasting white belly. the fish has two large, expressive eyes that give it a friendly and approachable appearance. the model is likely used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 5.02518907629606,
+        "bleu-3": 1.8780882617284687,
+        "bleu-4": 1.0874186245524662,
+        "rouge-l": 13.333333013333343,
+        "rouge-1": 17.77777745777778,
+        "rouge-2": 3.846153559911264,
+        "meteor": 22.222222222222225,
+        "sbert_similarity": 53.46149206161499,
+        "simcse_similarity": 52.16549038887024
+      }
+    },
+    {
+      "object_id": "92a1f1eb6a6843e4b60044725cfae8b6",
+      "ground_truth": "A clay made purple hippotomus",
+      "model_output": "the 3d model is a cartoon-style representation of a pig. the pig is depicted in a vibrant shade of purple, which adds a playful and whimsical touch to the model. the pig is shown with a pair of large, expressive eyes, which are a common feature in many cartoon characters. the pig is also shown with a pair of ears, which are typically a defining characteristic of pigs. the model is designed to be used in animations, video games, and other digital media, adding a touch of fun and creativity.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 3.7037037037037033,
+        "sbert_similarity": 34.189894795417786,
+        "simcse_similarity": 51.64029598236084
+      }
+    },
+    {
+      "object_id": "346548d0577b44ff9817e2007048f859",
+      "ground_truth": "A gold coloured bird",
+      "model_output": "the 3d model is a cartoon-style representation of a golden dragon. the dragon is depicted in a vibrant shade of gold, with its wings spread wide, giving it a majestic appearance. the dragon's body is elongated, and it has a pair of large, sharp claws. the dragon's head is adorned with a pair of golden horns, adding to its regal appearance. this 3d model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 8.928571428571429,
+        "sbert_similarity": 42.03857481479645,
+        "simcse_similarity": 40.49589931964874
+      }
+    },
+    {
+      "object_id": "5691d345d5394df886f7c6c5b7441a5f",
+      "ground_truth": "A cartoon different tools",
+      "model_output": "the 3d model depicts a group of cartoon-like figures, each in a different color. they are arranged in a line, with the first figure being the tallest and the last one being the smallest. the figures are all in a playful, cartoonish style, which suggests they could be part of a children's game or animation.",
+      "scores": {
+        "bleu-1": 1.8181818181818177,
+        "bleu-2": 0.5802588531856593,
+        "bleu-3": 0.421676438118695,
+        "bleu-4": 0.3324612889947367,
+        "rouge-l": 4.545454380165295,
+        "rouge-1": 4.545454380165295,
+        "rouge-2": 0.0,
+        "meteor": 10.98901098901099,
+        "sbert_similarity": 54.41886782646179,
+        "simcse_similarity": 50.85064172744751
+      }
+    },
+    {
+      "object_id": "3a528f050d1443dc8b5423253627d349",
+      "ground_truth": "Grey coloured circular disc panel space ship with antenna.",
+      "model_output": "the 3d model is a cartoon-style spaceship, predominantly white in color. it features a sleek, streamlined design with two large circular wings at the back. the spaceship is equipped with two large circular eyes, giving it a friendly and approachable appearance. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 3.6363636363636354,
+        "bleu-2": 0.820609939862218,
+        "bleu-3": 0.5300529224359262,
+        "bleu-4": 0.39536533033551696,
+        "rouge-l": 3.9215683367935625,
+        "rouge-1": 7.843136964244532,
+        "rouge-2": 0.0,
+        "meteor": 7.352941176470589,
+        "sbert_similarity": 52.87016034126282,
+        "simcse_similarity": 55.124956369400024
+      }
+    },
+    {
+      "object_id": "ae0d06982560423a8dab1590ffc4de4f",
+      "ground_truth": "A cartoon colorful look like a woman in 3d",
+      "model_output": "the 3d model is a vibrant, cartoon-style figure of a woman dressed in a pink dress. she is depicted with exaggerated facial features, large eyes, and a wide smile. she is standing on one leg, which adds to her cartoonish appearance. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 7.2727272727272725,
+        "bleu-2": 3.669879217087868,
+        "bleu-3": 1.4244891048227426,
+        "bleu-4": 0.8360958777149229,
+        "rouge-l": 10.909090635371909,
+        "rouge-1": 14.545454271735542,
+        "rouge-2": 3.278688296694453,
+        "meteor": 18.38235294117647,
+        "sbert_similarity": 74.62373971939087,
+        "simcse_similarity": 74.84379410743713
+      }
+    },
+    {
+      "object_id": "118d0fa6d01947b7823878769834bfd8",
+      "ground_truth": "A cartoon wheel of boat",
+      "model_output": "the 3d model is a cartoonish representation of a clock, featuring a brown color scheme. the clock has a circular face with two hands, one for hours and one for minutes. the hands are animated, giving the clock a lively and playful appearance. the clock is set on a wooden base, adding a rustic touch to the overall design. this model could be used in animations, video games, or as a decorative piece in a child's room.",
+      "scores": {
+        "bleu-1": 1.2987012987012982,
+        "bleu-2": 0.4133784583515671,
+        "bleu-3": 0.300621029900599,
+        "bleu-4": 0.23555952768576036,
+        "rouge-l": 3.2786883740929924,
+        "rouge-1": 3.2786883740929924,
+        "rouge-2": 0.0,
+        "meteor": 8.196721311475413,
+        "sbert_similarity": 36.5231990814209,
+        "simcse_similarity": 51.944416761398315
+      }
+    },
+    {
+      "object_id": "b103a1ec9bb549848d884a003f96b3fe",
+      "ground_truth": "Grey coloured toy push button telephone.",
+      "model_output": "the 3d model is a cartoon-style representation of a white, rectangular-shaped device. it has a flat surface and is equipped with two buttons, one on the top and one on the side. the device appears to be a remote control, commonly used to operate electronic devices such as televisions, dvd players, or gaming consoles.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 46.75983190536499,
+        "simcse_similarity": 51.129621267318726
+      }
+    },
+    {
+      "object_id": "19a2ee7b29914c90bfc5e008aa6fded5",
+      "ground_truth": "Maroon and black saloon car",
+      "model_output": "the 3d model is a vibrant red car with a sleek design. it has a black windscreen and windows, giving it a modern and stylish look. the car is equipped with four wheels, four doors, and a steering wheel, making it suitable for daily use. the red color of the car is eye-catching and can be seen from a distance.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 0.9205746178983234,
+        "bleu-3": 0.5550699286362121,
+        "bleu-4": 0.40013246159036714,
+        "rouge-l": 8.88888869135803,
+        "rouge-1": 13.333333135802473,
+        "rouge-2": 0.0,
+        "meteor": 14.285714285714288,
+        "sbert_similarity": 50.81025958061218,
+        "simcse_similarity": 59.29672122001648
+      }
+    },
+    {
+      "object_id": "ff0bbee222f546c899b029c4b64f7bea",
+      "ground_truth": "A man in a red diving costume swimming.",
+      "model_output": "the 3d model is a vibrant red human figure, with a distinctively elongated neck. the figure is designed with a smooth, sleek surface, giving it a modern and sophisticated look. the red color of the figure is eye-catching and can be seen from all angles. this model could be used in various fields such as animation, video games, or even as a decorative piece in a home.",
+      "scores": {
+        "bleu-1": 4.477611940298506,
+        "bleu-2": 2.6046613053531162,
+        "bleu-3": 1.0620242238670152,
+        "bleu-4": 0.6354805993343295,
+        "rouge-l": 10.526315548168672,
+        "rouge-1": 10.526315548168672,
+        "rouge-2": 2.857142677142868,
+        "meteor": 26.762589928057558,
+        "sbert_similarity": 29.76313829421997,
+        "simcse_similarity": 16.718824207782745
+      }
+    },
+    {
+      "object_id": "51be235eb692425ebb7aaaeb056fd3b7",
+      "ground_truth": "A cartoon purple rectangle figure with circles",
+      "model_output": "the 3d model is a vibrant purple rectangular box with a hole in the middle. the box is designed with a unique feature of a hole in the middle, which is a distinguishing characteristic. this box could be used in various applications such as storage, display, or even as a decorative piece. the hole in the middle could be used to insert or remove items, making it a versatile tool.",
+      "scores": {
+        "bleu-1": 2.8571428571428577,
+        "bleu-2": 0.643489452087787,
+        "bleu-3": 0.4158238587286217,
+        "bleu-4": 0.3087626696985844,
+        "rouge-l": 7.999999759200008,
+        "rouge-1": 7.999999759200008,
+        "rouge-2": 0.0,
+        "meteor": 11.278195488721805,
+        "sbert_similarity": 45.720162987709045,
+        "simcse_similarity": 41.75441563129425
+      }
+    },
+    {
+      "object_id": "83cb2a9e9afb47cd9f45461613796645",
+      "ground_truth": "Two yellow shoes with white tied laces.",
+      "model_output": "the 3d model is a pair of vibrant yellow shoes with white soles. the shoes are designed with a sleek and modern aesthetic, featuring a clean, minimalistic design. the yellow color of the shoes adds a pop of color to the overall look. the white soles, on the other hand, give the shoes a clean and polished look. this pair of shoes could be used in a variety of settings, from casual outings to formal events, and they are likely to be comfortable to wear.",
+      "scores": {
+        "bleu-1": 4.705882352941177,
+        "bleu-2": 4.099600308453938,
+        "bleu-3": 3.5518411085280817,
+        "bleu-4": 2.6509727973525954,
+        "rouge-l": 13.559321824763003,
+        "rouge-1": 13.559321824763003,
+        "rouge-2": 6.896551595719385,
+        "meteor": 13.513513513513514,
+        "sbert_similarity": 58.798062801361084,
+        "simcse_similarity": 76.6466498374939
+      }
+    },
+    {
+      "object_id": "494854c6ffd540339a1bc6bd91c0349b",
+      "ground_truth": "A cartoon purple figure of a several box",
+      "model_output": "the 3d model is a vibrant purple cube. it is a perfect example of a geometric shape, with six equal sides and sharp corners. the cube is solid and sturdy, suggesting it could be used in various applications such as architecture, interior design, or even as a toy. its color and shape make it visually appealing and versatile.",
+      "scores": {
+        "bleu-1": 5.172413793103449,
+        "bleu-2": 3.012376165643889,
+        "bleu-3": 1.2279424830885057,
+        "bleu-4": 0.7367445336559725,
+        "rouge-l": 7.547169555001789,
+        "rouge-1": 11.320754460662165,
+        "rouge-2": 3.174602977072323,
+        "meteor": 15.384615384615385,
+        "sbert_similarity": 46.28044068813324,
+        "simcse_similarity": 52.68810987472534
+      }
+    },
+    {
+      "object_id": "c016a85431eb4ded9b6dbdc409345c2c",
+      "ground_truth": "A white u shaped bar with grey base.",
+      "model_output": "the 3d model is a cartoon-style representation of a door. it is predominantly white in color, with a distinct black stripe running down the middle. the door appears to be a typical residential or commercial door, suggesting it could be used in animations, video games, or other digital media.",
+      "scores": {
+        "bleu-1": 4.081632653061224,
+        "bleu-2": 0.9221388919541464,
+        "bleu-3": 0.5956255111834886,
+        "bleu-4": 0.4453323527690996,
+        "rouge-l": 8.69565188657846,
+        "rouge-1": 8.69565188657846,
+        "rouge-2": 0.0,
+        "meteor": 16.528925619834713,
+        "sbert_similarity": 29.122409224510193,
+        "simcse_similarity": 33.10129642486572
+      }
+    },
+    {
+      "object_id": "e85ebb729b02402bbe3b917e1196f8d3",
+      "ground_truth": "A cartoon black monster like a dragon",
+      "model_output": "the 3d model is a cartoon-style representation of a dragon, predominantly black in color. it has a distinctively large head and a long tail, which are typical features of dragons. the dragon is depicted in a playful and exaggerated manner, suggesting it could be used in children's media or video games.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 1.0846522890932806,
+        "bleu-3": 0.653923655469998,
+        "bleu-4": 0.4729181034073561,
+        "rouge-l": 8.510638044363974,
+        "rouge-1": 12.76595719330014,
+        "rouge-2": 0.0,
+        "meteor": 17.543859649122805,
+        "sbert_similarity": 63.536036014556885,
+        "simcse_similarity": 76.60365104675293
+      }
+    },
+    {
+      "object_id": "c8ea472ef90f4df4ad1d98e02e1e4dfe",
+      "ground_truth": "A cartoon look like a bomb with legs",
+      "model_output": "the 3d model is a cartoon-style representation of a cat, with a distinctively large head and a small body. the cat is depicted in a vibrant shade of blue, which contrasts with its grey body. the cat's eyes are large and round, adding to its cartoonish appearance. the model is designed to be a playful and whimsical character, often used in animations, video games, or children's media.",
+      "scores": {
+        "bleu-1": 2.9850746268656714,
+        "bleu-2": 0.6725206572095662,
+        "bleu-3": 0.43453454418403,
+        "bleu-4": 0.3229085033386945,
+        "rouge-l": 7.27272702413224,
+        "rouge-1": 7.27272702413224,
+        "rouge-2": 0.0,
+        "meteor": 10.79136690647482,
+        "sbert_similarity": 43.85705888271332,
+        "simcse_similarity": 40.0347501039505
+      }
+    },
+    {
+      "object_id": "4df0c79458844dc2a7ee80367e7426c1",
+      "ground_truth": "A cartoon green figure of a man work",
+      "model_output": "the 3d model is a cartoon-style figure of a man, wearing a vibrant yellow shirt and black pants. he is holding a green toy gun in his right hand and a green hat in his left hand. the model is designed in a playful and child-friendly manner, which suggests it could be used in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 6.557377049180328,
+        "bleu-2": 4.675245822121845,
+        "bleu-3": 3.448972834363236,
+        "bleu-4": 1.5897624108805595,
+        "rouge-l": 15.384615124260359,
+        "rouge-1": 15.384615124260359,
+        "rouge-2": 6.249999805175788,
+        "meteor": 32.05931495405181,
+        "sbert_similarity": 55.590301752090454,
+        "simcse_similarity": 54.96723651885986
+      }
+    },
+    {
+      "object_id": "84f0854871d246d0b9d1c9c4c85926de",
+      "ground_truth": "Black colour panels made toy camera model.",
+      "model_output": "the 3d model is a cartoon-style figure of a man, wearing a vibrant red shirt and a pair of green pants. the model is designed with a playful and child-friendly aesthetic, which is evident from the bright colors and exaggerated features. the model could be used in various contexts, such as animation, video games, or as a decorative piece.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 3.9999997592000147,
+        "rouge-1": 3.9999997592000147,
+        "rouge-2": 0.0,
+        "meteor": 8.19672131147541,
+        "sbert_similarity": 44.49608325958252,
+        "simcse_similarity": 42.147207260131836
+      }
+    },
+    {
+      "object_id": "0e708d1e0ce0447ba5637a5320f5729c",
+      "ground_truth": "3d figure of an octo expansion octopus from splatoon 2 in fuccia color with its two large tentacles and large gray eyes.",
+      "model_output": "the 3d model is a cartoon-style representation of a pink octopus. the octopus is depicted with a distinctively large head and a pair of large, expressive eyes. the body of the octopus is a vibrant shade of pink, and its tentacles are long and flexible. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 16.94915254237288,
+        "bleu-2": 1.7094641498783945,
+        "bleu-3": 0.839941222292326,
+        "bleu-4": 0.5500653367256759,
+        "rouge-l": 32.25806406815817,
+        "rouge-1": 32.25806406815817,
+        "rouge-2": 0.0,
+        "meteor": 19.45525291828794,
+        "sbert_similarity": 73.62557053565979,
+        "simcse_similarity": 78.96004915237427
+      }
+    },
+    {
+      "object_id": "844518dcccf44c86ad1ead660ab103fb",
+      "ground_truth": "A cartoon figure of a white man fat",
+      "model_output": "the 3d model is a cartoon-like representation of a human figure, specifically a man. the figure is depicted in a simplistic, cartoonish style, with exaggerated features such as large eyes and a large head. the model is predominantly white, giving it a clean and minimalist aesthetic. this type of model is often used in animation, video games, and other digital media to create characters.",
+      "scores": {
+        "bleu-1": 4.687499999999999,
+        "bleu-2": 2.7277236279499046,
+        "bleu-3": 1.112087562827016,
+        "bleu-4": 0.6659932104026653,
+        "rouge-l": 14.545454296859505,
+        "rouge-1": 14.545454296859505,
+        "rouge-2": 2.941176285899666,
+        "meteor": 31.35212418300654,
+        "sbert_similarity": 40.804991126060486,
+        "simcse_similarity": 58.65790247917175
+      }
+    },
+    {
+      "object_id": "8c83e6584b90436882a68c690a324a4b",
+      "ground_truth": "A cartoon white and red look like a boat",
+      "model_output": "the 3d model is a cartoon-style representation of a red and white toy boat. the boat is designed with a simplistic, playful aesthetic, featuring a rounded, smooth surface and a vibrant red color. it is likely intended for children, as it is a toy and not a functional watercraft. the boat's design suggests it could be used for imaginative play, water-based games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 7.46268656716418,
+        "bleu-2": 1.0633485251477834,
+        "bleu-3": 0.5879555714962693,
+        "bleu-4": 0.4060359468269582,
+        "rouge-l": 10.909090635371909,
+        "rouge-1": 18.181817908099173,
+        "rouge-2": 0.0,
+        "meteor": 23.648648648648653,
+        "sbert_similarity": 70.1818585395813,
+        "simcse_similarity": 67.97878742218018
+      }
+    },
+    {
+      "object_id": "ab02bde2768849e89dbb4ef3312c85ff",
+      "ground_truth": "A cartoon white a beautiful tree in 3d",
+      "model_output": "the 3d model is a cartoon-style representation of a mushroom, featuring a white base and a brown cap. the mushroom is depicted as a small, round object with a distinct, mushroom-like shape. it is colored in a light shade of white, giving it a clean and fresh appearance. this model can be used in various digital platforms, such as video games, animations, or educational tools to teach about different types of mushrooms.",
+      "scores": {
+        "bleu-1": 5.555555555555554,
+        "bleu-2": 0.8845748207237917,
+        "bleu-3": 0.5081155255318716,
+        "bleu-4": 0.35676357226670385,
+        "rouge-l": 9.52380930209121,
+        "rouge-1": 12.698412476694381,
+        "rouge-2": 0.0,
+        "meteor": 17.361111111111114,
+        "sbert_similarity": 40.28729200363159,
+        "simcse_similarity": 49.43391680717468
+      }
+    },
+    {
+      "object_id": "8257772b0e2f408ba269264855dfea00",
+      "ground_truth": "A brown hard cover book with white pages.",
+      "model_output": "the 3d model is of a rectangular-shaped book with a rich, dark brown cover. the book is bound in a sturdy material, suggesting durability. the cover is smooth and glossy, giving it a polished appearance. the book's pages are white, indicating that it is likely filled with written content. this model could be used in various contexts, such as a decorative piece, a study aid, or a collector's item.",
+      "scores": {
+        "bleu-1": 5.797101449275361,
+        "bleu-2": 2.919785812368918,
+        "bleu-3": 1.1337752470775424,
+        "bleu-4": 0.6626295699068206,
+        "rouge-l": 13.559321799482912,
+        "rouge-1": 16.949152307957487,
+        "rouge-2": 2.666666497422233,
+        "meteor": 17.730496453900713,
+        "sbert_similarity": 67.62036085128784,
+        "simcse_similarity": 67.34759211540222
+      }
+    },
+    {
+      "object_id": "7ee9a0f997ed42dfa01a8a8bfd87c6ac",
+      "ground_truth": "A cartoon rare figure look like a box blue with legs red",
+      "model_output": "the 3d model is a cartoon-style robot with a vibrant blue body and a red head. it is equipped with two arms and two legs, giving it a humanoid appearance. the robot is designed to be interactive, suggesting it could be used in educational or entertainment contexts.",
+      "scores": {
+        "bleu-1": 8.510638297872338,
+        "bleu-2": 1.3601980592571916,
+        "bleu-3": 0.7809393201366852,
+        "bleu-4": 0.5528849622582646,
+        "rouge-l": 13.043477875236306,
+        "rouge-1": 17.39130396219283,
+        "rouge-2": 0.0,
+        "meteor": 16.12903225806452,
+        "sbert_similarity": 52.618926763534546,
+        "simcse_similarity": 57.11265206336975
+      }
+    },
+    {
+      "object_id": "99d626e0967d418096b6b5546f144e01",
+      "ground_truth": "A blue toy with yellow vertical cardboard on the head and wearing a black coat.",
+      "model_output": "the 3d model is a cartoon-style figure, predominantly blue in color. it has a distinct feature of a yellow star on its head, which adds a playful and whimsical touch. the figure is designed to resemble a character from a children's show or game, suggesting it could be used in animations, video games, or as a collectible item.",
+      "scores": {
+        "bleu-1": 10.344827586206899,
+        "bleu-2": 1.347175576035981,
+        "bleu-3": 0.7219679581620494,
+        "bleu-4": 0.49269076412680696,
+        "rouge-l": 12.90322543964621,
+        "rouge-1": 19.354838342872014,
+        "rouge-2": 0.0,
+        "meteor": 20.725388601036272,
+        "sbert_similarity": 40.81958830356598,
+        "simcse_similarity": 60.30271649360657
+      }
+    },
+    {
+      "object_id": "d501614def4d4d1d8dc9e7c3795467c9",
+      "ground_truth": "A cartoon black figure with open arms",
+      "model_output": "the 3d model is a cartoon-style figure of a man, dressed in a black suit. the suit is complemented by a yellow tie and a matching hat. the man's face is depicted with a friendly smile, giving the character a warm and approachable appearance. this model could be used in animations, video games, or as a character in a story.",
+      "scores": {
+        "bleu-1": 5.000000000000001,
+        "bleu-2": 0.9205746178983234,
+        "bleu-3": 0.5550699286362121,
+        "bleu-4": 0.40013246159036714,
+        "rouge-l": 8.333333084201398,
+        "rouge-1": 12.49999975086806,
+        "rouge-2": 0.0,
+        "meteor": 20.325203252032523,
+        "sbert_similarity": 47.966352105140686,
+        "simcse_similarity": 55.82556128501892
+      }
+    },
+    {
+      "object_id": "6d9f07e743444513a1a564e309b455af",
+      "ground_truth": "A cartoon black look like a rimel",
+      "model_output": "the 3d model is a cartoon-style, black cylindrical object with a red stripe running down its length. it has a distinct, playful design, which is typical of cartoon-style objects. the black color and the red stripe make it stand out, making it visually appealing. this object could be a part of a game, animation, or a digital art piece.",
+      "scores": {
+        "bleu-1": 3.3898305084745757,
+        "bleu-2": 0.7644956088453955,
+        "bleu-3": 0.49384287748501865,
+        "bleu-4": 0.36785086103888687,
+        "rouge-l": 7.843137018069981,
+        "rouge-1": 7.843137018069981,
+        "rouge-2": 0.0,
+        "meteor": 12.295081967213118,
+        "sbert_similarity": 53.18694710731506,
+        "simcse_similarity": 70.04632353782654
+      }
+    },
+    {
+      "object_id": "b8ebc803ac0d4157986c718328a00205",
+      "ground_truth": "A white cartoon scorpion with eight legs.",
+      "model_output": "the 3d model is a cartoon-style representation of a spider. it is predominantly white in color, with exaggerated features typical of cartoonish designs. the spider has eight legs, which are long and thin, and it has two large eyes. the model is designed to be used in animations, video games, or other digital media, adding a playful and whimsical touch to the content.",
+      "scores": {
+        "bleu-1": 4.761904761904762,
+        "bleu-2": 0.8763841367493648,
+        "bleu-3": 0.5284690157952201,
+        "bleu-4": 0.38060718506189495,
+        "rouge-l": 11.111110885459539,
+        "rouge-1": 11.111110885459539,
+        "rouge-2": 0.0,
+        "meteor": 15.873015873015872,
+        "sbert_similarity": 53.60036492347717,
+        "simcse_similarity": 51.33904218673706
+      }
+    },
+    {
+      "object_id": "d79a32a512c64c5e93dc856864789a7e",
+      "ground_truth": "A animated man that has popcin face and he has big hands and big shoes",
+      "model_output": "the 3d model is a cartoonish representation of a female character. she is depicted wearing a vibrant green dress, which contrasts beautifully with her dark hair. she is standing on one leg, which adds an element of dynamism to her pose. the model is designed in a way that it can be used in various digital platforms, such as video games, animations, or even as a character in a story.",
+      "scores": {
+        "bleu-1": 1.428571428571428,
+        "bleu-2": 0.45501575519329,
+        "bleu-3": 0.3308030504343694,
+        "bleu-4": 0.25963742211370644,
+        "rouge-l": 3.12499969531253,
+        "rouge-1": 3.12499969531253,
+        "rouge-2": 0.0,
+        "meteor": 4.878048780487805,
+        "sbert_similarity": 38.86962831020355,
+        "simcse_similarity": 33.30422639846802
+      }
+    },
+    {
+      "object_id": "98630065b01e40f38714e8b0d39c8ef9",
+      "ground_truth": "Bronze age axe mould",
+      "model_output": "the 3d model is a cartoonish representation of a woman's dress. the dress is predominantly brown in color, with intricate patterns and designs. the model is designed in a whimsical and playful style, typical of cartoons. the dress is likely to be used in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.813953488372094,
+        "sbert_similarity": 10.798292607069016,
+        "simcse_similarity": 21.646848320961
+      }
+    },
+    {
+      "object_id": "526b18079304425fa7c694b6fce38db8",
+      "ground_truth": "A cartoon doll in a black gas mask and in an orange hoodie and trousers.",
+      "model_output": "the 3d model is a cartoon-style figure of a man, wearing a vibrant orange shirt and black pants. the man is depicted with a friendly and approachable demeanor, which is typical of cartoon characters. he is standing upright with his hands on his hips, suggesting he is ready for action or movement. the model is a representation of a character from an animated series or video game, often used in children's entertainment.",
+      "scores": {
+        "bleu-1": 11.111111111111109,
+        "bleu-2": 1.2509777084013354,
+        "bleu-3": 0.6387080113957501,
+        "bleu-4": 0.42426577851335184,
+        "rouge-l": 12.307691987692317,
+        "rouge-1": 21.538461218461542,
+        "rouge-2": 0.0,
+        "meteor": 21.73913043478261,
+        "sbert_similarity": 45.81131339073181,
+        "simcse_similarity": 57.4069082736969
+      }
+    },
+    {
+      "object_id": "4813a6e6bea446f7a59597456c9a7e83",
+      "ground_truth": "A yellow spherical ball with a circular yellow holding ring.",
+      "model_output": "the 3d model is a cartoon-style representation of a banana. it is vibrant yellow in color and has a cartoonish appearance. the banana is depicted with exaggerated features, such as large eyes and a big smile. this model could be used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 6.122448979591836,
+        "bleu-2": 1.129384878631564,
+        "bleu-3": 0.6809001129104446,
+        "bleu-4": 0.4928412630671679,
+        "rouge-l": 12.499999695312509,
+        "rouge-1": 12.499999695312509,
+        "rouge-2": 0.0,
+        "meteor": 14.388489208633093,
+        "sbert_similarity": 27.591636776924133,
+        "simcse_similarity": 34.93625819683075
+      }
+    },
+    {
+      "object_id": "ffa6a425ecb04b229542a66d8df21e90",
+      "ground_truth": "Red spiral",
+      "model_output": "the 3d model is a cartoon-style representation of a heart, painted in a vibrant shade of pink. the heart is depicted with exaggerated features, such as large eyes and a large mouth, typical of cartoonish designs. this model can be used in animations, video games, or other digital media to add a playful and whimsical touch.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 17.872776091098785,
+        "simcse_similarity": 17.277728021144867
+      }
+    },
+    {
+      "object_id": "6aba73fade25443c910a1cb9c54032db",
+      "ground_truth": "A cartoon figure circle look like a shield",
+      "model_output": "the 3d model is a cartoon-style shield, predominantly white in color. it has a circular shape and is designed to resemble a traditional shield used in medieval times. the shield is made of a sturdy material, suggesting it could be made of wood or metal. it is decorated with intricate patterns, adding to its aesthetic appeal. this shield could be used in various contexts, such as in video games, animations, or as a decorative item.",
+      "scores": {
+        "bleu-1": 2.6666666666666665,
+        "bleu-2": 0.6003002251876641,
+        "bleu-3": 0.38799548361019354,
+        "bleu-4": 0.2877533669929391,
+        "rouge-l": 6.666666435555564,
+        "rouge-1": 6.666666435555564,
+        "rouge-2": 0.0,
+        "meteor": 10.204081632653061,
+        "sbert_similarity": 63.209694623947144,
+        "simcse_similarity": 71.14133834838867
+      }
+    },
+    {
+      "object_id": "c9c36e9cfdc64f22b7199940af434092",
+      "ground_truth": "A cartoon white figure look like a rare figure in 3d",
+      "model_output": "the 3d model is a cartoonish representation of a rock, painted in a vibrant shade of white. the rock is depicted with exaggerated features, giving it a playful and whimsical appearance. this model could be used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 6.8181818181818175,
+        "bleu-2": 1.2592155012732869,
+        "bleu-3": 0.7592656889422073,
+        "bleu-4": 0.5508606419495828,
+        "rouge-l": 8.695651833648407,
+        "rouge-1": 17.391304007561445,
+        "rouge-2": 0.0,
+        "meteor": 13.986013986013987,
+        "sbert_similarity": 54.66849207878113,
+        "simcse_similarity": 69.6553647518158
+      }
+    },
+    {
+      "object_id": "ac880a2f5402467dad230ce23655a929",
+      "ground_truth": "White petal shape folding iron ing table model with folding grey leg on back side.",
+      "model_output": "the 3d model is a cartoon-style representation of a boat. the boat is painted in a vibrant white color, giving it a clean and modern look. the boat appears to be in a state of motion, suggesting that it's either being used for transportation or for recreational activities. the cartoonish style of the model makes it suitable for use in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 1.4925373134328364,
+        "bleu-2": 0.4755439172009179,
+        "bleu-3": 0.3456880833502093,
+        "bleu-4": 0.2715326029124504,
+        "rouge-l": 3.2786881709218334,
+        "rouge-1": 3.2786881709218334,
+        "rouge-2": 0.0,
+        "meteor": 4.9504950495049505,
+        "sbert_similarity": 32.06253945827484,
+        "simcse_similarity": 32.09017217159271
+      }
+    },
+    {
+      "object_id": "5151b9ce52a84656bd7c0fac96f5a743",
+      "ground_truth": "Three d model of grey walled home with brown wooden panel balcony and flower light grey floored drawing area placed with white coloured three seater and single seater sofa and centre brown coffee table. set of wooden cabinets in study room, bed room and store and grey flooring on rest of floor. with white relaxing chairs in balcony",
+      "model_output": "the 3d model is a representation of a residential property, specifically a house. the house is predominantly white, with a distinctively brown roof. the exterior of the house is surrounded by a lush green lawn, indicating a well-maintained garden. the house appears to be a single-family dwelling, suggesting it could be a residential property.",
+      "scores": {
+        "bleu-1": 8.598175054566482,
+        "bleu-2": 1.2273833450351057,
+        "bleu-3": 0.67843470930766,
+        "bleu-4": 0.47044813605766217,
+        "rouge-l": 10.389609893742644,
+        "rouge-1": 10.389609893742644,
+        "rouge-2": 0.0,
+        "meteor": 5.208333333333334,
+        "sbert_similarity": 69.7273850440979,
+        "simcse_similarity": 55.47007918357849
+      }
+    },
+    {
+      "object_id": "df3dd33df99e4f79a73e1cd00aaa12e7",
+      "ground_truth": "A white human cartoon had with a virtual reality headset with red writing on it.",
+      "model_output": "the 3d model is a cartoon-style helmet, predominantly white in color. it features a unique design with a red and black stripe pattern on the front and a black and red stripe on the back. the helmet is designed to resemble a futuristic or sci-fi aesthetic, making it suitable for use in animations, video games, or other digital media.",
+      "scores": {
+        "bleu-1": 8.47457627118644,
+        "bleu-2": 3.8224780442269797,
+        "bleu-3": 1.428594577487509,
+        "bleu-4": 0.8225395308647795,
+        "rouge-l": 17.857142482142866,
+        "rouge-1": 21.42857105357143,
+        "rouge-2": 2.8169010918468915,
+        "meteor": 15.463917525773196,
+        "sbert_similarity": 47.72078990936279,
+        "simcse_similarity": 69.9556291103363
+      }
+    },
+    {
+      "object_id": "f33e91fbbc424d07ad0ca4972ed2b4c6",
+      "ground_truth": "A cartoon black rectangle look like a box of tools",
+      "model_output": "the 3d model is a cartoon-style representation of a black box. it is characterized by its simplistic design and exaggerated features, typical of cartoon aesthetics. the box is predominantly black, with a contrasting white stripe running down its length. the box is likely to be used in animations, video games, or other digital media, adding a touch of whimsy and creativity.",
+      "scores": {
+        "bleu-1": 8.196721311475411,
+        "bleu-2": 1.1688114555304612,
+        "bleu-3": 0.6461452847549207,
+        "bleu-4": 0.4469945504361893,
+        "rouge-l": 10.5263155001539,
+        "rouge-1": 17.54385935980302,
+        "rouge-2": 0.0,
+        "meteor": 23.178807947019866,
+        "sbert_similarity": 59.99938249588013,
+        "simcse_similarity": 66.73772931098938
+      }
+    },
+    {
+      "object_id": "91440f33337a4b51929806dc5a5b9d1d",
+      "ground_truth": "A animated instruments for physical disabled people that has in white colour it is helping such people to walk",
+      "model_output": "the 3d model is a cartoon-style representation of a white pipe. it is a simple, clean design with a cylindrical shape and a smooth finish. the pipe is depicted in a cartoonish style, which makes it suitable for use in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 10.638297872340424,
+        "bleu-2": 4.809026357287709,
+        "bleu-3": 1.7972049012577633,
+        "bleu-4": 1.039590449594692,
+        "rouge-l": 11.111110666666683,
+        "rouge-1": 18.518518074074088,
+        "rouge-2": 3.1746027664399623,
+        "meteor": 13.761467889908255,
+        "sbert_similarity": 30.01810610294342,
+        "simcse_similarity": 41.57211184501648
+      }
+    },
+    {
+      "object_id": "b58f1f0d4f0c4e02b6398b13826397d3",
+      "ground_truth": "A gold ring with red extension",
+      "model_output": "the 3d model is a cartoon-style representation of a gold ring. the ring features a central red gemstone, which is surrounded by a band of white diamonds. the design is playful and whimsical, typical of cartoon aesthetics. the gold ring is a classic piece of jewelry, often worn for special occasions or as a symbol of love and commitment.",
+      "scores": {
+        "bleu-1": 5.084745762711865,
+        "bleu-2": 2.960878761306918,
+        "bleu-3": 1.2069767655829016,
+        "bleu-4": 0.7239266950906245,
+        "rouge-l": 13.043478034026467,
+        "rouge-1": 13.043478034026467,
+        "rouge-2": 3.2786883740929924,
+        "meteor": 27.93141592920354,
+        "sbert_similarity": 67.54535436630249,
+        "simcse_similarity": 63.585877418518066
+      }
+    },
+    {
+      "object_id": "c4dc6b82f917442aaa4000cdb62232c8",
+      "ground_truth": "A multicolored carving",
+      "model_output": "the 3d model is a cartoonish representation of a human head, painted in a vibrant shade of white. the head is depicted with exaggerated features, such as large eyes and a large mouth, which are typical of cartoonish aesthetics. the model is positioned on a circular base, which is also painted in white. the base and the head are both painted in a contrasting color, which adds visual interest to the model.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 5.050505050505051,
+        "sbert_similarity": 40.858930349349976,
+        "simcse_similarity": 44.98050510883331
+      }
+    },
+    {
+      "object_id": "ff4cd9547f5543c2b85b3a021c5bea0f",
+      "ground_truth": "Protein structure",
+      "model_output": "the 3d model is a representation of a molecular structure, specifically a protein. the model is composed of numerous small spheres, each colored in a different hue. the spheres are arranged in a way that mimics the structure of a protein molecule, with each sphere representing an amino acid. this model can be used in various fields, such as molecular biology, biochemistry, and biochemistry, to understand the structure and function of proteins.",
+      "scores": {
+        "bleu-1": 1.3888888888888888,
+        "bleu-2": 0.44228741036189584,
+        "bleu-3": 0.3215752884703203,
+        "bleu-4": 0.2522699412301232,
+        "rouge-l": 3.9215685520953483,
+        "rouge-1": 3.9215685520953483,
+        "rouge-2": 0.0,
+        "meteor": 11.111111111111112,
+        "sbert_similarity": 65.784353017807,
+        "simcse_similarity": 65.67062735557556
+      }
+    },
+    {
+      "object_id": "82caf23bb2ac4a46811d9dde1b8cc25e",
+      "ground_truth": "Yellow star with white eyes",
+      "model_output": "the 3d model is a cartoon-style representation of a yellow bird with a black eye. the bird is depicted in a simplistic, stylized manner, typical of children's animations or video games. the black eye adds a touch of mystery and intrigue to the character. this model could be used in various digital platforms, such as video games, animations, or educational content for children.",
+      "scores": {
+        "bleu-1": 1.5873015873015877,
+        "bleu-2": 0.5059806172657637,
+        "bleu-3": 0.36776425506110666,
+        "bleu-4": 0.2891989214254274,
+        "rouge-l": 3.921568450595933,
+        "rouge-1": 3.921568450595933,
+        "rouge-2": 0.0,
+        "meteor": 13.88888888888889,
+        "sbert_similarity": 36.140623688697815,
+        "simcse_similarity": 34.846484661102295
+      }
+    },
+    {
+      "object_id": "0b1ded6f5a8a4e1fbf835e59e5d49359",
+      "ground_truth": "A red copper like wire with tied top and curved center.",
+      "model_output": "the 3d model is a cartoonish representation of a human arm, colored in a vibrant shade of red. the arm is depicted with exaggerated proportions, giving it a playful and whimsical appearance. the model is likely used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 4.4444444444444455,
+        "bleu-2": 1.0050378152592123,
+        "bleu-3": 0.6492258377278723,
+        "bleu-4": 0.4863083928997274,
+        "rouge-l": 13.043477896975434,
+        "rouge-1": 13.043477896975434,
+        "rouge-2": 0.0,
+        "meteor": 13.88888888888889,
+        "sbert_similarity": 33.67682099342346,
+        "simcse_similarity": 34.02031064033508
+      }
+    },
+    {
+      "object_id": "19e2303fdbae4b979f46797b1c6bea45",
+      "ground_truth": "White coloured blue masked superman character three d model with black and yellow head and yellow belt",
+      "model_output": "the 3d model is a cartoon-style representation of a blue-colored dragon. the dragon is depicted with a vibrant yellow mouth and eyes, adding a playful and friendly touch to its appearance. the dragon's body is covered in a sleek, shiny blue color, giving it a regal and majestic look. this model could be used in animations, video games, or as a decorative piece in a child's room.",
+      "scores": {
+        "bleu-1": 8.955223880597012,
+        "bleu-2": 1.164839947426581,
+        "bleu-3": 0.6244164290947818,
+        "bleu-4": 0.42497148980543903,
+        "rouge-l": 15.384615029585808,
+        "rouge-1": 15.384615029585808,
+        "rouge-2": 0.0,
+        "meteor": 13.636363636363638,
+        "sbert_similarity": 50.57162046432495,
+        "simcse_similarity": 52.66489386558533
+      }
+    },
+    {
+      "object_id": "3061e9a9236d4b98b74c95ff189d28a0",
+      "ground_truth": "Three story building in a beige color floor.",
+      "model_output": "the 3d model is a representation of a multi-level building with a brown base and a grey top. the building is characterized by a series of stairs, each one leading to a different level. the stairs are made of a sturdy material, suggesting they are designed for safety and durability. the building's design suggests it could be a residential or commercial structure, possibly a high-rise building or a skyscraper.",
+      "scores": {
+        "bleu-1": 2.8985507246376807,
+        "bleu-2": 0.652883955619635,
+        "bleu-3": 0.421878188512889,
+        "bleu-4": 0.3133381778083795,
+        "rouge-l": 7.017543618344114,
+        "rouge-1": 7.017543618344114,
+        "rouge-2": 0.0,
+        "meteor": 7.092198581560284,
+        "sbert_similarity": 57.2654128074646,
+        "simcse_similarity": 66.94666147232056
+      }
+    },
+    {
+      "object_id": "8d79676617024cd69197dab1b353e163",
+      "ground_truth": "Sword with a dark blade and a dark handle\nA black sword",
+      "model_output": "the 3d model is a cartoon-style sword, predominantly black in color. it has a long, slender blade and a pointed tip, typical of a sword used in fantasy or action-based games. the sword's design suggests it could be used in a variety of contexts, from video games to animated films, and even in children's storybooks.",
+      "scores": {
+        "bleu-1": 10.909090909090912,
+        "bleu-2": 6.356417261637283,
+        "bleu-3": 4.376320760885945,
+        "bleu-4": 1.956754746105221,
+        "rouge-l": 19.230768920118347,
+        "rouge-1": 19.230768920118347,
+        "rouge-2": 6.34920608213657,
+        "meteor": 21.472392638036812,
+        "sbert_similarity": 58.33233594894409,
+        "simcse_similarity": 60.56511998176575
+      }
+    },
+    {
+      "object_id": "7103b9e0a43744a69d1658ae120ba7d7",
+      "ground_truth": "Image of a mat",
+      "model_output": "the 3d model is a square-shaped object, predominantly white in color. it has a smooth, flat surface, suggesting it could be a piece of furniture or a decorative item. the square shape and color make it versatile for various uses, such as a tabletop, a shelf, or a base for other objects.",
+      "scores": {
+        "bleu-1": 3.846153846153846,
+        "bleu-2": 0.8684168428648439,
+        "bleu-3": 0.5609194966296663,
+        "bleu-4": 0.4188635776841715,
+        "rouge-l": 9.090908925619837,
+        "rouge-1": 9.090908925619837,
+        "rouge-2": 0.0,
+        "meteor": 17.045454545454547,
+        "sbert_similarity": 29.054424166679382,
+        "simcse_similarity": 35.934776067733765
+      }
+    },
+    {
+      "object_id": "d109af142eb84b45bc2c4c97f1b93354",
+      "ground_truth": "A white bag with blue straps",
+      "model_output": "the 3d model is of a sleek, modern-looking white suitcase. it has a hard exterior, suggesting durability and protection for its contents. the suitcase is equipped with a handle, making it easy to carry and transport. the white color gives it a clean and professional look, making it suitable for both business and leisure travel.",
+      "scores": {
+        "bleu-1": 3.6363636363636354,
+        "bleu-2": 0.820609939862218,
+        "bleu-3": 0.5300529224359262,
+        "bleu-4": 0.39536533033551696,
+        "rouge-l": 8.888888657777784,
+        "rouge-1": 8.888888657777784,
+        "rouge-2": 0.0,
+        "meteor": 13.761467889908257,
+        "sbert_similarity": 47.35133647918701,
+        "simcse_similarity": 51.38062238693237
+      }
+    },
+    {
+      "object_id": "5fe793315b0a4b7882cbb67cf1ef6703",
+      "ground_truth": "A animated white colour dog that has hais",
+      "model_output": "the 3d model is a cartoon-style representation of a rabbit, rendered in a vibrant shade of white. the rabbit is depicted with exaggerated features, such as large eyes and a large, round head. it is standing on two legs, one on each side, giving it a dynamic and playful appearance. this model could be used in animations, video games, or as a decorative item.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 3.508771688519561,
+        "rouge-1": 3.508771688519561,
+        "rouge-2": 0.0,
+        "meteor": 3.676470588235295,
+        "sbert_similarity": 38.5031521320343,
+        "simcse_similarity": 59.53114628791809
+      }
+    },
+    {
+      "object_id": "69865c89fc7344be8ed5c1a54dbddc20",
+      "ground_truth": "A storyed building",
+      "model_output": "the 3d model is a vibrant red structure, resembling a tall building. it is composed of numerous interconnected vertical rods, giving it a complex and intricate design. the red color suggests it could be a part of a larger architectural project or a piece of artwork. the model's detailed structure and vibrant color make it visually appealing and could be used in various fields such as architecture, design, or animation.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 3.8461537374260377,
+        "rouge-1": 3.8461537374260377,
+        "rouge-2": 0.0,
+        "meteor": 10.309278350515465,
+        "sbert_similarity": 39.38556909561157,
+        "simcse_similarity": 38.4992390871048
+      }
+    },
+    {
+      "object_id": "e02e1f5f7cf2419fb47a6ecc8ec63120",
+      "ground_truth": "A brown trench with curved u top.",
+      "model_output": "the 3d model is a cartoon-style representation of a skateboard ramp. the ramp is painted in a vibrant shade of brown, giving it a playful and energetic look. the ramp is designed with a smooth surface, which is typical for skateboarding, allowing for smooth rides and stunts. this model could be used in animations, video games, or as a teaching tool for skateboarding enthusiasts.",
+      "scores": {
+        "bleu-1": 1.5625000000000007,
+        "bleu-2": 0.4980119205559976,
+        "bleu-3": 0.36198366239847196,
+        "bleu-4": 0.284570245153172,
+        "rouge-l": 3.846153613165695,
+        "rouge-1": 3.846153613165695,
+        "rouge-2": 0.0,
+        "meteor": 7.874015748031496,
+        "sbert_similarity": 36.74534261226654,
+        "simcse_similarity": 26.047012209892273
+      }
+    },
+    {
+      "object_id": "8c1ff2dd65be40c283bcb178e7079487",
+      "ground_truth": "A green house building",
+      "model_output": "the 3d model is a cartoon-like representation of a house. the house is predominantly white, with a vibrant blue roof. the exterior walls are painted in a contrasting color, adding a pop of color to the overall design. the house appears to be a typical suburban residence, with a front yard and a backyard. the model is designed to be used in animations, video games, or other digital media, providing a visually appealing and engaging experience.",
+      "scores": {
+        "bleu-1": 1.3157894736842106,
+        "bleu-2": 0.4188539082916957,
+        "bleu-3": 0.30458943135965333,
+        "bleu-4": 0.23872210818513648,
+        "rouge-l": 3.6363635014876086,
+        "rouge-1": 3.6363635014876086,
+        "rouge-2": 0.0,
+        "meteor": 8.928571428571429,
+        "sbert_similarity": 47.49249219894409,
+        "simcse_similarity": 38.933396339416504
+      }
+    },
+    {
+      "object_id": "fb766137ad7d4767bd89acab7a8c3191",
+      "ground_truth": "Unfinished house",
+      "model_output": "the 3d model is a representation of a house with a distinctively pink roof. the house is depicted in a cartoonish style, which adds a playful and whimsical touch. the pink roof stands out against the neutral background, making it the focal point of the model. this model could be used in a variety of contexts, such as in video games, animations, or as a teaching tool for architectural studies.",
+      "scores": {
+        "bleu-1": 1.428571428571428,
+        "bleu-2": 0.45501575519329,
+        "bleu-3": 0.3308030504343694,
+        "bleu-4": 0.25963742211370644,
+        "rouge-l": 3.9999999232000003,
+        "rouge-1": 3.9999999232000003,
+        "rouge-2": 0.0,
+        "meteor": 5.6818181818181825,
+        "sbert_similarity": 44.57369148731232,
+        "simcse_similarity": 25.838494300842285
+      }
+    },
+    {
+      "object_id": "7a488a80bd184b479b4d358b9473a782",
+      "ground_truth": "A circular brown board with three blue mugs on top.",
+      "model_output": "the 3d model is a cartoonish representation of a wooden table with a blue top. the table is adorned with two cylindrical objects, one of them being a blue ball. the blue ball is positioned in the center of the table, while the other cylindrical object is placed on the side. the table and the objects are all painted in a vibrant blue color, giving it a playful and whimsical look.",
+      "scores": {
+        "bleu-1": 5.633802816901409,
+        "bleu-2": 0.8971226080325134,
+        "bleu-3": 0.5153021908605918,
+        "bleu-4": 0.3618981806315649,
+        "rouge-l": 15.094339316482738,
+        "rouge-1": 15.094339316482738,
+        "rouge-2": 0.0,
+        "meteor": 15.527950310559008,
+        "sbert_similarity": 52.781933546066284,
+        "simcse_similarity": 44.903284311294556
+      }
+    },
+    {
+      "object_id": "69e3f3ec5cc44b14afaa85c53db09c1f",
+      "ground_truth": "A mouse",
+      "model_output": "the 3d model is a cartoon-style representation of a black shoe. it's designed with exaggerated features, giving it a playful and whimsical appearance. the shoe is predominantly black, with a contrasting white sole. the cartoonish design suggests it could be used in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 7.575757575757576,
+        "sbert_similarity": 19.793298840522766,
+        "simcse_similarity": 22.65261709690094
+      }
+    },
+    {
+      "object_id": "7dd564ce814e4d22b8eeb9d4e79dbca2",
+      "ground_truth": "A dark green motherboard",
+      "model_output": "the 3d model is a cartoon-style representation of a green and blue fish. the fish is depicted with exaggerated features, giving it a playful and whimsical appearance. the green color of the fish is complemented by the blue color of its fins, creating a vibrant and eye-catching effect. this model could be used in animations, video games, or educational materials to teach children about aquatic life.",
+      "scores": {
+        "bleu-1": 1.5151515151515158,
+        "bleu-2": 0.4828045495852677,
+        "bleu-3": 0.3509536004056586,
+        "bleu-4": 0.27574366655649984,
+        "rouge-l": 3.9215684828912014,
+        "rouge-1": 3.9215684828912014,
+        "rouge-2": 0.0,
+        "meteor": 14.705882352941178,
+        "sbert_similarity": 26.25037133693695,
+        "simcse_similarity": 20.652468502521515
+      }
+    },
+    {
+      "object_id": "8b8fd739dabf43a2a03ffc2989ec7365",
+      "ground_truth": "A plant with purple and white flowers",
+      "model_output": "the 3d model is a vibrant, lush green plant with a unique feature of white flowers. the plant is positioned on a wooden stand, adding a touch of elegance to its appearance. the white flowers, though not specified, could be a variety of flowers, adding a pop of color to the overall aesthetic. this model could be used in various settings, such as home decor, offices, or even in virtual reality environments.",
+      "scores": {
+        "bleu-1": 4.166666666666666,
+        "bleu-2": 2.4225079155575457,
+        "bleu-3": 0.9879448051627389,
+        "bleu-4": 0.5903992807031136,
+        "rouge-l": 13.79310323602854,
+        "rouge-1": 13.79310323602854,
+        "rouge-2": 5.333333186133337,
+        "meteor": 14.814814814814817,
+        "sbert_similarity": 47.16925919055939,
+        "simcse_similarity": 63.04352283477783
+      }
+    },
+    {
+      "object_id": "b745134fe5ce468fb029278e8e0d5369",
+      "ground_truth": "Stairway in a brown background",
+      "model_output": "the 3d model is a cartoon-style representation of a staircase. it is characterized by its vibrant yellow color and the presence of a ladder, which is a common feature in staircases. the staircase is depicted in a simplistic, cartoonish style, which is typical for animations and children's content. the model can be used in various digital platforms, such as video games, animations, and educational content.",
+      "scores": {
+        "bleu-1": 3.0769230769230766,
+        "bleu-2": 2.192645048267574,
+        "bleu-3": 0.9577600506838785,
+        "bleu-4": 0.5923127844343323,
+        "rouge-l": 7.999999820000003,
+        "rouge-1": 7.999999820000003,
+        "rouge-2": 3.076922961420123,
+        "meteor": 9.090909090909092,
+        "sbert_similarity": 47.97392785549164,
+        "simcse_similarity": 44.23384964466095
+      }
+    },
+    {
+      "object_id": "bd97f1a7c97345e5a86a581205b19193",
+      "ground_truth": "Woods interconnected to form a pulpit",
+      "model_output": "the 3d model is a cartoon-style representation of a house. the house is predominantly yellow, with a vibrant purple roof. the roof is a striking contrast to the yellow walls and floors, adding a playful and whimsical touch to the overall design. the house appears to be a typical suburban dwelling, with windows and doors, and it could be used in animations, video games, or other digital media.",
+      "scores": {
+        "bleu-1": 2.941176470588235,
+        "bleu-2": 0.662556837391603,
+        "bleu-3": 0.42811236715377105,
+        "bleu-4": 0.31805135270692403,
+        "rouge-l": 7.692307488165685,
+        "rouge-1": 7.692307488165685,
+        "rouge-2": 0.0,
+        "meteor": 8.196721311475411,
+        "sbert_similarity": 16.201351583003998,
+        "simcse_similarity": 10.560739785432816
+      }
+    },
+    {
+      "object_id": "d628e081977243609432fc82f180d82b",
+      "ground_truth": "Black and maroon lighting chanderlier",
+      "model_output": "the 3d model is a cartoon-style representation of a black and red ball. the ball is depicted as a vibrant, eye-catching color, with a distinct red hue. it is spherical in shape, suggesting it could be a toy or a decorative item. the cartoonish style adds a playful and whimsical touch to the object.",
+      "scores": {
+        "bleu-1": 1.8518518518518516,
+        "bleu-2": 0.5911057517765905,
+        "bleu-3": 0.4295541497049198,
+        "bleu-4": 0.33879673215127787,
+        "rouge-l": 4.545454344008274,
+        "rouge-1": 4.545454344008274,
+        "rouge-2": 0.0,
+        "meteor": 10.1010101010101,
+        "sbert_similarity": 27.60481834411621,
+        "simcse_similarity": 26.32123827934265
+      }
+    },
+    {
+      "object_id": "abc413b5e2d14a028dab615b49777167",
+      "ground_truth": "A black and brown colored gun.",
+      "model_output": "the 3d model is a cartoon-style gun, predominantly black in color. it has a sleek design with a long barrel and a handle. the gun is equipped with a black trigger and a black grip, giving it a futuristic and stylized look. this model could be used in animations, video games, or other digital media to depict futuristic weaponry.",
+      "scores": {
+        "bleu-1": 3.3898305084745757,
+        "bleu-2": 0.7644956088453955,
+        "bleu-3": 0.49384287748501865,
+        "bleu-4": 0.36785086103888687,
+        "rouge-l": 8.33333311458334,
+        "rouge-1": 12.499999781250002,
+        "rouge-2": 0.0,
+        "meteor": 13.274336283185843,
+        "sbert_similarity": 62.25486397743225,
+        "simcse_similarity": 59.65604782104492
+      }
+    },
+    {
+      "object_id": "e280e015ed534bec916a06b37f004af1",
+      "ground_truth": "A grey background with two slaps",
+      "model_output": "the 3d model is a cartoon-style representation of a staircase. it is rendered in shades of grey, giving it a sleek and modern look. the staircase is depicted as a series of steps, each one slightly higher than the one before it. the steps are designed to be easily distinguishable, with each step having a distinct color or pattern. this model could be used in animations, video games, or other digital media to add a dynamic element to the scene.",
+      "scores": {
+        "bleu-1": 1.2500000000000007,
+        "bleu-2": 0.3977786420878651,
+        "bleu-3": 0.28931579564648974,
+        "bleu-4": 0.22655538973176942,
+        "rouge-l": 3.2258062767950153,
+        "rouge-1": 3.2258062767950153,
+        "rouge-2": 0.0,
+        "meteor": 7.46268656716418,
+        "sbert_similarity": 29.9535870552063,
+        "simcse_similarity": 22.240392863750458
+      }
+    },
+    {
+      "object_id": "ca0f888791514830a99d4c4ae057ade8",
+      "ground_truth": "A dark writing board with a yellow stand.",
+      "model_output": "the 3d model is a cartoon-style representation of a white, cylindrical object. it is placed on a blue circular base. the object appears to be a toy or a decorative item, possibly used in children's games or as a decorative piece. the cartoonish design and vibrant colors make it appealing to a younger audience.",
+      "scores": {
+        "bleu-1": 1.8518518518518516,
+        "bleu-2": 0.5911057517765905,
+        "bleu-3": 0.4295541497049198,
+        "bleu-4": 0.33879673215127787,
+        "rouge-l": 4.166666388888908,
+        "rouge-1": 4.166666388888908,
+        "rouge-2": 0.0,
+        "meteor": 11.904761904761905,
+        "sbert_similarity": 19.62297409772873,
+        "simcse_similarity": 20.0165256857872
+      }
+    },
+    {
+      "object_id": "b5ff764eaf4847eb928a8bb627221531",
+      "ground_truth": "A orange and green cuboid",
+      "model_output": "the 3d model is a vibrant yellow box with a green stripe running down its length. the box is rectangular in shape and has a flat top and bottom. the green stripe adds a pop of color to the otherwise neutral yellow box. this box could be used for various purposes such as storage, decoration, or even as a toy.",
+      "scores": {
+        "bleu-1": 3.3333333333333335,
+        "bleu-2": 0.7516460280028291,
+        "bleu-3": 0.48555405369716886,
+        "bleu-4": 0.3615604940023951,
+        "rouge-l": 8.163265122865477,
+        "rouge-1": 8.163265122865477,
+        "rouge-2": 0.0,
+        "meteor": 14.285714285714288,
+        "sbert_similarity": 53.65704298019409,
+        "simcse_similarity": 48.371610045433044
+      }
+    },
+    {
+      "object_id": "91701f32c03b49f0b30ce565ff1655c6",
+      "ground_truth": "House in 3d",
+      "model_output": "the 3d model is a cartoon-style representation of a house. the house is predominantly white, with a distinctively large front door. the house is designed in a simplistic, cartoonish style, which is typical of children's animations or video games. the house has a rectangular shape, with two windows on each side and a door in the front. the windows and door are both rectangular in shape.",
+      "scores": {
+        "bleu-1": 3.0303030303030303,
+        "bleu-2": 0.682788741998919,
+        "bleu-3": 0.4411533695465022,
+        "bleu-4": 0.3279163301859273,
+        "rouge-l": 9.302325451595458,
+        "rouge-1": 9.302325451595458,
+        "rouge-2": 0.0,
+        "meteor": 16.12903225806452,
+        "sbert_similarity": 75.5405068397522,
+        "simcse_similarity": 63.71040344238281
+      }
+    },
+    {
+      "object_id": "e69c1c6adcd94e15920380728200b931",
+      "ground_truth": "Various grey pyramids together",
+      "model_output": "the 3d model is a cartoon-style representation of a castle. the castle is predominantly white, with a distinctively pointed roof. the castle is surrounded by a dense forest, adding to its mystical and adventurous feel. the model is likely to be used in animations, video games, or children's educational content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 34.751272201538086,
+        "simcse_similarity": 13.52694034576416
+      }
+    },
+    {
+      "object_id": "0fe718a253bd43aca376780aad0f318b",
+      "ground_truth": "A garlic shaped white object.",
+      "model_output": "the 3d model is a representation of a white apple, with a brown stem and a brown cap. the apple is depicted in a realistic manner, showcasing its round shape and the details of its skin and flesh. the brown stem and cap add a touch of realism to the model. this model can be used in various contexts, such as in educational settings to teach about fruits, in animations or video games, or even as a decorative piece.",
+      "scores": {
+        "bleu-1": 1.2658227848101267,
+        "bleu-2": 0.4028460902274646,
+        "bleu-3": 0.2929880462082535,
+        "bleu-4": 0.22947928979879165,
+        "rouge-l": 3.6363634710743877,
+        "rouge-1": 3.6363634710743877,
+        "rouge-2": 0.0,
+        "meteor": 12.09677419354839,
+        "sbert_similarity": 29.741236567497253,
+        "simcse_similarity": 36.23238205909729
+      }
+    },
+    {
+      "object_id": "4b0d6de0185648019e51021e3a976a1b",
+      "ground_truth": "A humanoid dressing a white suit and strange mask in similar color , covering its black head",
+      "model_output": "the 3d model is a cartoon-style representation of a knight. the knight is dressed in a full suit of armor, complete with a helmet, chest plate, and gauntlets. the knight is depicted in a dynamic pose, ready for battle. the armor and helmet give the knight a regal and heroic appearance. this model could be used in animations, video games, or educational materials to teach about medieval warfare.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 0.9369968652822313,
+        "bleu-3": 0.5381429713104896,
+        "bleu-4": 0.37822893157531384,
+        "rouge-l": 12.307691921420131,
+        "rouge-1": 12.307691921420131,
+        "rouge-2": 0.0,
+        "meteor": 13.574660633484164,
+        "sbert_similarity": 35.54038107395172,
+        "simcse_similarity": 39.95493948459625
+      }
+    },
+    {
+      "object_id": "733e3986850b43bea83523fff82e6ee3",
+      "ground_truth": "A three dimensional white on a green highland.",
+      "model_output": "the 3d model is a cartoon-style representation of a castle. it is predominantly white, with a distinct green roof. the castle is depicted as a typical medieval fortress, featuring towers, battlements, and a drawbridge. the castle is situated on a hill, providing a scenic view of the surrounding landscape. this model could be used in video games, animations, or as a decorative item.",
+      "scores": {
+        "bleu-1": 4.761904761904762,
+        "bleu-2": 2.7713699773684657,
+        "bleu-3": 1.1298467212467365,
+        "bleu-4": 0.6768259205084418,
+        "rouge-l": 11.320754460662165,
+        "rouge-1": 11.320754460662165,
+        "rouge-2": 3.030302840679534,
+        "meteor": 14.814814814814817,
+        "sbert_similarity": 47.52561151981354,
+        "simcse_similarity": 46.06215059757233
+      }
+    },
+    {
+      "object_id": "a7e1c2fedd5540c48dd10324ea5514fc",
+      "ground_truth": "Green and white balloon capped face with green eyes three d model.",
+      "model_output": "the 3d model is a cartoon-style representation of a spaceship. it is predominantly white with a green tint, giving it a futuristic and otherworldly appearance. the spaceship is equipped with two arms, one on each side, which could be used for various functionalities such as propulsion, navigation, or communication. this model could be used in animations, video games, or as a teaching tool in educational settings.",
+      "scores": {
+        "bleu-1": 6.060606060606061,
+        "bleu-2": 0.9656090991705354,
+        "bleu-3": 0.5545356857353239,
+        "bleu-4": 0.3899604329826862,
+        "rouge-l": 13.114753782316587,
+        "rouge-1": 16.393442306906753,
+        "rouge-2": 0.0,
+        "meteor": 11.494252873563218,
+        "sbert_similarity": 44.398948550224304,
+        "simcse_similarity": 49.80728030204773
+      }
+    },
+    {
+      "object_id": "3a1f027057894d1a9ecfee18752b96a2",
+      "ground_truth": "Circles connected forming a c",
+      "model_output": "the 3d model is a cartoon-style representation of a human body, specifically the head. the head is depicted in a simplistic, cartoonish style, with exaggerated features such as large eyes and a large, round head. the model is colored in a stark white, giving it a clean and modern look. this type of model is often used in animations, video games, and other digital media to create a child-friendly and visually appealing environment.",
+      "scores": {
+        "bleu-1": 1.3698630136986305,
+        "bleu-2": 0.43618660215851135,
+        "bleu-3": 0.31715274692300427,
+        "bleu-4": 0.24874082113819154,
+        "rouge-l": 3.5714284088010277,
+        "rouge-1": 3.5714284088010277,
+        "rouge-2": 0.0,
+        "meteor": 4.237288135593221,
+        "sbert_similarity": 5.144014582037926,
+        "simcse_similarity": 15.135698020458221
+      }
+    },
+    {
+      "object_id": "0a203577c66c402085d7b85f4bb281f2",
+      "ground_truth": "A carton looking rod with rolls on its middle",
+      "model_output": "the 3d model is a cartoon-style representation of a pipe. it is predominantly white in color, with a cylindrical shape and a smooth, rounded surface. the pipe is depicted as a simple, cartoonish object, which is typical of animations and games. it can be used in various digital environments, such as video games, animations, or educational content.",
+      "scores": {
+        "bleu-1": 1.7543859649122806,
+        "bleu-2": 0.559717078549556,
+        "bleu-3": 0.40676123867415154,
+        "bleu-4": 0.32047574588556277,
+        "rouge-l": 3.846153559911264,
+        "rouge-1": 3.846153559911264,
+        "rouge-2": 0.0,
+        "meteor": 10.869565217391305,
+        "sbert_similarity": 18.876343965530396,
+        "simcse_similarity": 41.15297496318817
+      }
+    },
+    {
+      "object_id": "7610a160fbaf41d681c7d7b9627df85d",
+      "ground_truth": "A yellow coloured brown panels made sloping roofed house model with brown windows and grey tiled front base.",
+      "model_output": "the 3d model is a cartoon-style house with a white exterior and a brown roof. the house is designed in a simplistic, playful style, typical of children's animations or video games. it has two doors, two windows, and a chimney. the house is positioned on a grassy field, suggesting it's a residential property.",
+      "scores": {
+        "bleu-1": 9.433962264150942,
+        "bleu-2": 1.346931146100913,
+        "bleu-3": 0.744508744330602,
+        "bleu-4": 0.5164611437214954,
+        "rouge-l": 14.285713862882663,
+        "rouge-1": 17.857142434311235,
+        "rouge-2": 0.0,
+        "meteor": 13.953488372093023,
+        "sbert_similarity": 68.41365098953247,
+        "simcse_similarity": 69.99806761741638
+      }
+    },
+    {
+      "object_id": "7f309e755a0c4b69b64e667977268087",
+      "ground_truth": "A white drawing",
+      "model_output": "the 3d model is a cartoon-style representation of a dome-shaped object. it is predominantly white in color, giving it a clean and minimalist aesthetic. the dome is designed with a flat base and a pointed top, suggesting it could be a part of a larger structure or a decorative piece. its cartoonish appearance and simplistic design make it suitable for use in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 1.4492753623188401,
+        "bleu-2": 0.4616586723465408,
+        "bleu-3": 0.33561949066243846,
+        "bleu-4": 0.26348495048119724,
+        "rouge-l": 3.703703598765435,
+        "rouge-1": 3.703703598765435,
+        "rouge-2": 0.0,
+        "meteor": 15.625000000000004,
+        "sbert_similarity": 34.632161259651184,
+        "simcse_similarity": 46.804624795913696
+      }
+    },
+    {
+      "object_id": "b2f41619cb43474383840cc6f2d2121e",
+      "ground_truth": "A cartoon green look like a very big and old church",
+      "model_output": "the 3d model is a representation of a church, predominantly white in color. the church is characterized by its steeple, which is a tall, pointed structure that is a common feature of many churches. the church is also adorned with a large, circular window, which is a common architectural feature in many religious buildings. this model can be used in various contexts, such as in architectural studies, religious education, or even in video games.",
+      "scores": {
+        "bleu-1": 2.7027027027027026,
+        "bleu-2": 0.6084679506313998,
+        "bleu-3": 0.39325763527019014,
+        "bleu-4": 0.2917233167720346,
+        "rouge-l": 6.666666367222235,
+        "rouge-1": 6.666666367222235,
+        "rouge-2": 0.0,
+        "meteor": 11.560693641618501,
+        "sbert_similarity": 53.29016447067261,
+        "simcse_similarity": 60.602664947509766
+      }
+    },
+    {
+      "object_id": "260d1fe21bd741849e885058d5df4318",
+      "ground_truth": "A grey model of a brief case",
+      "model_output": "the 3d model is a cartoon-style representation of a rectangular box. the box is predominantly black in color, with a distinct white stripe running vertically down its length. the box is designed in a simplistic, cartoon-like style, which makes it suitable for use in animations, video games, and other digital media.",
+      "scores": {
+        "bleu-1": 5.88235294117647,
+        "bleu-2": 3.4299717028501777,
+        "bleu-3": 1.398063984823574,
+        "bleu-4": 0.8409805259239591,
+        "rouge-l": 12.76595719330014,
+        "rouge-1": 12.76595719330014,
+        "rouge-2": 3.70370350617285,
+        "meteor": 17.543859649122805,
+        "sbert_similarity": 46.16506099700928,
+        "simcse_similarity": 39.180538058280945
+      }
+    },
+    {
+      "object_id": "64bae3331cb043c5b11bbb219e96e2c4",
+      "ground_truth": "A sword with a cross at its middle",
+      "model_output": "the 3d model is a cartoon-style sword, predominantly white in color. it has a long, slender blade and a pointed tip, typical of a sword used in fantasy games or animations. the sword's design suggests it could be used in a variety of contexts, such as in video games, animations, or even as a decorative item.",
+      "scores": {
+        "bleu-1": 3.571428571428572,
+        "bleu-2": 0.8058229640253807,
+        "bleu-3": 0.5205089738556654,
+        "bleu-4": 0.388107836970323,
+        "rouge-l": 3.9999997312000177,
+        "rouge-1": 7.999999731200008,
+        "rouge-2": 0.0,
+        "meteor": 15.625000000000004,
+        "sbert_similarity": 55.5389404296875,
+        "simcse_similarity": 43.75501573085785
+      }
+    },
+    {
+      "object_id": "e31257064fa64cdeac1cf264fded96b7",
+      "ground_truth": "A brown bottle with a black cap",
+      "model_output": "the 3d model is a cartoon-style representation of a bottle. the bottle is predominantly orange in color, with a black cap and a black label. the bottle appears to be a common household item, often used for storing liquids such as water, juice, or soda. the cartoonish style of the bottle suggests it could be used in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 7.936507936507935,
+        "bleu-2": 6.196971660197943,
+        "bleu-3": 5.164395923569732,
+        "bleu-4": 3.80607185061895,
+        "rouge-l": 19.230768997781066,
+        "rouge-1": 19.230768997781066,
+        "rouge-2": 9.23076906319527,
+        "meteor": 23.80952380952381,
+        "sbert_similarity": 68.39392185211182,
+        "simcse_similarity": 52.31500864028931
+      }
+    },
+    {
+      "object_id": "bb84fad67afe490ca7c29211bebf68ba",
+      "ground_truth": "3d version of a house print",
+      "model_output": "the 3d model is a cartoon-like representation of a house with a distinct pink roof. the house is depicted in a simplistic, cartoonish style, which is typical of children's animations or video games. the pink roof adds a playful and vibrant touch to the overall design. the model could be used in various contexts, such as children's entertainment, video games, or even as a decorative piece in a digital art project.",
+      "scores": {
+        "bleu-1": 5.633802816901409,
+        "bleu-2": 4.012054271425196,
+        "bleu-3": 2.960751019404022,
+        "bleu-4": 1.3609554174654017,
+        "rouge-l": 14.81481461728395,
+        "rouge-1": 14.81481461728395,
+        "rouge-2": 5.479451927190845,
+        "meteor": 16.000000000000004,
+        "sbert_similarity": 58.66646766662598,
+        "simcse_similarity": 56.594979763031006
+      }
+    },
+    {
+      "object_id": "505aae38374944608ad985e0e6d734a5",
+      "ground_truth": "Three d model of yellow diamond shaped and blue coloured rectangular wall along with grey coloured long battens unit.",
+      "model_output": "the 3d model is a cartoon-style representation of a yellow, rectangular-shaped object. it is adorned with a blue, circular design on its top. the object appears to be a toy or a decorative piece, possibly used in animation or video games. the cartoonish style and vibrant colors make it appealing to children and can be used in various digital platforms.",
+      "scores": {
+        "bleu-1": 6.666666666666667,
+        "bleu-2": 1.0629880069054682,
+        "bleu-3": 0.6103479395506313,
+        "bleu-4": 0.4299703119715468,
+        "rouge-l": 12.698412290249447,
+        "rouge-1": 12.698412290249447,
+        "rouge-2": 0.0,
+        "meteor": 12.987012987012985,
+        "sbert_similarity": 52.20438241958618,
+        "simcse_similarity": 49.105897545814514
+      }
+    },
+    {
+      "object_id": "a107f9d8e87c4693a9b5f8fa94ac505c",
+      "ground_truth": "A tree with a green plant",
+      "model_output": "the 3d model is a cartoonish representation of a tree, featuring a vibrant blue color. the tree is depicted as having multiple branches and leaves, giving it a lively and lively appearance. this model could be used in animations, video games, or other digital media to add a whimsical touch.",
+      "scores": {
+        "bleu-1": 4.000000000000001,
+        "bleu-2": 0.9035079029052514,
+        "bleu-3": 0.5835868299090414,
+        "bleu-4": 0.4361453072458876,
+        "rouge-l": 8.510638075147131,
+        "rouge-1": 8.510638075147131,
+        "rouge-2": 0.0,
+        "meteor": 14.423076923076925,
+        "sbert_similarity": 52.55202651023865,
+        "simcse_similarity": 41.03548526763916
+      }
+    },
+    {
+      "object_id": "d43136ef2b1a46998b7214df1a15b72c",
+      "ground_truth": "3d image of a building",
+      "model_output": "the 3d model is a cartoon-style representation of a house, predominantly white in color. the house has a simplistic design, with minimalistic features and exaggerated proportions, typical of cartoons. the house appears to be standing on a set of four sturdy, cylindrical poles, suggesting it's a part of a larger structure. the poles, being cylindrical in shape, could be interpreted as pillars or supports for the house.",
+      "scores": {
+        "bleu-1": 4.477611940298506,
+        "bleu-2": 2.6046613053531162,
+        "bleu-3": 1.0620242238670152,
+        "bleu-4": 0.6354805993343295,
+        "rouge-l": 11.111110943072704,
+        "rouge-1": 11.111110943072704,
+        "rouge-2": 2.985074514591227,
+        "meteor": 22.817460317460316,
+        "sbert_similarity": 56.4416766166687,
+        "simcse_similarity": 55.76354265213013
+      }
+    },
+    {
+      "object_id": "f8a5f438efca4099893afb27ee60c520",
+      "ground_truth": "A white cuboid three dimensional house with pyramids on top.",
+      "model_output": "the 3d model is a cartoon-style representation of a house, predominantly white in color. it features a distinctively pointed roof, which adds to its whimsical and playful aesthetic. the house appears to be a typical residential structure, suggesting it could be used in animations, video games, or children's content.",
+      "scores": {
+        "bleu-1": 4.081632653061224,
+        "bleu-2": 0.9221388919541464,
+        "bleu-3": 0.5956255111834886,
+        "bleu-4": 0.4453323527690996,
+        "rouge-l": 7.843136939638614,
+        "rouge-1": 7.843136939638614,
+        "rouge-2": 0.0,
+        "meteor": 10.79136690647482,
+        "sbert_similarity": 64.74605202674866,
+        "simcse_similarity": 66.35345220565796
+      }
+    },
+    {
+      "object_id": "a4a0a21eedae4d82b0deac43b61dc4a3",
+      "ground_truth": "A brown wooden shelf",
+      "model_output": "the 3d model is of a brown bookcase with a unique design. it has a rectangular shape and is made of wood. the bookcase has multiple shelves, providing ample storage space for books and other items. the brown color of the bookcase gives it a warm and inviting look, making it a suitable addition to any home or office.",
+      "scores": {
+        "bleu-1": 1.6949152542372878,
+        "bleu-2": 0.5405800292019179,
+        "bleu-3": 0.39287002628184287,
+        "bleu-4": 0.3093244703955921,
+        "rouge-l": 4.444444282469141,
+        "rouge-1": 4.444444282469141,
+        "rouge-2": 0.0,
+        "meteor": 10.526315789473685,
+        "sbert_similarity": 57.51549005508423,
+        "simcse_similarity": 71.788889169693
+      }
+    },
+    {
+      "object_id": "b8dd58c2ac084267a3b50aeef0598988",
+      "ground_truth": "A red peg",
+      "model_output": "the 3d model is a cartoonish representation of a red-colored pipe. the pipe is depicted with a playful, exaggerated style, typical of animations or children's content. it's a simple, yet effective design that can be used in various digital platforms, such as video games, animations, or educational content.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 0.0,
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "meteor": 6.666666666666667,
+        "sbert_similarity": 34.11351144313812,
+        "simcse_similarity": 19.852779805660248
+      }
+    },
+    {
+      "object_id": "64e3683f33c74e1680a626a630fab41e",
+      "ground_truth": "A white knitted rattan flower vase",
+      "model_output": "the 3d model is a cartoon-style representation of a cylindrical object, predominantly white in color. it has a smooth, polished surface and a cylindrical shape. the object appears to be made of plastic or some other non-metallic material. the cartoonish design suggests it could be a toy or a decorative item, possibly used in animation or video games.",
+      "scores": {
+        "bleu-1": 1.724137931034483,
+        "bleu-2": 0.5499821258713592,
+        "bleu-3": 0.3996943515069162,
+        "bleu-4": 0.3148013662646501,
+        "rouge-l": 3.9999997888000114,
+        "rouge-1": 3.9999997888000114,
+        "rouge-2": 0.0,
+        "meteor": 8.928571428571429,
+        "sbert_similarity": 36.03803813457489,
+        "simcse_similarity": 25.945857167243958
+      }
+    },
+    {
+      "object_id": "85f82b805b804a32804ea3e2afdb6e19",
+      "ground_truth": "Blue coloured curved striped irregular shaped entangled abstract three d model.",
+      "model_output": "the 3d model is a cartoon-style representation of a flower, predominantly in shades of blue. the flower is depicted with exaggerated, stylized features, giving it a whimsical and playful appearance. the model is likely used in animations, video games, or other digital media to add a touch of whimsy and creativity.",
+      "scores": {
+        "bleu-1": 0,
+        "bleu-2": 0,
+        "bleu-3": 0,
+        "bleu-4": 0,
+        "rouge-l": 3.9999996568000293,
+        "rouge-1": 3.9999996568000293,
+        "rouge-2": 0.0,
+        "meteor": 0.0,
+        "sbert_similarity": 36.93818747997284,
+        "simcse_similarity": 68.1607723236084
+      }
+    },
+    {
+      "object_id": "d69b3382961c4a2bb031f21bdbe5e93d",
+      "ground_truth": "A green and yellow model of a basket",
+      "model_output": "the 3d model is a cartoon-style representation of a flower, predominantly in shades of green. the flower is depicted with a vibrant red center, contrasting with the green leaves and petals. the model is designed in a simplistic, cartoonish style, which is typical for children's animations or games.",
+      "scores": {
+        "bleu-1": 10.416666666666666,
+        "bleu-2": 4.7077723572169345,
+        "bleu-3": 1.7593332699708772,
+        "bleu-4": 1.0172205866217512,
+        "rouge-l": 23.80952350113379,
+        "rouge-1": 23.80952350113379,
+        "rouge-2": 3.773584676397309,
+        "meteor": 25.0,
+        "sbert_similarity": 44.376128911972046,
+        "simcse_similarity": 50.23449659347534
+      }
+    },
+    {
+      "object_id": "8733696148774e39b558cd7e8df0c544",
+      "ground_truth": "A animated white colour object that is in triangle shape",
+      "model_output": "the 3d model is a cartoon-style representation of a pyramid. it is predominantly white in color, with a pointed top and a base that slopes downward. the pyramid's design is simplistic and playful, making it suitable for use in animations, video games, or children's educational materials.",
+      "scores": {
+        "bleu-1": 8.695652173913045,
+        "bleu-2": 1.3900960937138311,
+        "bleu-3": 0.7981236865413622,
+        "bleu-4": 0.5653171078511422,
+        "rouge-l": 8.510637962879144,
+        "rouge-1": 17.021276260751474,
+        "rouge-2": 0.0,
+        "meteor": 18.38235294117647,
+        "sbert_similarity": 47.33103811740875,
+        "simcse_similarity": 53.29619646072388
+      }
+    }
+  ]
+}

@@ -59,7 +59,7 @@ sudo apt install coreutils-from-gnu coreutils-from-uutils- --allow-remove-essent
 - 共享目录 `/data`、`/opt/miniconda3` 等设置了 setgid 位，确保组内成员创建的文件所属组统一，权限可控。
 
 ### 3.5 项目环境
-- 源码克隆至 `/data/workspace`，共 5 个项目仓库。
+- 源码克隆至 `/data/workspace`，多个项目仓库。
 - 使用 conda 搭建独立虚拟环境。
 - MiniGPT-3D 所需的所有数据文件、权重文件均已下载并放置于约定路径。
 - 启动了 Gradio 网页服务，团队成员通过 SSH 本地端口转发在自己电脑的浏览器中访问，用于初步调试 3D 点云理解效果。
